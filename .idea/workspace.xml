@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CRUD/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD/save_task.php" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/save_task.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CRUD" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="html5.local" id="45c28b5a-b0b5-4510-951d-a8ac6fc607ac" name="html5.local" />
+    </servers>
+  </component>
+  <component name="ProjectId" id="1jKEDugqCdXVPAjmKn5ALk0CISI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exam_19_09_2021" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\exam_19_09_2021" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson08_students" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="" />
+      <created>1603544266099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603544266099</updated>
+      <workItem from="1603544267336" duration="2540000" />
+      <workItem from="1604219842347" duration="6139000" />
+      <workItem from="1604745977862" duration="2967000" />
+      <workItem from="1618842438950" duration="47000" />
+      <workItem from="1633174849268" duration="5015000" />
+      <workItem from="1633852899920" duration="7055000" />
+      <workItem from="1634062052281" duration="3841000" />
+      <workItem from="1634997148142" duration="1722000" />
+      <workItem from="1635020011035" duration="260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson09_basic/min_max.php</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/exam_19_09_2021/max_function.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/exam_19_09_2021/debug.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/exam_19_09_2021/debug.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/exam_25_09_2021/task2/cat_pages/ginger.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/exam_25_09_2021/task2/cat_pages/ginger.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/CRUD/edit.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/CRUD/edit.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/CRUD/save_task.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/file_upload_23-10_2021/upload.php</url>
+          <line>42</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/file_upload_23-10_2021/upload.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/file_upload_23-10_2021_simple/cats.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/file_upload_23-10_2021_simple/cats.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="min_max.php">
+        <watch expression="$people[$i]" language="PHP" />
+        <watch expression="$person" language="PHP" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Tedaki",
+        "color": "black and white"
+    },
+    {
+        "name": "Ginger",
+        "color": "orange and white"
+    },
+    {
+        "name": "Hitler",
+        "color": "white"
+    },
+    {
+        "name": "Blacky",
+        "color": "black"
+    },
+    {
+        "name": "Amanda",
+        "color": "orange"
+    }
+]

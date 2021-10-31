@@ -1,0 +1,3 @@
+<p><span style="background-color: #ff6600;">I am Roma and I am from Cyprus.</span></p>
+<p><span style="color: #0000ff;">I work in clinic</span></p>
+<p><strong>I am <span style="color: #00ccff;">37</span> years old</strong></p>
