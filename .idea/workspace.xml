@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CRUD/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD/save_task.php" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/save_task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_version2_06_11_2021/catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_version2_06_11_2021/catalog.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +18,8 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CRUD" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="PhpServers">
     <servers>
@@ -31,11 +31,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exam_19_09_2021" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/simple_web_site_06_11_2021/test" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\simple_web_site_06_11_2021\test" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\simple_web_site_06_11_2021" />
       <recent name="E:\xampp\htdocs\html5.local\angie\exam_19_09_2021" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson08_students" />
     </key>
@@ -71,6 +73,10 @@
       <workItem from="1634062052281" duration="3841000" />
       <workItem from="1634997148142" duration="1722000" />
       <workItem from="1635020011035" duration="260000" />
+      <workItem from="1636215121745" duration="6739000" />
+      <workItem from="1636263486814" duration="18959000" />
+      <workItem from="1636483828685" duration="5072000" />
+      <workItem from="1636651602044" duration="7253000" />
     </task>
     <servers />
   </component>
@@ -158,9 +164,34 @@
           <line>13</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
+          <line>78</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
+          <line>48</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="index.php">
+        <watch expression="$config[$key]" language="PHP" />
+        <watch expression="getcwd()" language="PHP" />
+        <watch expression="config('content_path')" language="PHP" />
+      </configuration>
       <configuration name="min_max.php">
         <watch expression="$people[$i]" language="PHP" />
         <watch expression="$person" language="PHP" />
