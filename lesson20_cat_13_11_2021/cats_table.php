@@ -55,7 +55,7 @@ for ($i = 0; $i < count($cats); $i++) {
 <head>
 <style>
 body {
-	padding:50px;
+	padding: 50px;
 }
 table {
   font-family: arial, sans-serif;
@@ -82,7 +82,7 @@ Quick links: <br />
 <a href="/angie/lesson20_cat_13_11_2021/cats_table.php?city=Limassol&age_to=18">Limassol (-18)</a><br /><br />
 <a href="/angie/lesson20_cat_13_11_2021/cats_table.php?age_from=18">(+18)</a><br /><br />
 </p><br />
-<form action="cats_table.php">
+<form action="cats_table.php" method="get">
 <!--
 	<label for="city_label">Choose a city:</label>
 	<select id="city_label" name="city">
@@ -145,9 +145,9 @@ Quick links: <br />
 	<th>PHOTO</th>
   </tr>
 
-<?php  for ($i = 0; $i < count($filtered_cats); $i++) { ?>
+<?php  for ($i = 0; $i < count($filtered_cats); $i++) { $name = $filtered_cats[$i]['name']; ?>
   <tr>  
-	<td><?php echo $filtered_cats[$i]['name']; ?></td>  
+	<td><a href="/angie/lesson20_cat_13_11_2021/site_test.php?name=<?php echo $name; ?>"><?php echo $name; ?></a></td>  
 	<td><?php echo $filtered_cats[$i]['age']; ?></td>  
 	<td><?php echo $filtered_cats[$i]['city']; ?></td>
     <td><?php echo $filtered_cats[$i]['friend']; ?></td>	

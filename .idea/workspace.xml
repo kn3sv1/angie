@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_version2_06_11_2021/catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_version2_06_11_2021/catalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/all_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/all_comments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/cats_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/cats_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/comments.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,19 +29,25 @@
     </servers>
   </component>
   <component name="ProjectId" id="1jKEDugqCdXVPAjmKn5ALk0CISI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/simple_web_site_06_11_2021/test" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson23_class_15_01_2022/photo_door" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\simple_web_site_06_11_2021\test" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\simple_web_site_06_11_2021" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\exam_19_09_2021" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson08_students" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photo_door" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photo_window" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\classes\House" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\classes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -77,6 +85,15 @@
       <workItem from="1636263486814" duration="18959000" />
       <workItem from="1636483828685" duration="5072000" />
       <workItem from="1636651602044" duration="7253000" />
+      <workItem from="1638295435337" duration="5587000" />
+      <workItem from="1638952089926" duration="255000" />
+      <workItem from="1638955831764" duration="120000" />
+      <workItem from="1638983092056" duration="144000" />
+      <workItem from="1638983272513" duration="1562000" />
+      <workItem from="1638992762737" duration="1030000" />
+      <workItem from="1640503654335" duration="12387000" />
+      <workItem from="1642264315051" duration="11245000" />
+      <workItem from="1642321366289" duration="12610000" />
     </task>
     <servers />
   </component>
@@ -183,6 +200,41 @@
           <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
           <line>44</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments1.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments1.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments1.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments1.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments_name.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments_name.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments_name.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

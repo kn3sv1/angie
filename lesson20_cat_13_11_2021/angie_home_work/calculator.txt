@@ -1,0 +1,78 @@
+[
+    {
+        "number1": "0",
+        "number2": "7",
+        "result": 7,
+        "date": "2021-12-09 18:21:25"
+    },
+    {
+        "number1": "0",
+        "number2": "7",
+        "operation": "add",
+        "result": 7,
+        "date": "2021-12-09 18:21:55"
+    },
+    {
+        "number1": "10",
+        "number2": "20",
+        "operation": "add",
+        "result": 30,
+        "date": "2021-12-09 18:22:18"
+    },
+    {
+        "number1": "10",
+        "number2": "20",
+        "operation": "add",
+        "result": 30,
+        "date": "2021-12-09 18:24:07"
+    },
+    {
+        "number1": "10",
+        "number2": "2",
+        "operation": "multiply",
+        "result": 20,
+        "date": "2021-12-09 18:25:34"
+    },
+    {
+        "number1": "10",
+        "number2": "2",
+        "operation": "multiply",
+        "result": 20,
+        "date": "2021-12-09 20:51:41"
+    },
+    {
+        "number1": "",
+        "number2": "",
+        "operation": "add",
+        "result": 0,
+        "date": "2021-12-09 20:51:55"
+    },
+    {
+        "number1": "ertetrere",
+        "number2": "ererer",
+        "operation": "add",
+        "result": 0,
+        "date": "2021-12-09 21:19:08"
+    },
+    {
+        "number1": "1",
+        "number2": "1",
+        "operation": "add",
+        "result": 2,
+        "date": "2021-12-09 21:20:05"
+    },
+    {
+        "number1": "1",
+        "number2": "1",
+        "operation": "add",
+        "result": 2,
+        "date": "2021-12-09 21:20:37"
+    },
+    {
+        "number1": "3",
+        "number2": "10",
+        "operation": "add",
+        "result": 13,
+        "date": "2021-12-10 09:52:09"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Volvo",
+        "year": 1983,
+        "color": "red"
+    },
+    {
+        "name": "BMW",
+        "year": 1990,
+        "color": "white"
+    },
+    {
+        "name": "Toyota",
+        "year": 2000,
+        "color": "black"
+    },
+    {
+        "name": "Smart",
+        "year": "2002",
+        "color": "red"
+    }
+]
