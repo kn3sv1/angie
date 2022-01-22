@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/all_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/all_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/cats_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/cats_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson24_class_16_01_2022/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_16_01_2022/Student.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,19 +32,19 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson23_class_15_01_2022/photo_door" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson24_class_22_01_2022" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photo_door" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photo_window" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\classes\House" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\classes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson24_class_22_01_2022" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson24_class_22_01_2022\HTML\tests" />
+      <recent name="E:\xampp\htdocs\html5.local\angie" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photo_door" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photo_window" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,7 +90,8 @@
       <workItem from="1638992762737" duration="1030000" />
       <workItem from="1640503654335" duration="12387000" />
       <workItem from="1642264315051" duration="11245000" />
-      <workItem from="1642321366289" duration="12610000" />
+      <workItem from="1642321366289" duration="12640000" />
+      <workItem from="1642867040632" duration="12776000" />
     </task>
     <servers />
   </component>

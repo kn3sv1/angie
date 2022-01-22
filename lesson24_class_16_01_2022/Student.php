@@ -19,7 +19,5 @@ class Student
         echo $this->fname,"<br />";
         echo $this->lname,"<br />";
         echo $this->classroom,"<br />";
-
     }
 }
-
