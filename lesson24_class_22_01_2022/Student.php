@@ -9,6 +9,7 @@ class Student
     public $age;
     public $classroom;
     public $gender;
+    public $photo;
 
     public function printAge() {
         echo $this->age,"<br />";
@@ -24,6 +25,7 @@ class Student
         echo "First name: ", $this->fname,"<br />";
         echo "Last name: ", $this->lname,"<br />";
         echo "Classroom: ", $this->classroom,"<br />";
+        echo "Photo: ", "<img src='photos/{$this->photo}' /><br/>";
     }
 
     public function toArray()
@@ -35,6 +37,7 @@ class Student
             'fname'     => $this->fname,
             'lname'     => $this->lname,
             'classroom' => $this->classroom,
+            'photo'     => "<img src='../../photos/{$this->photo}' />",
         ];
     }
 }

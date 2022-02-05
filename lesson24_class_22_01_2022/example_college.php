@@ -22,6 +22,7 @@ $angela->age = 20;
 $angela->fname = 'Angela';
 $angela->lname = 'Neophytou';
 $angela->classroom = '1B';
+$angela->photo = 'Angie.png';
 
 //$angela->printInfo();
 
@@ -32,6 +33,7 @@ $roma->age = 30;
 $roma->fname = 'Roma';
 $roma->lname = 'Satanovsky';
 $roma->classroom = '2B';
+$roma->photo = 'Roman.png';
 
 
 $george = new Student();
@@ -41,6 +43,7 @@ $george->age = 35;
 $george->fname = 'George';
 $george->lname = 'Neophytou';
 $george->classroom = '2B';
+$george->photo = 'George.png';
 
 
 

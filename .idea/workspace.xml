@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson24_class_16_01_2022/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_16_01_2022/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson24_class_22_01_2022/HTML/tests/table_students.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_22_01_2022/HTML/tests/table_students.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson24_class_22_01_2022/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_22_01_2022/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson24_class_22_01_2022/example_college.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_22_01_2022/example_college.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,16 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="angie" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,21 +42,22 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson24_class_22_01_2022" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson27_free_hosting" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson27_free_hosting" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson25_doctors_29_01_2022" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson24_class_22_01_2022" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson24_class_22_01_2022\HTML\tests" />
       <recent name="E:\xampp\htdocs\html5.local\angie" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photo_door" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photo_window" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,7 +104,13 @@
       <workItem from="1640503654335" duration="12387000" />
       <workItem from="1642264315051" duration="11245000" />
       <workItem from="1642321366289" duration="12640000" />
-      <workItem from="1642867040632" duration="12776000" />
+      <workItem from="1642867040632" duration="13371000" />
+      <workItem from="1642919400300" duration="7221000" />
+      <workItem from="1643464555573" duration="14130000" />
+      <workItem from="1643526395497" duration="10027000" />
+      <workItem from="1643828762448" duration="2233000" />
+      <workItem from="1644040599768" duration="20527000" />
+      <workItem from="1644081746253" duration="6565000" />
     </task>
     <servers />
   </component>

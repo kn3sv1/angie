@@ -20,7 +20,7 @@ require_once '../../Student.php';
 require_once '../../StudentTable.php';
 
 $students = [];
-for ($i = 0; $i < 10; $i++) {
+for ($i = 0; $i < 20; $i++) {
     $student = new Student();
     $student->id = $i;
     $student->gender = $i%2 == 0 ? 'Male' : 'Female';
@@ -28,12 +28,16 @@ for ($i = 0; $i < 10; $i++) {
     $student->fname = 'fname_' . $i;
     $student->lname = 'lname_' . $i;
     $student->classroom = $i . 'C';
+    $student->photo = 'Angie.png';
 
     $students[] = $student;
 }
 
 $studentTable = new StudentTable($students);
 $studentTable->print();
+
+
+
 ?>
 </body>
 </html>
