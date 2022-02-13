@@ -1,5 +1,9 @@
 <?php
-    include 'function.php';
+include 'function.php';
+
+// https://limassol-events.000webhostapp.com/fruitmarket/
+// https://files.000webhost.com/
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,10 +15,16 @@
 <?php echo getHello(); ?><br />
 <?php
 foreach ($fruits as $fruit) {
-    echo sprintf('<a href="fruit_detail.php?fruit=%s"><img width="%s" src="%s" /></a><br />'. PHP_EOL, $fruit['name'], $fruit['width'], $fruit['src']);
-    //echo  '<img width="' . $photo['width'] . '" src="' . $photo['src'] . '" /><br />'. PHP_EOL;
+    //echo sprintf('<a href="fruit_detail.php?fruit=%s"><img width="%s" src="%s" /></a><br />'. PHP_EOL, $fruit['name'], $fruit['width'], $fruit['src']);
+    echo  '<a href="fruit_detail.php?fruit=' . $fruit['name'] . '"><img width="' . $fruit['width'] . '" src="' . $fruit['src'] . '" /></a><br />'. PHP_EOL;
 }
+?>
+<p>
 
+    <a href="create_fruit.php">ADD NEW FRUIT</a>
+
+</p>
+<?php
 include 'comments1.php';
 ?>
 </body>

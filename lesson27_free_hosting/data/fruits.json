@@ -1,0 +1,56 @@
+[
+    {
+        "width": 260,
+        "src": "photos\/apples.png",
+        "name": "apples",
+        "description": "apples color"
+    },
+    {
+        "width": 260,
+        "src": "photos\/banana.png",
+        "name": "banana",
+        "description": "banana description"
+    },
+    {
+        "width": 260,
+        "src": "photos\/blueberries.png",
+        "name": "blueberries",
+        "description": "blueberries description"
+    },
+    {
+        "width": 260,
+        "src": "photos\/cherries.png",
+        "name": "cherries",
+        "description": "cherries description"
+    },
+    {
+        "width": 260,
+        "src": "photos\/grapefruit.png",
+        "name": "grapefruit",
+        "description": "grapefruit description"
+    },
+    {
+        "width": 260,
+        "src": "photos\/kiwis.png",
+        "name": "kiwis",
+        "description": "kiwis description"
+    },
+    {
+        "width": 260,
+        "src": "photos\/new_strwberry.png",
+        "name": "strawberry",
+        "description": "my new fruit with uploaded file"
+    },
+    {
+        "width": 260,
+        "src": "photos\/lucky.png",
+        "name": "test",
+        "description": "tedt"
+    },
+    {
+        "width": 260,
+        "src": "photos\/tedaki.png",
+        "name": "tedaki2",
+        "description": "my cat"
+    }
+]

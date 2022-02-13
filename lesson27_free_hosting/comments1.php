@@ -1,8 +1,8 @@
 <?php
 
-$comments_file = "comments1.txt";
+$comments_file = "data/comments1.json";
 if (!empty($_GET['fruit'])) {
-    $comments_file = $_GET['fruit'] .  ".txt";
+    $comments_file = "data/" . $_GET['fruit'] .  ".json";
 }
 
 

@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/create_fruit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/data/fruits.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/data/my_new_fruit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/photos/new_strwberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/tmp/mango.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/tmp/new_strwberry.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson24_class_22_01_2022/HTML/tests/table_students.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_22_01_2022/HTML/tests/table_students.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson24_class_22_01_2022/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_22_01_2022/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson24_class_22_01_2022/example_college.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_22_01_2022/example_college.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/banana.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/comments1.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/comments1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/comments1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/comments1_backup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/grapefruit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/data/comments1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/kiwis.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,19 +57,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson27_free_hosting" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson29_cats_color_14_02_2022" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photos" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\exam_comments" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\exam_comments\data" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson28_file_upload" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson27_free_hosting" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson25_doctors_29_01_2022" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson24_class_22_01_2022" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson24_class_22_01_2022\HTML\tests" />
-      <recent name="E:\xampp\htdocs\html5.local\angie" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson27_free_hosting\data" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,6 +126,11 @@
       <workItem from="1643828762448" duration="2233000" />
       <workItem from="1644040599768" duration="20527000" />
       <workItem from="1644081746253" duration="6565000" />
+      <workItem from="1644135899598" duration="17880000" />
+      <workItem from="1644259563669" duration="3662000" />
+      <workItem from="1644420793966" duration="3743000" />
+      <workItem from="1644675967455" duration="15193000" />
+      <workItem from="1644729935080" duration="10795000" />
     </task>
     <servers />
   </component>
@@ -252,6 +272,11 @@
           <url>file://$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments_name.php</url>
           <line>35</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson28_file_upload/demo2.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

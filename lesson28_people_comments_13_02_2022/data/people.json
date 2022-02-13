@@ -1,0 +1,99 @@
+{
+    "88355": {
+        "name": "Angella",
+        "surname": "Neo",
+        "friends": [
+            "9000",
+            "11000"
+        ],
+        "enemies": [
+            "12000",
+            "10000"
+        ],
+        "created_at": "2022-02-13 08:52:45",
+        "updated_at": "2022-02-13 08:57:54"
+    },
+    "9000": {
+        "name": "Savvi",
+        "surname": "Fushini",
+        "friends": [
+            "10000",
+            "11000"
+        ],
+        "enemies": [
+            "88355",
+            "12000"
+        ],
+        "created_at": "2022-02-13 08:52:45",
+        "updated_at": "2022-02-13 08:52:45"
+    },
+    "10000": {
+        "name": "Katerina",
+        "surname": "Demitridou",
+        "friends": [
+            "9000",
+            "11000",
+            "12000"
+        ],
+        "enemies": [
+            "9000",
+            "12000"
+        ],
+        "created_at": "2022-02-13 08:52:45",
+        "updated_at": "2022-02-13 08:52:45"
+    },
+    "11000": {
+        "name": "Andreas",
+        "surname": "Pantazis",
+        "friends": [
+            "10000"
+        ],
+        "enemies": [
+            "9000",
+            "12000"
+        ],
+        "created_at": "2022-02-13 08:52:45",
+        "updated_at": "2022-02-13 08:52:45"
+    },
+    "12000": {
+        "name": "SILIA",
+        "surname": "Malaka",
+        "friends": [],
+        "enemies": [],
+        "created_at": "2022-02-13 08:52:45",
+        "updated_at": "2022-02-13 08:52:45"
+    },
+    "88356": {
+        "enemies": [],
+        "name": "GEORGE",
+        "surname": "NEOPHYTOU",
+        "friends": [
+            "88355",
+            "9000"
+        ],
+        "created_at": "2022-02-13 08:52:45",
+        "updated_at": "2022-02-13 08:52:45"
+    },
+    "88357": {
+        "enemies": [],
+        "name": "christodoulo",
+        "surname": "pantazis",
+        "friends": [
+            "10000",
+            "11000"
+        ],
+        "created_at": "2022-02-13 08:52:45",
+        "updated_at": "2022-02-13 08:52:45"
+    },
+    "88358": {
+        "enemies": [],
+        "name": "Roman",
+        "surname": "Satanovsky",
+        "friends": [
+            "88355",
+            "9000"
+        ],
+        "created_at": "2022-02-13 08:52:45",
+        "updated_at": "2022-02-13 08:52:45"
+    }
+}

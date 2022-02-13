@@ -1,7 +1,0 @@
-[
-    {
-        "comment": "this is comment only for banana page",
-        "name": "banana",
-        "date": "2022-02-05 07:47:58"
-    }
-]

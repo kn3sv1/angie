@@ -1,0 +1,56 @@
+{
+    "88355": {
+        "name": "Angella",
+        "surname": "Neo",
+        "friends": [
+            "9000",
+            "11000"
+        ],
+        "enemies": [
+            "12000",
+            "10000"
+        ]
+    },
+    "9000": {
+        "name": "Savvi",
+        "surname": "Fushini",
+        "friends": [
+            "10000",
+            "11000"
+        ],
+        "enemies": [
+            "88355",
+            "12000"
+        ]
+    },
+    "10000": {
+        "name": "Katerina",
+        "surname": "Demitridou",
+        "friends": [
+            "9000",
+            "11000",
+            "12000"
+        ],
+        "enemies": [
+            "9000",
+            "12000"
+        ]
+    },
+    "11000": {
+        "name": "Andreas",
+        "surname": "Pantazis",
+        "friends": [
+            "10000"
+        ],
+        "enemies": [
+            "9000",
+            "12000"
+        ]
+    },
+    "12000": {
+        "name": "SILIA",
+        "surname": "Malaka",
+        "friends": [],
+        "enemies": []
+    }
+}
