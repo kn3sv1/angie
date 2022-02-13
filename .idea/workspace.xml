@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/create_fruit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/data/fruits.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/data/my_new_fruit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/photos/new_strwberry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/tmp/mango.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson27_free_hosting/tmp/new_strwberry.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/banana.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/comments1.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/comments1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/comments1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/comments1_backup.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/grapefruit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/data/comments1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/kiwis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/cats/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/cats/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/function.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +57,7 @@
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson27_free_hosting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats\test" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson27_free_hosting\data" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photos" />
@@ -130,7 +118,7 @@
       <workItem from="1644259563669" duration="3662000" />
       <workItem from="1644420793966" duration="3743000" />
       <workItem from="1644675967455" duration="15193000" />
-      <workItem from="1644729935080" duration="10795000" />
+      <workItem from="1644729935080" duration="11898000" />
     </task>
     <servers />
   </component>

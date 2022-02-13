@@ -1,11 +1,13 @@
 <?php
 
+define("ROOT", __DIR__);
+
 /**
  * here i read from file and convert json to array
  * @return array|mixed
  */
 function getCats() {
-    return getFromFile("../data/cats.json");
+    return getFromFile(ROOT . "/data/cats.json");
 }
 
 /**
@@ -13,15 +15,15 @@ function getCats() {
  * @param array $cats
  */
 function saveCats(array $cats) {
-    saveToFile($cats, "../data/cats.json");
+    saveToFile($cats, ROOT . "/data/cats.json");
 }
 
 function getColors() {
-    return getFromFile("../data/colors.json");
+    return getFromFile(ROOT . "/data/colors.json");
 }
 
 function saveColors(array $colors) {
-    saveToFile($colors, "../data/colors.json");
+    saveToFile($colors, ROOT . "/data/colors.json");
 }
 
 

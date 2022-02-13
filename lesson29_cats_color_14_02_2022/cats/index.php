@@ -7,7 +7,7 @@ $colors = getColors();
 foreach ($cats as $id => $cat) {
     $color_id = $cat['color_id'];
     $color = $colors[$color_id];
-    echo '<p style="color:green"><a style="color: ' . $color['name'] . ';font-weight:bold" href="cat_edit.php?id=' . $id . '">' . $cat['name'] .  '</a></p>';
+    echo '<p><a style="color: ' . $color['name'] . ';font-weight:bold" href="cat_edit.php?id=' . $id . '">' . $cat['name'] .  '</a></p>';
 }
 ?>
 <br /><br />
