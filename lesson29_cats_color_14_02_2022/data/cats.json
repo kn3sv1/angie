@@ -1,10 +1,14 @@
 {
     "20000": {
         "name": "GINGER",
-        "color_id": "10006"
+        "color_id": "10000"
     },
     "20001": {
         "name": "TEDAKI",
         "color_id": "10007"
+    },
+    "20002": {
+        "name": "Amanda",
+        "color_id": "10006"
     }
 }

@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/cats/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/cats/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/data/cats.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/data/cats.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -118,7 +120,9 @@
       <workItem from="1644259563669" duration="3662000" />
       <workItem from="1644420793966" duration="3743000" />
       <workItem from="1644675967455" duration="15193000" />
-      <workItem from="1644729935080" duration="11898000" />
+      <workItem from="1644729935080" duration="12636000" />
+      <workItem from="1644769248003" duration="10571000" />
+      <workItem from="1644943069129" duration="7185000" />
     </task>
     <servers />
   </component>
@@ -273,6 +277,7 @@
         <watch expression="$config[$key]" language="PHP" />
         <watch expression="getcwd()" language="PHP" />
         <watch expression="config('content_path')" language="PHP" />
+        <watch expression="$json" />
       </configuration>
       <configuration name="min_max.php">
         <watch expression="$people[$i]" language="PHP" />

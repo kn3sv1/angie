@@ -26,6 +26,14 @@ function saveColors(array $colors) {
     saveToFile($colors, ROOT . "/data/colors.json");
 }
 
+function getCities() {
+    return getFromFile(ROOT . "/data/cities.json");
+}
+
+function saveCities(array $cities) {
+    saveToFile($cities, ROOT . "/data/cities.json");
+}
+
 
 function getFromFile($file) {
     $data = array();
