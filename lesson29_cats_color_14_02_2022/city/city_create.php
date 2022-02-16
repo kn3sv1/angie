@@ -11,6 +11,8 @@ if (!empty($_POST['city'])) {
     //print_r($_POST); die();
     $city = [];
     $city['city'] = $_POST['city'];
+    $city['year'] = $_POST['year'];
+    $city['population'] = $_POST['population'];
 
     //replace original person with modified copy
     $id = getNextId($cities);
@@ -30,7 +32,9 @@ if (!empty($_POST['city'])) {
 <body>
 <h2>CITIES</h2>
  <form action="" method="post">
-    City: <input type="text" name="city" value=""><br />
+    CITY: <input type="text" name="city" value=""><br />
+     YEAR: <input type="text" name="year" value=""><br />
+     POPULATION: <input type="text" name="population" value=""><br />
     <input type="submit" value="CREATE">
 </form>
 <br />

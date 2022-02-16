@@ -9,6 +9,12 @@
     },
     "20002": {
         "name": "Amanda",
-        "color_id": "10006"
+        "color_id": "10006",
+        "city_id": "105"
+    },
+    "20003": {
+        "name": "angie2222",
+        "color_id": "10001",
+        "city_id": "102"
     }
 }

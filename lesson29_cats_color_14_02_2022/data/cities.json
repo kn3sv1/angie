@@ -1,14 +1,22 @@
 {
     "102": {
-        "city": "Limassol"
+        "city": "Limassol",
+        "year": "1974",
+        "population": "20000"
     },
     "103": {
-        "city": "Paphos"
+        "city": "Paphos",
+        "year": "1985",
+        "population": "3000000"
     },
     "104": {
-        "city": "Larnaka"
+        "city": "Larnaka",
+        "year": "1963",
+        "population": "500000"
     },
     "105": {
-        "city": "Nicosia"
+        "city": "Nicosia",
+        "year": "1964",
+        "population": "100000"
     }
 }

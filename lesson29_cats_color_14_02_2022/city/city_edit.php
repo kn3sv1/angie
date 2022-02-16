@@ -18,16 +18,20 @@ $city = $cities[$_GET['id']];
 
 //print_r($color);
 
-if (!empty($_POST['name'])) {
+if (!empty($_POST['city'])) {
     echo '<p style="color:green">succesfully submitted</p>';
     //print_r($_POST); die();
     $city['city'] = $_POST['city'];
+    $city['year'] = $_POST['year'];
+    $city['population'] = $_POST['population'];
 
     //replace original person with modified copy
     $cities[$_GET['id']] = $city;
 
     saveCities($cities);
 }
+
+// @$city["year"];   - this @ means if not such key in array dont show any errors
 
 ?>
 
@@ -40,7 +44,9 @@ if (!empty($_POST['name'])) {
 <body>
 <h2>CITY</h2>
  <form action="" method="post">
-    NAME: <input type="text" name="city" value="<?php echo $city["city"]; ?>"><br /><br />
+    CITY: <input type="text" name="city" value="<?php echo $city["city"]; ?>"><br /><br />
+     YEAR: <input type="text" name="year" value="<?php echo @$city["year"]; ?>"><br />
+     POPULATION: <input type="text" name="population" value="<?php echo @$city["population"]; ?>"><br />
     <input type="submit" value="UPDATE">
 </form>
 <br />

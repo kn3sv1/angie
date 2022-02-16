@@ -5,6 +5,7 @@ include_once "../function.php";
 $cats = getCats();
 //print_r($cats);
 $colors = getColors();
+$cities = getCities();
 
 
 if (empty($_GET['id'])) {
@@ -23,6 +24,7 @@ if (!empty($_POST['name'])) {
     //print_r($_POST); die();
     $cat['name'] = $_POST['name'];
     $cat['color_id'] = $_POST['color_id'];
+    $cat['city_id'] = $_POST['city_id'];
 
     //replace original person with modified copy
     $cats[$_GET['id']] = $cat;
@@ -48,6 +50,17 @@ if (!empty($_POST['name'])) {
          foreach ($colors as $id => $color) {
              $selected = $cat['color_id'] == $id ? ' selected ': '';
              echo '<option style="font-weight:bold;color:' . $color['name'] . '" ' . $selected . '  value="' . $id . '" >' . $color['name'] . '</option>';
+         }
+         ?>
+     </select><br />
+     <br />CITY:
+     <select name="city_id">
+         <?php
+         foreach ($cities as $id => $city) {
+             $selected = $cat['city_id'] == $id ? ' selected ': '';
+             // Nicosia (year: 1964, population: 100000)
+             $city_title = $city['city'] . " (year: " . $city['year'] . ', population: ' . $city['population'] . ')';
+             echo '<option style="font-weight:bold;" ' . $selected . '  value="' . $id . '" >' . $city_title . '</option>';
          }
          ?>
      </select><br /><br />
