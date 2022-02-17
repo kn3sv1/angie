@@ -5,16 +5,31 @@
     },
     "20001": {
         "name": "TEDAKI",
-        "color_id": "10007"
+        "color_id": "10007",
+        "city_id": "102",
+        "food_id": "101"
     },
     "20002": {
         "name": "Amanda",
         "color_id": "10006",
-        "city_id": "105"
+        "city_id": "105",
+        "food_id": "101"
     },
     "20003": {
         "name": "angie2222",
         "color_id": "10001",
         "city_id": "102"
+    },
+    "20004": {
+        "name": "angie000000000",
+        "color_id": "10006",
+        "city_id": "105",
+        "food_id": "101"
+    },
+    "20005": {
+        "name": "Amanda",
+        "color_id": "10006",
+        "city_id": "102",
+        "food_id": "100"
     }
 }

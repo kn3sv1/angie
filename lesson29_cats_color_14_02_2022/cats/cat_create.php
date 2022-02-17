@@ -6,6 +6,7 @@ $cats = getCats();
 //print_r($cats);
 $colors = getColors();
 $cities = getCities();
+$food = getFood();
 
 
 if (!empty($_POST['name'])) {
@@ -15,6 +16,7 @@ if (!empty($_POST['name'])) {
     $cat['name'] = $_POST['name'];
     $cat['color_id'] = $_POST['color_id'];
     $cat['city_id'] = $_POST['city_id'];
+    $cat['food_id'] = $_POST['food_id'];
 
     //replace original person with modified copy
     $id = getNextId($cats);
@@ -52,6 +54,15 @@ if (!empty($_POST['name'])) {
              // Nicosia (year: 1964, population: 100000)
              $city_title = $city['city'] . " (year: " . $city['year'] . ', population: ' . $city['population'] . ')';
              echo '<option style="font-weight:bold;" ' . $selected . '  value="' . $id . '" >' . $city_title . '</option>';
+         }
+         ?>
+     </select><br />
+     <br />FOOD:
+     <select name="food_id">
+         <?php
+         foreach ($food as $id => $value) {
+             $selected = '';
+             echo '<option style="font-weight:bold;" ' . $selected . '  value="' . $id . '" >' . $value['type'] . '</option>';
          }
          ?>
      </select><br /><br />

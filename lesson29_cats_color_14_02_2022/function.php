@@ -34,6 +34,14 @@ function saveCities(array $cities) {
     saveToFile($cities, ROOT . "/data/cities.json");
 }
 
+function getFood() {
+    return getFromFile(ROOT . "/data/food.json");
+}
+
+function saveFood(array $food) {
+    return saveToFile(ROOT . "/data/food.json");
+}
+
 
 function getFromFile($file) {
     $data = array();

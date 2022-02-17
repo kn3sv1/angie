@@ -1,0 +1,11 @@
+{
+    "100": {
+        "type": "dry food"
+    },
+    "101": {
+        "type": "meat"
+    },
+    "102": {
+        "type": "chicken"
+    }
+}
