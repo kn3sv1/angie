@@ -13,7 +13,7 @@ echo "<p>File soource will be: $source_file</p>";
 echo "<p>File destination will be: $target_file</p>";
 
 if (move_uploaded_file($source_file, $target_file)) {
-	echo "The file <span style='color:green;font-weight:bold'>". $name. "</span> has been uploaded.";
+	echo "The file <span style='color:green;font-weight:bold'>". $name. "</span> has been uploaded. <img src='{$target_file}' />";
 } else {
 	echo "Sorry, there was an error uploading your file. You didn't select file MALAKA!";
 }

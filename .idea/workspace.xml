@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/cats/cat_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/cats/cat_create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/cats/cat_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/cats/cat_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_upload_23-10_2021_simple/upload_simple.php" beforeDir="false" afterPath="$PROJECT_DIR$/file_upload_23-10_2021_simple/upload_simple.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/data/cats.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/data/cats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/function.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,18 +50,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats\test" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson27_free_hosting\data" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photos" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\data" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022" />
       <recent name="E:\xampp\htdocs\html5.local\angie\exam_comments" />
       <recent name="E:\xampp\htdocs\html5.local\angie\exam_comments\data" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson28_file_upload" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats\test" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson27_free_hosting\data" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,7 +126,23 @@
       <workItem from="1644953021890" duration="1671000" />
       <workItem from="1644956877647" duration="2245000" />
       <workItem from="1645034974580" duration="6090000" />
-      <workItem from="1645117644482" duration="4622000" />
+      <workItem from="1645117644482" duration="4764000" />
+      <workItem from="1645250527631" duration="18426000" />
+      <workItem from="1645335116279" duration="11476000" />
+      <workItem from="1645641208874" duration="3674000" />
+      <workItem from="1645720400730" duration="4060000" />
+      <workItem from="1645864476849" duration="9836000" />
+      <workItem from="1645975714949" duration="9718000" />
+      <workItem from="1646672745546" duration="8542000" />
+      <workItem from="1646730730558" duration="10471000" />
+      <workItem from="1646818389327" duration="6803000" />
+      <workItem from="1646900652221" duration="3421000" />
+      <workItem from="1647000129864" duration="10259000" />
+      <workItem from="1647094743662" duration="11028000" />
+      <workItem from="1647111960042" duration="118000" />
+      <workItem from="1647159378127" duration="15311000" />
+      <workItem from="1647670663904" duration="11696000" />
+      <workItem from="1647765768411" duration="4111000" />
     </task>
     <servers />
   </component>
