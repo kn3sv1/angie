@@ -3,22 +3,24 @@
         "name": "Roman",
         "surname": "Satanovski",
         "address": "222222222222",
-        "city": "Limassol",
-        "country": "Ukraine"
+        "city": "Kiev",
+        "country": "Ukraine",
+        "photo": "photos\/Roman.png"
     },
     "6": {
-        "name": "Sasha",
-        "surname": "Letova",
-        "address": "Svarovsky str. 15",
-        "city": "Limassol",
-        "country": "Russia"
+        "name": "Sasha111",
+        "surname": "Slovak",
+        "address": "Svarovsky str. 12",
+        "city": "Paphos",
+        "country": "Ukraine"
     },
     "7": {
         "name": "Angie",
         "surname": "Neophytou",
         "address": "Navpliou str. ap:105",
         "city": "Limassol",
-        "country": "Cyprus"
+        "country": "Cyprus",
+        "photo": "photos\/Angie.png"
     },
     "8": {
         "name": "1111111111111",
@@ -48,7 +50,8 @@
         "surname": "Kleanthous",
         "address": "Ekali 10 ",
         "city": "Limassol",
-        "country": "Cyprus"
+        "country": "Cyprus",
+        "photo": "photos\/Iota.png"
     },
     "12": {
         "name": "777777777",

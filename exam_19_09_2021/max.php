@@ -1,8 +1,9 @@
 <?php
-$numbers = array(50, 5, 10, 3, 10, 6, 20, 9, 30);
+$numbers = array(50, 5, 10, 3, 10, 6, 20, 10, 9, 30);
 $max = null;
 $maxIndex = null;
 
+//all this code just sets 2 variables: max and maxindex
 for ($i = 0; $i < count($numbers); $i++) {
 	//skip numbers bigger than 15
 	if ($numbers[$i] > 15) {
@@ -30,21 +31,23 @@ table, th, td {
   <tr>
     <th>numbers</th>
   </tr>
-  <?php for ($i = 0; $i < count($numbers); $i++) { 
-	//$style = $maxIndex == $i ? 'style="background-color:red"' : '';
-	
+  <?php for ($i = 0; $i < count($numbers); $i++) {
+
+	//key is always unique so it selects only one the first 10
 	if ($maxIndex == $i) {
 		$style = ' style="background-color:red" ';
 	} else {
 		$style = '';
 	}
-	/*
+
+	//here we select value not key so it will select all 10
+    /*
 	if ($max == $numbers[$i]) {
 		$style = ' style="background-color:red" ';
 	} else {
 		$style = '';
 	}
-	*/
+    */
   ?>
   <tr>
     <td<?php echo $style; ?>><?php echo $numbers[$i]; ?></td>

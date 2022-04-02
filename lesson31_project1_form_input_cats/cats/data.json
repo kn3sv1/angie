@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Tedaki",
+        "color": "Black and white",
+        "city": "Limassol",
+        "photo": "photos_of_cats\/Tedaki.png"
+    },
+    {
+        "name": "Amanda",
+        "color": "White and orange",
+        "city": "Limassol",
+        "photo": "photos_of_cats\/Amanda.png"
+    },
+    {
+        "name": "Ginger",
+        "color": "Orange",
+        "city": "Limassol",
+        "photo": "photos_of_cats\/Ginger.png"
+    }
+]

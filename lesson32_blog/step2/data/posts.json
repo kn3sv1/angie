@@ -1,0 +1,46 @@
+[
+  {
+    "title": "title 1",
+    "datetime": "2022-01-28 23:59:59",
+    "description": "description 1",
+    "text": "text 1",
+    "tags": [
+      "dogs",
+      "friends",
+      "limassol"
+    ]
+  },
+  {
+    "title": "title 2",
+    "datetime": "2022-01-28 23:59:59",
+    "description": "description 2",
+    "text": "text 2",
+    "tags": [
+      "dogs",
+      "friends",
+      "limassol"
+    ]
+  },
+  {
+    "title": "title 3",
+    "datetime": "2022-01-28 23:59:59",
+    "description": "description 3",
+    "text": "text 3",
+    "tags": [
+      "dogs",
+      "friends",
+      "paphos"
+    ]
+  },
+  {
+    "title": "title 4",
+    "datetime": "2022-01-28 23:59:59",
+    "description": "description 4",
+    "text": "text 4",
+    "tags": [
+      "dogs",
+      "friends",
+      "paphos"
+    ]
+  }
+]

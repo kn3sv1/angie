@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_upload_23-10_2021_simple/upload_simple.php" beforeDir="false" afterPath="$PROJECT_DIR$/file_upload_23-10_2021_simple/upload_simple.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/data/cats.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/data/cats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cats/photos_of_cats/kiara.png" beforeDir="false" afterPath="$PROJECT_DIR$/cats/photos_of_cats/kiara.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_19_09_2021/max.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam_19_09_2021/max.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson30_info_form_19_02_2022/info/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson30_info_form_19_02_2022/info/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson30_info_form_19_02_2022/photos/7777777777777.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson30_info_form_19_02_2022/photos/7777777777777.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="tsconfig.json" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -45,24 +47,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson29_cats_color_14_02_2022/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson32_blog/step2/data" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\data" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\exam_comments" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\exam_comments\data" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson28_file_upload" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\images" />
       <recent name="E:\xampp\htdocs\html5.local\angie" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats\test" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson27_free_hosting\data" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson23_class_15_01_2022\photos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\data" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\templates\pages" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\templates" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -142,7 +144,17 @@
       <workItem from="1647111960042" duration="118000" />
       <workItem from="1647159378127" duration="15311000" />
       <workItem from="1647670663904" duration="11696000" />
-      <workItem from="1647765768411" duration="4111000" />
+      <workItem from="1647765768411" duration="8337000" />
+      <workItem from="1647880949349" duration="7664000" />
+      <workItem from="1648057246877" duration="8030000" />
+      <workItem from="1648145979068" duration="3024000" />
+      <workItem from="1648184407983" duration="16015000" />
+      <workItem from="1648307761364" duration="5467000" />
+      <workItem from="1648556343105" duration="9864000" />
+      <workItem from="1648663476066" duration="2161000" />
+      <workItem from="1648733071641" duration="8137000" />
+      <workItem from="1648791042983" duration="10961000" />
+      <workItem from="1648897928355" duration="12480000" />
     </task>
     <servers />
   </component>
@@ -174,16 +186,6 @@
           <url>file://$PROJECT_DIR$/exam_19_09_2021/max_function.php</url>
           <line>23</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/exam_19_09_2021/debug.php</url>
-          <line>13</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/exam_19_09_2021/debug.php</url>
-          <line>12</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/exam_25_09_2021/task2/cat_pages/ginger.php</url>
@@ -289,6 +291,16 @@
           <url>file://$PROJECT_DIR$/lesson28_file_upload/demo2.php</url>
           <line>6</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/exam_19_09_2021/debug.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/exam_19_09_2021/debug.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
