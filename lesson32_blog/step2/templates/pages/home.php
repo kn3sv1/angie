@@ -4,6 +4,7 @@
     }
     .body-main h1 {
         color: #ff0046;
+        padding: 20px 0;
     }
 </style>
 <div class="body-main">
@@ -11,4 +12,14 @@
     <div class="book-info">
         <img src="images/book.png" />
     </div>
+
+<?php
+
+foreach (getCommentsForHomePage() as $comment) {
+    echo '<a href="/angie/lesson32_blog/step2/?page=post-detail&id=' . $comment['comment_id'] . '">Name:' . $comment['name']
+        . ', Comment:' . $comment['comment']
+        . ', Datetime:' . $comment['datetime']
+        . '</a><br />';
+}
+?>
 </div>

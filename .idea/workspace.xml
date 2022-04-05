@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cats/photos_of_cats/kiara.png" beforeDir="false" afterPath="$PROJECT_DIR$/cats/photos_of_cats/kiara.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam_19_09_2021/max.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam_19_09_2021/max.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson30_info_form_19_02_2022/info/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson30_info_form_19_02_2022/info/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson30_info_form_19_02_2022/photos/7777777777777.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson30_info_form_19_02_2022/photos/7777777777777.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step1/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step1/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/data/posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/data/posts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/data/top-menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/data/top-menu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/templates/main-body.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/templates/main-body.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/templates/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/templates/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/templates/pages/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/templates/pages/posts.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson32_blog/step2/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson32_blog/step2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
@@ -60,10 +63,10 @@
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson27_free_hosting\data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\data" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\templates\pages" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\templates" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\templates\pages" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\data" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\templates" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog" />
     </key>
   </component>
@@ -154,7 +157,10 @@
       <workItem from="1648663476066" duration="2161000" />
       <workItem from="1648733071641" duration="8137000" />
       <workItem from="1648791042983" duration="10961000" />
-      <workItem from="1648897928355" duration="12480000" />
+      <workItem from="1648897928355" duration="12758000" />
+      <workItem from="1648967068165" duration="15652000" />
+      <workItem from="1649085567869" duration="2689000" />
+      <workItem from="1649155352692" duration="13025000" />
     </task>
     <servers />
   </component>

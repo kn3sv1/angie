@@ -8,15 +8,16 @@
     "text": "posts"
   },
   {
-    "href": "#",
-    "text": "link2"
+    "href": "/angie/lesson32_blog/step2/?page=about-me",
+    "text": "about me"
   },
   {
-    "href": "#",
-    "text": "link3"
+    "href": "/angie/lesson32_blog/step2/?page=book-orders",
+    "text": "book orders"
   },
   {
-    "href": "#",
-    "text": "link4"
+    "href": "/angie/lesson32_blog/step2/?page=podcasts",
+    "text": "podcasts"
   }
+
 ]

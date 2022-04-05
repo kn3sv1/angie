@@ -14,6 +14,10 @@ if (empty($_GET['page'])) {
 
 
 // http://html5.local/angie/lesson32_blog/step2/?page=posts
+
+// http://html5.local/angie/lesson32_blog/step2/?page=post-detail&id=1
+
+// http://html5.local/angie/lesson32_blog/step2/?page=about-me
 switch ($_GET['page']) {
     case 'posts':
         include 'pages/posts.php';
@@ -26,5 +30,8 @@ switch ($_GET['page']) {
         break;
     case 'book-orders':
         include 'pages/book-orders.php';
+        break;
+    case 'podcasts':
+        include 'pages/podcasts.php';
         break;
 }
