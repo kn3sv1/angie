@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step1/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step1/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/data/posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/data/posts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/data/top-menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/data/top-menu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/templates/main-body.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/templates/main-body.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/templates/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/templates/pages/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/templates/pages/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/templates/pages/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_add_pointer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_add_pointer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_array.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_array.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_car.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_pointer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_pointer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_sort.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_sort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_sort2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_sort2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,24 +51,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson32_blog/step2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson34_mysql" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\tests" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\images" />
       <recent name="E:\xampp\htdocs\html5.local\angie" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats\test" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson27_free_hosting\data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\views\Cat" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\tests" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\templates\pages" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\data" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\templates" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -160,7 +161,9 @@
       <workItem from="1648897928355" duration="12758000" />
       <workItem from="1648967068165" duration="15652000" />
       <workItem from="1649085567869" duration="2689000" />
-      <workItem from="1649155352692" duration="13025000" />
+      <workItem from="1649155352692" duration="18729000" />
+      <workItem from="1649224225142" duration="20794000" />
+      <workItem from="1649311180119" duration="14000000" />
     </task>
     <servers />
   </component>
