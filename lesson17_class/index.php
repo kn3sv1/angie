@@ -15,13 +15,13 @@ echo $giana->info(), "<br />";
 echo $giana->birthDate(), "<br />";
 echo $giana->amountOfLegs(), "<br />";
 
-$teddaki = new Cat('Teddaki', 'black and white');
+$teddaki = new CatModel('Teddaki', 'black and white');
 echo $teddaki->info(), "<br />";
 echo $teddaki->amountOfLegs(), "<br />";
 $teddaki->setSpeak('mour2....mour2....');
 echo $teddaki->speak(), "<br />";
 
-$ginger = new Cat('Ginger', 'red and white');
+$ginger = new CatModel('Ginger', 'red and white');
 echo $ginger->info(), "<br />";
 echo $ginger->amountOfLegs(), "<br />";
 $ginger->setSpeak('mour mour mour ....');

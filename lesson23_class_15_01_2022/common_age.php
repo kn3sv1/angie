@@ -5,14 +5,14 @@ require_once 'classes/CatCollection.php';
 #require_once 'function/cats.php';
 
 $cats = array(
-    new Cat('TEDAKI', 'white & black', 3),
-    new Cat('AMANDA', 'red', 10),
-    new Cat('Siara', 'red', 10),
-    new Cat('Ginger', 'red', 4),
-    new Cat('Hitler', 'red', 5),
-    new Cat('Gucci', 'red', 12),
-    new Cat('Betmen', 'red', 5),
-    new Cat('Tedy', 'red', 3),
+    new CatModel('TEDAKI', 'white & black', 3),
+    new CatModel('AMANDA', 'red', 10),
+    new CatModel('Siara', 'red', 10),
+    new CatModel('Ginger', 'red', 4),
+    new CatModel('Hitler', 'red', 5),
+    new CatModel('Gucci', 'red', 12),
+    new CatModel('Betmen', 'red', 5),
+    new CatModel('Tedy', 'red', 3),
 );
 
 

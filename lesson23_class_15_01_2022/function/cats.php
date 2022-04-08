@@ -10,7 +10,7 @@ function groupCatsByAge(array $cats)
     $result = array();
 
     //we use this to show autocomplete in every line
-    /** @var Cat $cat */
+    /** @var CatModel $cat */
     foreach ($cats as $cat) {
         //if (!array_key_exists($cat->age, $result)) {
         $age = $cat->age;
@@ -27,7 +27,7 @@ function groupCatsByAge(array $cats)
 function getCatsByAgeEqual(array $cats, $age)
 {
     $result = array();
-    /** @var Cat $cat */
+    /** @var CatModel $cat */
     foreach ($cats as $cat) {
         if ($cat->age == $age) {
             $result[] = $cat;

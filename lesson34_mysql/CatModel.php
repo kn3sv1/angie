@@ -1,6 +1,6 @@
 <?php
 
-class Cat {
+class CatModel {
     private function connect() {
         //code to connect to Mysql server
         $connect = new PDO('mysql:host=localhost;dbname=crud_mvc_pdo;charset=utf8;','root','');
@@ -19,6 +19,8 @@ class Cat {
 
     public function create($data){
         //This is command to Mysql program and replaces ? with array $data by position
+
+        //we need prepare data to replace values()
         $SQL = 'INSERT INTO cats (name,color,city,photo) VALUES (?,?,?,?)';
         $result = $this->connect()->prepare($SQL);
         $result->execute(array(
@@ -53,7 +55,7 @@ class Cat {
     public function getById($id) {
         //Here we dont replace ? at all we directly put value in variable
         $SQL = "SELECT * FROM cats where id = $id";
-        echo 'result will be sent to server:' . $SQL;
+        //echo 'result will be sent to server:' . $SQL;
         $result = $this->connect()->prepare($SQL);
         $result->execute();
         return $result->fetch(PDO::FETCH_ASSOC);

@@ -6,8 +6,8 @@ require_once 'classes/Person.php';
 
 //array of different objects related to classes
 $animals = array(
-    new Cat('TEDAKI', 'white & black', 3),
-    new Cat('AMANDA', 'red', 14),
+    new CatModel('TEDAKI', 'white & black', 3),
+    new CatModel('AMANDA', 'red', 14),
     new Dog('Stiven', 10),
 );
 $person = new Person('Angie', $animals);

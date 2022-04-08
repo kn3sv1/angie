@@ -17,7 +17,7 @@ class Person
     function printAnimals() {
         echo "<br />I am PERSON $this->name. I have ANIMALS:<br />";
         foreach ($this->animals as $animal) {
-              if ($animal instanceof Cat) {
+              if ($animal instanceof CatModel) {
                   echo "<br />I have cat called $animal->name <br />";
               }
               if ($animal instanceof Dog) {

@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_add_pointer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_add_pointer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_array.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_array.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_car.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_pointer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_pointer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_sort.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_sort.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/test_sort2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_sort2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/example1.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/example1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson17_class/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson17_class/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson23_class_15_01_2022/cat_photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson23_class_15_01_2022/cat_photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson23_class_15_01_2022/classes/CatCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson23_class_15_01_2022/classes/CatCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson23_class_15_01_2022/classes/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson23_class_15_01_2022/classes/Person.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson23_class_15_01_2022/common_age.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson23_class_15_01_2022/common_age.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson23_class_15_01_2022/example1.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson23_class_15_01_2022/example1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson23_class_15_01_2022/function/cats.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson23_class_15_01_2022/function/cats.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson23_class_15_01_2022/person.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson23_class_15_01_2022/person.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson34_mysql/Cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/CatModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson34_mysql/CatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/CatController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson34_mysql/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/index2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/update.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,24 +58,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson34_mysql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson34_mysql/views/Hobby" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\tests" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\images" />
-      <recent name="E:\xampp\htdocs\html5.local\angie" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats\test" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson29_cats_color_14_02_2022\cats" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\views\Hobby" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\views" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\views\Cat" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\tests" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\templates\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\controller" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\model" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\tests" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,7 +170,8 @@
       <workItem from="1649085567869" duration="2689000" />
       <workItem from="1649155352692" duration="18729000" />
       <workItem from="1649224225142" duration="20794000" />
-      <workItem from="1649311180119" duration="14000000" />
+      <workItem from="1649311180119" duration="18387000" />
+      <workItem from="1649405339209" duration="16284000" />
     </task>
     <servers />
   </component>

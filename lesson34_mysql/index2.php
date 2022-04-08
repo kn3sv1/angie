@@ -24,6 +24,8 @@ class DB {
     public function createUser($data){
         try {
             //This is command to Mysql program and replaces ? with array $data by position
+            // INSERT INTO crud_mvc_pdo.users (name_user,last_name_user,email_user) VALUES ("George","Neophytou","123")
+
             $SQL = 'INSERT INTO users (name_user,last_name_user,email_user) VALUES (?,?,?)';
             $result = $this->connect()->prepare($SQL);
             $result->execute(array(
@@ -84,17 +86,25 @@ print_r($users);
 //http://html5.local/angie/lesson34_mysql/index2.php?command=add_user
 if (!empty($_GET['command']) && $_GET['command'] == 'add_user') {
     $rand = rand(10000,20000);
-    $newUser = ['name' => 'test'. $rand, 'last_name' => 'last_name11'. $rand, 'email' => 'satreg@mail.ru'. $rand];
+    $newUser = ['name_user' => 'test'. $rand, 'last_name_user' => 'last_name11'. $rand, 'email_user' => 'satreg@mail.ru'. $rand];
+    echo '<p>Now we will insert this user to mysql</p>';
+    print_r($newUser);
     $db->createUser($newUser);
 }
 
-//http://html5.local/angie/lesson34_mysql/index2.php?command=update&id=7&new_name=999999
-if (!empty($_GET['command']) && $_GET['command'] == 'update' && !empty($_GET['id']) && !empty($_GET['new_name'])) {
+//http://html5.local/angie/lesson34_mysql/index2.php?command=update&id=7&new_name=999999&new_lastname=999999
+if (!empty($_GET['command']) && $_GET['command'] == 'update'
+    && !empty($_GET['id'])
+    && !empty($_GET['new_name'])
+) {
     $user = $db->getUserbyId($_GET['id']);
     if (empty($user)) {
         die('<p>USER DOES NOT EXISTS!</p>');
     }
+
     $user['name_user'] = $_GET['new_name'];
+    $user['last_name_user'] = $_GET['new_lastname'];
+
     $db->updateUser($user);
     echo '<p>SUCCESS</p>';
 }

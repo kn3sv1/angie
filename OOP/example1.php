@@ -36,7 +36,7 @@ class PersonCatLover {
     {
         echo "<br />Name: {$this->getName()}<br />";
         echo "Cats: ";
-        /** @var Cat $cat */
+        /** @var CatModel $cat */
         foreach ($this->cats as $cat) {
            echo $cat->getName() . ", ";
         }
@@ -89,7 +89,7 @@ class Cat {
 
     public function printFriends()
     {
-        /** @var Cat $friend */
+        /** @var CatModel $friend */
         foreach ($this->friends as $friend) {
             $friend->printCat();
         }
@@ -97,9 +97,9 @@ class Cat {
 }
 
 //OUTSIDE OF CLASS WE CALL: THE CLIENT USE objects CAT
-$amanda = new Cat('Amanda',  'red',  4);
-$hitler = new Cat('Hitler', 'white & black',  3);
-$ginge = new Cat('Ginge', 'red & white',  2);
+$amanda = new CatModel('Amanda',  'red',  4);
+$hitler = new CatModel('Hitler', 'white & black',  3);
+$ginge = new CatModel('Ginge', 'red & white',  2);
 
 $amanda->addFriend($hitler);
 
@@ -108,7 +108,7 @@ $ginge->addFriend($amanda);
 
 $cats = array($amanda, $hitler, $ginge);
 
-/** @var Cat $cat */
+/** @var CatModel $cat */
 foreach ($cats as $cat) {
     $cat->printCat();
 }

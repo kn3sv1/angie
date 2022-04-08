@@ -2,18 +2,18 @@
 
 require_once 'classes/Cat.php';
 
-function eatFood(Cat $cat, $food) {
+function eatFood(CatModel $cat, $food) {
     echo "<br />FUNCTION: I am $cat->name and I am eating $food</br />";
 }
 
-$tedaki = new Cat('TEDAKI', 'white & black', 3);
+$tedaki = new CatModel('TEDAKI', 'white & black', 3);
 //$tedaki->name = 'TEDAKI';
 //$tedaki->color = 'white & black';
 //$tedaki->age = 3;
 
 //print_r($tedaki);
 
-$amanda = new Cat('AMANDA', 'red', 14);
+$amanda = new CatModel('AMANDA', 'red', 14);
 //$amanda->name = 'AMANDA';
 //$amanda->color = 'red';
 //$amanda->age = 14;
