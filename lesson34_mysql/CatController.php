@@ -4,15 +4,15 @@ include_once 'CatModel.php';
 include_once 'HobbyModel.php';
 
 class CatController {
-    /** @var CatModel $db */
-    private $db;
+    /** @var CatModel $catModel */
+    private $catModel;
 
     /** @var HobbyModel $hobbyModel */
     private $hobbyModel;
 
     public function __construct()
     {
-        $this->db = new CatModel();
+        $this->catModel = new CatModel();
         $this->hobbyModel = new HobbyModel();
     }
 
@@ -21,7 +21,7 @@ class CatController {
      */
     public function indexAction()
     {
-        $cats = $this->db->getAll();
+        $cats = $this->catModel->getAll();
 
         include 'views/Cat/index.php';
     }
@@ -35,7 +35,7 @@ class CatController {
             die('<p style="color:red">please provide id in URL</p>');
         }
 
-        $cat = $this->db->getById($_GET['id']);
+        $cat = $this->catModel->getById($_GET['id']);
         if (empty($cat)) {
             die('<p style="color:red">Cat doesnt exist</p>');
         }
@@ -55,8 +55,9 @@ class CatController {
                 'color'=> $_POST['color'],
                 'city'=> $_POST['city'],
                 'photo'=> $_POST['photo'],
+                'hobby'=> $_POST['hobby'],
             ];
-            $this->db->create($cat);
+            $this->catModel->create($cat);
             $messageInfo = 'succesfully submitted';
         }
         include 'views/Cat/add.php';
@@ -71,7 +72,7 @@ class CatController {
             die('<p style="color:red">please provide id in URL</p>');
         }
 
-        $cat = $this->db->getById($_GET['id']);
+        $cat = $this->catModel->getById($_GET['id']);
         if (empty($cat)) {
             die('<p style="color:red">Cat doesnt exist</p>');
         }
@@ -81,12 +82,13 @@ class CatController {
             $cat['color'] = $_POST['color'];
             $cat['city'] = $_POST['city'];
             $cat['photo'] = $_POST['photo'];
+            $cat['hobby'] = $_POST['hobby'];
 
             //more productive way
-            $this->db->update($cat);
+            $this->catModel->update($cat);
 
             //more advaced way
-//            $this->db->update(
+//            $this->catModel->update(
 //                [
 //                    'name'=> $cat['name'],
 //                    'color'=> $cat['color'],
@@ -97,7 +99,7 @@ class CatController {
 //            );
 
             //very simple way for learners
-//            $this->db->update(
+//            $this->catModel->update(
 //                [
 //                    'name'=> $_POST['name'],
 //                    'color'=> $_POST['color'],

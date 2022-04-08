@@ -37,6 +37,7 @@ class HobbyModel {
         $result = $this->connect()->prepare($SQL);
         $result->execute(array(
                 $data['name'],
+                $data['id'],
             )
         );
     }

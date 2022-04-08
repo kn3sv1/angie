@@ -28,10 +28,12 @@ $hobbyModel = $this->hobbyModel;
     HOBBIES<br />
     <select name="hobby">
         <?php foreach ($hobbyModel->getAll() as $hobby) { ?>
-            <option value="<?php echo $hobby['id']; ?>"><?php echo $hobby['name']; ?></option>
+            <option <?php echo $cat['hobby'] == $hobby['name'] ? "selected" : ""; ?> value="<?php echo $hobby['name']; ?>"><?php echo $hobby['name']; ?></option>
         <?php } ?>
     </select>
     <br /><br />
     <input type="submit" name="submit" value="UPDATE">
 </form>
+<br /><br /><br /><br />
+<a href="/angie/lesson34_mysql/index.php?controller=cat&action=index">Go back to main page</a>
 

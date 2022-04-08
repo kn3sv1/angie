@@ -21,26 +21,28 @@ class CatModel {
         //This is command to Mysql program and replaces ? with array $data by position
 
         //we need prepare data to replace values()
-        $SQL = 'INSERT INTO cats (name,color,city,photo) VALUES (?,?,?,?)';
+        $SQL = 'INSERT INTO cats (name,color,city,photo,hobby) VALUES (?,?,?,?,?)';
         $result = $this->connect()->prepare($SQL);
         $result->execute(array(
                 $data['name'],
                 $data['color'],
                 $data['city'],
                 $data['photo'],
+                $data['hobby'],
             )
         );
     }
 
     public function update($data){
         //This is command to Mysql program and replaces ? with array $data by position
-        $SQL = 'UPDATE cats SET name = ?, color = ?, city = ?, photo = ? WHERE id = ?';
+        $SQL = 'UPDATE cats SET name = ?, color = ?, city = ?, photo = ?, hobby = ? WHERE id = ?';
         $result = $this->connect()->prepare($SQL);
         $result->execute(array(
                 $data['name'],
                 $data['color'],
                 $data['city'],
                 $data['photo'],
+                $data['hobby'],
                 $data['id'],
             )
         );

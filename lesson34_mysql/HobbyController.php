@@ -3,12 +3,12 @@
 include_once 'HobbyModel.php';
 
 class HobbyController {
-    /** @var HobbyModel $db */
-    private $db;
+    /** @var HobbyModel $hobbyModel */
+    private $hobbyModel;
 
     public function __construct()
     {
-        $this->db = new HobbyModel();
+        $this->hobbyModel = new HobbyModel();
     }
 
     /**
@@ -16,7 +16,7 @@ class HobbyController {
      */
     public function indexAction()
     {
-        $hobbies = $this->db->getAll();
+        $hobbies = $this->hobbyModel->getAll();
 
         include 'views/Hobby/index.php';
     }
@@ -27,7 +27,7 @@ class HobbyController {
             die('<p style="color:red">please provide id in URL</p>');
         }
 
-        $hobby = $this->db->getById($_GET['id']);
+        $hobby = $this->hobbyModel->getById($_GET['id']);
         if (empty($hobby)) {
             die('<p style="color:red">Hobby doesnt exist</p>');
         }
@@ -45,7 +45,7 @@ class HobbyController {
             $hobby =  [
                 'name'=> $_POST['name'],
             ];
-            $this->db->create($hobby);
+            $this->hobbyModel->create($hobby);
             $messageInfo = 'succesfully submitted';
         }
         include 'views/Hobby/add.php';
@@ -61,7 +61,7 @@ class HobbyController {
             die('<p style="color:red">please provide id in URL</p>');
         }
 
-        $hobby = $this->db->getById($_GET['id']);
+        $hobby = $this->hobbyModel->getById($_GET['id']);
         if (empty($hobby)) {
             die('<p style="color:red">Hobby doesnt exist</p>');
         }
@@ -71,7 +71,7 @@ class HobbyController {
 
 
             //more productive way
-            $this->db->update($hobby);
+            $this->hobbyModel->update($hobby);
 
             $messageInfo = 'succesfully updated';
         }
