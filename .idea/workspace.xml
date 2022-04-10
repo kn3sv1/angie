@@ -5,9 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson34_mysql/CatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/CatController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson34_mysql/CatModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/CatModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson34_mysql/HobbyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/HobbyController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +162,9 @@
       <workItem from="1649155352692" duration="18729000" />
       <workItem from="1649224225142" duration="20794000" />
       <workItem from="1649311180119" duration="18387000" />
-      <workItem from="1649405339209" duration="19479000" />
+      <workItem from="1649405339209" duration="22410000" />
+      <workItem from="1649481260365" duration="15678000" />
+      <workItem from="1649568405341" duration="1807000" />
     </task>
     <servers />
   </component>

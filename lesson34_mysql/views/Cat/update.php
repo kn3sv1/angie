@@ -1,6 +1,9 @@
 <?php
 /** @var HobbyModel $hobbyModel */
 $hobbyModel = $this->hobbyModel;
+
+/** @var CatModel $catModel */
+$catModel = $this->catModel;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +16,7 @@ $hobbyModel = $this->hobbyModel;
 <?php if (!empty($messageInfo)) {
     echo '<p style="color:green">' . $messageInfo . '</p>';
 } ?>
-<form action="" method="post">
+<form action="" method="post" enctype="multipart/form-data">
     NAME:<br />
     <input type="text" name="name" value="<?php echo $cat['name']; ?>">
     <br /><br />
@@ -24,11 +27,21 @@ $hobbyModel = $this->hobbyModel;
     <input type="text" name="city" value="<?php echo $cat['city']; ?>">
     <br /><br />
     PHOTO:<br />
-    <input type="text" name="photo" value="<?php echo $cat['photo']; ?>"><br /><br />
+    Upload your photo here:
+    <input type="file" name="photo"><br />
+    <?php echo !empty($cat['photo']) ? '<img height="100" src="' . $cat['photo']. '?rand='. rand(1000,2000) . '" />': '';  ?>
+    <br />
     HOBBIES<br />
     <select name="hobby">
         <?php foreach ($hobbyModel->getAll() as $hobby) { ?>
             <option <?php echo $cat['hobby'] == $hobby['name'] ? "selected" : ""; ?> value="<?php echo $hobby['name']; ?>"><?php echo $hobby['name']; ?></option>
+        <?php } ?>
+    </select>
+    <br /><br />
+    FRIENDS<br />
+    <select name="friend">
+        <?php foreach ($catModel->getAll() as $cat) { ?>
+            <option <?php echo $cat['friend'] == $cat['name'] ? "selected" : ""; ?> value="<?php echo $cat['name']; ?>"><?php echo $cat['name']; ?></option>
         <?php } ?>
     </select>
     <br /><br />

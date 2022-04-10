@@ -9,4 +9,5 @@
 NAME: <?php echo $cat['name']; ?><br /><br />
 COLOR: <?php echo $cat['color']; ?><br /><br />
 CITY: <?php echo $cat['city']; ?><br /><br />
+FRIEND: <?php echo $cat['friend']; ?><br /><br />
 PHOTO: <?php echo $cat['photo']; ?><br /><br />

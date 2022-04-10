@@ -31,6 +31,7 @@
         <th>City</th>
         <th>Photo</th>
         <th>Hobby</th>
+        <th>Friend</th>
         <th>Action</th>
     </tr>
     <?php foreach ($cats as $cat) {?>
@@ -39,8 +40,9 @@
         <td><?php echo $cat['name'] ?></td>
         <td><?php echo $cat['color'] ?></td>
         <td><?php echo $cat['city'] ?></td>
-        <td><?php echo $cat['photo'] ?></td>
+        <td><?php echo !empty($cat['photo']) ? '<img height="100" src="' . $cat['photo']. '?rand='. rand(1000,2000)  . '" />': '';  ?></td>
         <td><?php echo $cat['hobby'] ?></td>
+        <td><?php echo $cat['friend'] ?></td>
         <td><a href="/angie/lesson34_mysql/index.php?controller=cat&action=update&id=<?php echo $cat['id'] ?>">Edit</a></td>
     </tr>
     <?php } ?>

@@ -11,6 +11,8 @@ class CatModel {
     public function getAll() {
         //This is command to Mysql program
         $SQL = "SELECT * FROM cats";
+        //Connect to mysql server. Prepare a statement for execution and return a statement object
+        //PDO is a build in class. setAttribute, prepare, execute, fetchAll, fetch are methods in that class
         $result = $this->connect()->prepare($SQL);
         $result->execute();
         //fetch all users form Mysql program and create from this php associative array
@@ -21,7 +23,7 @@ class CatModel {
         //This is command to Mysql program and replaces ? with array $data by position
 
         //we need prepare data to replace values()
-        $SQL = 'INSERT INTO cats (name,color,city,photo,hobby) VALUES (?,?,?,?,?)';
+        $SQL = 'INSERT INTO cats (name,color,city,photo,hobby,friend) VALUES (?,?,?,?,?,?)';
         $result = $this->connect()->prepare($SQL);
         $result->execute(array(
                 $data['name'],
@@ -29,13 +31,14 @@ class CatModel {
                 $data['city'],
                 $data['photo'],
                 $data['hobby'],
+                $data['friend'],
             )
         );
     }
 
     public function update($data){
         //This is command to Mysql program and replaces ? with array $data by position
-        $SQL = 'UPDATE cats SET name = ?, color = ?, city = ?, photo = ?, hobby = ? WHERE id = ?';
+        $SQL = 'UPDATE cats SET name = ?, color = ?, city = ?, photo = ?, hobby = ?, friend = ? WHERE id = ?';
         $result = $this->connect()->prepare($SQL);
         $result->execute(array(
                 $data['name'],
@@ -43,6 +46,7 @@ class CatModel {
                 $data['city'],
                 $data['photo'],
                 $data['hobby'],
+                $data['friend'],
                 $data['id'],
             )
         );
