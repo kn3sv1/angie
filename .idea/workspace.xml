@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson35_class_is_a__has_a/RelationsDemo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson24_class_22_01_2022/HTML/tests/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_22_01_2022/HTML/tests/table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson24_class_22_01_2022/StudentTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_22_01_2022/StudentTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/create_fruit.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/create_fruit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/data/comments1.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/data/comments1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/data/fruits.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/data/fruits.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/data/footer-menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/data/footer-menu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/templates/main-body.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/templates/main-body.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/tests/parse_url.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/parse_url.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/tests/test_add_pointer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_add_pointer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/tests/test_array_numbers.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_array_numbers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/tests/test_pointer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_pointer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson34_mysql/CatModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/CatModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson40_shop/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson40_shop/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/404.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/about-us.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/about-us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/contact.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/home.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/products.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson100_html_cats/paphos/paphos1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson100_html_cats/paphos/paphos1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +212,7 @@
       <workItem from="1654102695543" duration="8154000" />
       <workItem from="1654194731666" duration="4766000" />
       <workItem from="1654367780447" duration="2935000" />
-      <workItem from="1654408060295" duration="4270000" />
+      <workItem from="1654408060295" duration="4805000" />
     </task>
     <servers />
   </component>
