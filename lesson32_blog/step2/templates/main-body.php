@@ -1,5 +1,7 @@
 <?php
 
+//User clicks on any link in the menu bar on top
+
 // http://html5.local/angie/lesson32_blog/step2/
 if (empty($_GET['page'])) {
     return include 'pages/home.php';
@@ -34,4 +36,6 @@ switch ($_GET['page']) {
     case 'podcasts':
         include 'pages/podcasts.php';
         break;
+    case 'contact':
+        include 'pages/contact.php';
 }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h2>tutorial:  https://www.geeksforgeeks.org/dom-document-object-model/</h2>
+
+<!-- Finding the HTML Elements by their Id in DOM -->
+<p id="intro">A Computer <span style="color: red">Science</span> portal for geeks.</p>
+
+
+<p>This example illustrates the <b>getElementsById</b> method.</p>
+
+<p id="demo"></p>
+
+<script>
+    const element = document.getElementById("intro");
+    document.getElementById("demo").innerHTML =
+        "ANGIE: " + element.innerHTML;
+</script>
+</body>
+
+</html>

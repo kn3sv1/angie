@@ -9,9 +9,12 @@
 </head>
 <body>
 <div class="wrap">
-    <h2>11111111111111111111</h2>
+    <h2>Learn PHP</h2>
     <header>
         <h1><?php site_name(); ?></h1>
+        <div class="login">
+            <?php login_form(); ?>
+        </div>
         <nav class="menu">
             <?php nav_menu(); ?>
         </nav>

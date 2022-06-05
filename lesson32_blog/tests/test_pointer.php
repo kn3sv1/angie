@@ -18,7 +18,9 @@ function modifyOriginalArray(&$dogs) {
     $dogs[0] = 666;
 }
 
-copyOriginalArray($cats);
+//copyOriginalArray($cats);
+
+modifyOriginalArray($cats);
 
 echo '<pre>';
 print_r($cats);

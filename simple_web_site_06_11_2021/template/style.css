@@ -15,7 +15,7 @@ nav .item {
 }
 nav .active {
     border-bottom: 1px solid;
-    background-color: green;
+    background-color: deeppink;
 }
 
 @media only screen and (min-width: 768px) {

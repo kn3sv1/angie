@@ -42,7 +42,7 @@ $row2 = new TableRow(
     'background:#e8fcbd;'
 );
 
-$table = new Table([$row0, $row1, $row2]);
+$table = new MyTable([$row0, $row1, $row2]);
 $table->printTable();
 ?>
 </body>

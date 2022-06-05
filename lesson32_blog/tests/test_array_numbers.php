@@ -23,10 +23,11 @@ foreach ($numbers as $key => $value) {
         $result[$key] = $sum;
         //$result[$key] = array_sum($numbers[$key]);
         echo "<br />";
+        print_r($result);
     }
 
 
-//Sort an array and maintain index association
+//Sort an array from smallest to biggest (ascending order) and maintain index association
 asort($result);
 
 //go through array of result and push inside finalArray result using key of

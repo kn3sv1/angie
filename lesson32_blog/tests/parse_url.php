@@ -27,7 +27,7 @@ if (checkQuery($url, 'post_id')) {
 
 // Use parse_url() function to
 // parse the URL
-//print_r(parse_url($url));
+print_r(parse_url($url));
 
 
 //step 1:

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 40px;
+    color:green;
+}
+.menu {
+    display: block;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 20px;
+}
+.menu li.active {
+    background-color: #2aabd2;
+}
+
+.cat_of_month {
+    padding-top: 100px;
+}
+/*
+> - first level DIV only
+https://stackoverflow.com/questions/19038799/why-is-there-an-unexplainable-gap-between-these-inline-block-div-elements
+*/
+.cat_of_month > div {
+    width: 33.333%;
+    height: 270px;
+    display: inline-block;
+    border: 1px dashed #00ccff;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cat_of_month > div img {
+    height: 200px;
+    border: 1px solid #2b542c;
+}
+
+.cat_detail {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 20px;
+}

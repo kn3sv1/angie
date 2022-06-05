@@ -7,9 +7,10 @@ if (!empty($_POST['name'])) {
     //print_r( $_FILES["fileToUpload"]); die();
     $source_file = $_FILES["fileToUpload"]["tmp_name"];
     $target_file = "photos/" . $_FILES["fileToUpload"]["name"];  //from users computer file name
-    //we move from temperary source file to target where we want to store our file.
+    //we move from temporary source file to target where we want to store our file.
     move_uploaded_file($source_file, $target_file);
-
+    //var_dump($_POST['width']);
+    //intval function converts string to int because whatever we post will be string
     $fruits[] =  [
         "width" => intval($_POST['width']),
         //"src" => $_POST['src'],

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learning the DOM</title>
+    <script type="text/javascript">
+        function changeBackgroud(color) {
+            document.body.style.backgroundColor = color;
+            // getElementsByTagName - return array of H! tags
+            document.body.getElementsByTagName('h1')[1].style.textAlign = "center";
+
+            //in php console->log('');
+            console.log('Hello Angie');
+
+            console.log(document.links.item(0).text);
+
+            document.links.item(0).text = color;
+        }
+    </script>
+</head>
+
+<body>
+<h1>Document Object Model</h1>
+<h1>Subtitle</h1>
+<button onclick="changeBackgroud('green')">Change background Green</button>
+<br /><br />
+<button onclick="changeBackgroud('red')">Change background Red</button>
+<br /><br />
+<button onclick="changeBackgroud('yellow')">Change background Yellow</button>
+<br /><br />
+<button onclick="changeBackgroud('purple')">Change background Purple</button>
+<br /><br />
+<a href="#Angie">test link Angie</a>
+<br /><br />
+<a href="#Roma">test link Roma</a>
+</body>
+</html>

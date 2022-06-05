@@ -52,5 +52,23 @@
         "src": "photos\/tedaki.png",
         "name": "tedaki2",
         "description": "my cat"
+    },
+    {
+        "width": 260,
+        "src": "photos\/ginger.png",
+        "name": "angie",
+        "description": "111"
+    },
+    {
+        "width": 260,
+        "src": "photos\/ginger.png",
+        "name": "df",
+        "description": "df"
+    },
+    {
+        "width": 260,
+        "src": "photos\/ginger.png",
+        "name": "df",
+        "description": "df"
     }
 ]

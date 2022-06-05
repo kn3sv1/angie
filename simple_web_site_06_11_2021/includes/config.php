@@ -8,18 +8,21 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website222',
+        'name' => 'Simple PHP Website',
         'site_url' => 'http://html5.local/angie/simple_web_site_06_11_2021',
         'pretty_uri' => false,
         'nav_menu' => [
-            '' => 'Home222',
-            'about-us' => 'About Us',
-            'products' => 'Products',
-            'contact' => 'Contact',
+            '' => 'Home',
+            'About-us' => 'About Us',
+            'Products' => 'Products',
+            'Contact' => 'Contact',
+            'Contact2' => 'Contact',
+            'Registration' => 'Registration',
+            'logout' => 'Log Out',
         ],
         'template_path' => 'template',
         'content_path' => 'content',
-        'version' => 'v3.1 ANGIE',
+        'version' => 'v2.1 ANGIE',
     ];
 
     //http://html5.local/angie/simple_web_site_06_11_2021/?template=template_v2

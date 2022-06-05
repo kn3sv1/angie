@@ -24,6 +24,12 @@ function site_version()
     echo config('version');
 }
 
+function login_form()
+{
+    $path = getcwd() . '/' . config('content_path') . '/login_form.php';
+    include_once $path;
+}
+
 /**
  * Website navigation.
  */
@@ -32,21 +38,23 @@ function nav_menu($sep = ' | ')
 
     //$_SERVER['QUERY_STRING'] = "page=about-us" AFTER ?
 
-    $nav_menu = '';
+    $nav_menu = [];
     $nav_items = config('nav_menu');
 
     foreach ($nav_items as $uri => $name) {
         //$query_string = 'about-us'
         $query_string = str_replace('page=', '', $_SERVER['QUERY_STRING'] ?? '');
         $class = $query_string == $uri ? ' active' : '';
-        $url = config('site_url') . '/' . (config('pretty_uri') || $uri == '' ? '' : '?page=') . $uri;
+        //$q = config('pretty_uri') || $uri == '' ? '' : '?page=';
+        $q = $uri == '' ? '' : '?page=';
+        $url = config('site_url') . '/' . $q . $uri;
 
         // Add nav item to list. See the dot in front of equal sign (.=)
-        $nav_menu .= '<a href="' . $url . '" title="' . $name . '" class="item ' . $class . '">' . $name . '</a>' . $sep;
+        $nav_menu[] = '<a href="' . $url . '" title="' . $name . '" class="item ' . $class . '">' . $name . '</a>' ;
         // $nav_menu .= 'world' MEANS: $nav_menu = $nav_menu . 'world'
     }
 
-    echo trim($nav_menu, $sep);
+    echo implode($sep, $nav_menu);
 }
 
 /**
@@ -70,13 +78,16 @@ function page_title()
 function page_content()
 {
     $page = isset($_GET['page']) ? $_GET['page'] : 'home';
-    $path = getcwd() . '/' . config('content_path') . '/' . $page . '.phtml';
+    $path = getcwd() . '/' . config('content_path') . '/' . $page . '.php';
 
     if (! file_exists($path)) {
-        $path = getcwd() . '/' . config('content_path') . '/404.phtml';
+        $path = getcwd() . '/' . config('content_path') . '/404.php';
     }
+    //it will not work if file extension of files are .php because it only gets the content
+    //of a file in text it doesnt execute any code that's why we use include_once
 
-    echo file_get_contents($path);
+    //echo file_get_contents($path);
+    include_once $path;
 }
 
 /**
@@ -85,4 +96,30 @@ function page_content()
 function init()
 {
     include config('template_path') . '/template.php';
+}
+
+/**
+ * here i read from file and convert json to array
+ * @return array|mixed
+ */
+function getInfo() {
+    $file = "data/sign_in.json";
+    $info = array();
+    if (file_exists($file)) {
+        //we use only once to get array!!!!!!!!!!!!!!!!!!!
+        $json = file_get_contents($file);
+        $info = json_decode($json,true);
+    }
+
+    return $info;
+}
+
+/**
+ * here i convert array to string and save in file
+ * @param array $fruits
+ */
+function saveInfo(array  $sign_in) {
+    $file = "data/sign_in.json";
+    $json = json_encode($sign_in, JSON_PRETTY_PRINT);
+    file_put_contents($file, $json);
 }

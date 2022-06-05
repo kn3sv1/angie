@@ -4,6 +4,7 @@ class CatModel {
     private function connect() {
         //code to connect to Mysql server
         $connect = new PDO('mysql:host=localhost;dbname=crud_mvc_pdo;charset=utf8;','root','');
+        //show error if it doesnt connect
         $connect->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
         return $connect;
     }

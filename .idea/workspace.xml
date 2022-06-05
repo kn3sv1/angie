@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson35_class_is_a__has_a/RelationsDemo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson34_mysql/CatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/CatController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson24_class_22_01_2022/HTML/tests/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_22_01_2022/HTML/tests/table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson24_class_22_01_2022/StudentTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson24_class_22_01_2022/StudentTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/create_fruit.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/create_fruit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/data/comments1.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/data/comments1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/data/fruits.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/data/fruits.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/data/footer-menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/data/footer-menu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/templates/main-body.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/templates/main-body.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/tests/parse_url.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/parse_url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/tests/test_add_pointer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_add_pointer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/tests/test_array_numbers.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_array_numbers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson32_blog/tests/test_pointer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/test_pointer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson34_mysql/CatModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/CatModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson34_mysql/views/Cat/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson34_mysql/views/Cat/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson40_shop/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson40_shop/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/404.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/about-us.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/about-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/contact.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/home.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/products.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +40,20 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="angie" />
   </component>
@@ -29,6 +62,7 @@
       <list>
         <option value="tsconfig.json" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -49,24 +83,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson34_mysql/views/Hobby" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson100_html_cats/paphos" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\views\Hobby" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\views" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\views\Cat" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\tests" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson35_class_is_a__has_a\demo" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\classes\bank" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\controller" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\model" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\tests" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson32_blog\step2\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson100_html_cats\paphos" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\123PASSWORD" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson50_dom" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\simple_web_site_06_11_2021\content" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson38_session\github_demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -164,7 +199,45 @@
       <workItem from="1649311180119" duration="18387000" />
       <workItem from="1649405339209" duration="22410000" />
       <workItem from="1649481260365" duration="15678000" />
-      <workItem from="1649568405341" duration="1807000" />
+      <workItem from="1649568405341" duration="8078000" />
+      <workItem from="1649691197535" duration="12936000" />
+      <workItem from="1649783971562" duration="3295000" />
+      <workItem from="1649958969332" duration="593000" />
+      <workItem from="1650087143944" duration="26668000" />
+      <workItem from="1650182861803" duration="3572000" />
+      <workItem from="1650300886684" duration="5128000" />
+      <workItem from="1650390528268" duration="1480000" />
+      <workItem from="1650612378564" duration="4126000" />
+      <workItem from="1650650267821" duration="725000" />
+      <workItem from="1650728912737" duration="11289000" />
+      <workItem from="1650859238541" duration="20130000" />
+      <workItem from="1650970021670" duration="5175000" />
+      <workItem from="1651083879251" duration="5145000" />
+      <workItem from="1651171715394" duration="4687000" />
+      <workItem from="1651306692445" duration="5668000" />
+      <workItem from="1651381075806" duration="21869000" />
+      <workItem from="1651517377920" duration="3765000" />
+      <workItem from="1651601478860" duration="5729000" />
+      <workItem from="1651687957583" duration="3567000" />
+      <workItem from="1651943820526" duration="8755000" />
+      <workItem from="1651983840629" duration="22944000" />
+      <workItem from="1652198910254" duration="4819000" />
+      <workItem from="1652294527852" duration="4680000" />
+      <workItem from="1652528203795" duration="5923000" />
+      <workItem from="1652600369080" duration="6703000" />
+      <workItem from="1652805709436" duration="7026000" />
+      <workItem from="1652976644515" duration="4083000" />
+      <workItem from="1652985346371" duration="3344000" />
+      <workItem from="1653414598118" duration="4394000" />
+      <workItem from="1653502362587" duration="3178000" />
+      <workItem from="1653741273053" duration="55000" />
+      <workItem from="1653804352331" duration="9231000" />
+      <workItem from="1653933571896" duration="5211000" />
+      <workItem from="1654023116207" duration="2787000" />
+      <workItem from="1654102695543" duration="8154000" />
+      <workItem from="1654194731666" duration="4766000" />
+      <workItem from="1654367780447" duration="2935000" />
+      <workItem from="1654408060295" duration="4270000" />
     </task>
     <servers />
   </component>
@@ -244,23 +317,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
-          <line>78</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
-          <line>37</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
-          <line>48</line>
+          <line>56</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
-          <line>44</line>
-          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments1.php</url>
@@ -312,6 +370,26 @@
           <line>13</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson39_session_shop/public/listByCategory.php</url>
+          <line>76</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson39_session_shop/database/product.php</url>
+          <line>47</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson40_shop/main.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -320,6 +398,7 @@
         <watch expression="getcwd()" language="PHP" />
         <watch expression="config('content_path')" language="PHP" />
         <watch expression="$json" />
+        <watch expression="config('pretty_uri') || $uri == '' ? '' : '?page='" language="PHP" />
       </configuration>
       <configuration name="min_max.php">
         <watch expression="$people[$i]" language="PHP" />

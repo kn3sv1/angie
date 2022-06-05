@@ -41,7 +41,7 @@ class StudentTable
             $rows[] = new TableRow($student->toArray(), $style);
         }
 
-        $table = new Table($rows);
+        $table = new MyTable($rows);
         $table->printTable();
     }
 }
