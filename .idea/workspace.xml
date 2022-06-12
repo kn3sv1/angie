@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson100_html_cats/paphos/paphos1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson100_html_cats/paphos/paphos1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson100_html_cats/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson100_html_cats/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson100_html_cats/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson100_html_cats/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson100_html_cats/paphos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson100_html_cats/paphos/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,25 +61,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson100_html_cats/paphos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson101_dynamic_cats" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats\template" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson35_class_is_a__has_a\demo" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\classes\bank" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\controller" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson100_html_cats\paphos" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\123PASSWORD" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson50_dom" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\simple_web_site_06_11_2021\content" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson38_session\github_demo" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats\template" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats\data" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson100_html_cats\larnaka" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson100_html_cats\limassol" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -212,7 +215,11 @@
       <workItem from="1654102695543" duration="8154000" />
       <workItem from="1654194731666" duration="4766000" />
       <workItem from="1654367780447" duration="2935000" />
-      <workItem from="1654408060295" duration="4805000" />
+      <workItem from="1654408060295" duration="12105000" />
+      <workItem from="1654619875915" duration="6214000" />
+      <workItem from="1654711528682" duration="2721000" />
+      <workItem from="1654797181911" duration="4345000" />
+      <workItem from="1655009080826" duration="21332000" />
     </task>
     <servers />
   </component>
@@ -359,6 +366,16 @@
           <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
           <line>52</line>
           <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson101_dynamic_cats/index.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson101_dynamic_cats/index.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lesson40_shop/main.js</url>

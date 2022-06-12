@@ -1,0 +1,23 @@
+[
+  {
+    "href": "/angie/lesson32_blog/step2/",
+    "text": "home"
+  },
+  {
+    "href": "/angie/lesson32_blog/step2/?page=posts",
+    "text": "posts"
+  },
+  {
+    "href": "/angie/lesson32_blog/step2/?page=about-me",
+    "text": "about me"
+  },
+  {
+    "href": "/angie/lesson32_blog/step2/?page=book-orders",
+    "text": "book orders"
+  },
+  {
+    "href": "/angie/lesson32_blog/step2/?page=podcasts",
+    "text": "podcasts"
+  }
+
+]
