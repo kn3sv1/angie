@@ -20,7 +20,6 @@ if (!empty($_POST['username'])) {
 }
 
 
-
 if (empty($_SESSION['user'])) { ?>
 <form action="" method="post" enctype="multipart/form-data">
     <span style="color:#3333ff; font-weight: bold">USER NAME:</span><br />
@@ -36,4 +35,5 @@ if (empty($_SESSION['user'])) { ?>
 <br /><br />
 <?php } else {
     echo 'Good morning ' . $_SESSION['user']['name'];
+    echo '<br /><br />';
 }  ?>

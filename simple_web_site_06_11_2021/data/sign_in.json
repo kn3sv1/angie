@@ -3,5 +3,20 @@
         "name": "Angie",
         "surname": "Neophytou",
         "password": "1234AddMe"
+    },
+    {
+        "name": "angie",
+        "surname": "",
+        "password": ""
+    },
+    {
+        "name": "Elena",
+        "surname": "Christodoulou",
+        "password": "Happy4458"
+    },
+    {
+        "name": "Ang",
+        "surname": "Neophytou",
+        "password": "1234AddMe"
     }
 ]

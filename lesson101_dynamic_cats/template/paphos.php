@@ -1,10 +1,12 @@
 <?php
-$pageTitle = 'Cat of Paphos';
+$pageTitle = 'Cats of Paphos';
 include_once 'template/header.php';
-?>
-<?php include_once 'template/menu.php'; ?>
-<?php
+
+include_once 'template/menu.php';
+
 $cats = getCatsByCity($cats, 'Paphos');
 include_once 'template/cat_list.php';
-?>
-<?php include_once 'template/footer.php'; ?>
+
+include_once 'fav_cats_city/paphos.php';
+
+include_once 'template/footer.php';

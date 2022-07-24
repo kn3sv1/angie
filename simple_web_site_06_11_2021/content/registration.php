@@ -5,8 +5,17 @@
 
 $sign_in = getInfo();
 
+$errors = array();
 
-if (!empty($_POST['name'])) {
+if (!empty($_POST)) {
+
+    $errors = validation($errors, 'name');
+    $errors = validation($errors, 'surname');
+    $errors = validation($errors, 'password');
+
+}
+
+if (!empty($_POST['name']) && empty($errors)) {
     echo '<p style="color:green">succesfully submitted</p>';
     $newArray = [];
     $newArray['name'] = $_POST['name'];
@@ -32,7 +41,7 @@ if (!empty($_POST['name'])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>cats info page</title>
+    <title>Registration page</title>
 </head>
 <body>
 <h2 style="color:#000099">To sign in enter your information bellow</h2>
@@ -40,15 +49,15 @@ if (!empty($_POST['name'])) {
 <form action="" method="post" enctype="multipart/form-data">
     <span style="color:#3333ff; font-weight: bold">NAME:</span><br />
     <input type="text" name="name" value="">
-    <?php //printErrors($userErrors, 'name'); ?>
+    <?php printErrors($errors, 'name'); ?>
     <br /><br />
     <span style="color:#3333ff; font-weight: bold">SURNAME:</span><br />
     <input type="text" name="surname" value="">
-    <?php //printErrors($userErrors, 'color'); ?>
+    <?php printErrors($errors, 'surname'); ?>
     <br /><br />
     <span style="color:#3333ff; font-weight: bold">PASSWORD:</span><br />
     <input type="text" name="password" value="">
-    <?php //printErrors($userErrors, 'color'); ?>
+    <?php printErrors($errors, 'password'); ?>
     <br /><br />
 <br /><br /><br /><br />
 <!--    Upload your photo here:-->

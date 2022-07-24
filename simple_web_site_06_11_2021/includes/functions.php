@@ -43,14 +43,16 @@ function nav_menu($sep = ' | ')
 
     foreach ($nav_items as $uri => $name) {
         //$query_string = 'about-us'
-        $query_string = str_replace('page=', '', $_SERVER['QUERY_STRING'] ?? '');
+        //$query_string = str_replace('page=', '', $_SERVER['QUERY_STRING'] ?? '');
+        $query_string = str_replace('page=', '', $_SERVER['QUERY_STRING']);
         $class = $query_string == $uri ? ' active' : '';
         //$q = config('pretty_uri') || $uri == '' ? '' : '?page=';
         $q = $uri == '' ? '' : '?page=';
         $url = config('site_url') . '/' . $q . $uri;
 
         // Add nav item to list. See the dot in front of equal sign (.=)
-        $nav_menu[] = '<a href="' . $url . '" title="' . $name . '" class="item ' . $class . '">' . $name . '</a>' ;
+        $final_link = '<a href="' . $url . '" title="' . $name . '" class="item ' . $class . '">' . $name . '</a>' ;
+        $nav_menu[] = $final_link;
         // $nav_menu .= 'world' MEANS: $nav_menu = $nav_menu . 'world'
     }
 
@@ -122,4 +124,20 @@ function saveInfo(array  $sign_in) {
     $file = "data/sign_in.json";
     $json = json_encode($sign_in, JSON_PRETTY_PRINT);
     file_put_contents($file, $json);
+}
+
+function validation($errors, $key) {
+    if (empty($_POST[$key])) {
+        $errors[$key] = '*Required field';
+    } elseif (strlen($_POST[$key]) < 3) {
+        $errors[$key] = 'Characters need to be more than 3';
+    }
+
+    return $errors;
+}
+
+function printErrors($errors, $key) {
+    if (!empty($errors[$key])) {
+        echo '<span style="color:red">' . $errors[$key] .'</span>';
+    }
 }

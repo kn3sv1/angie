@@ -1,10 +1,13 @@
 <?php
-$pageTitle = 'Cat of Larnaka';
+$pageTitle = 'Cats of Larnaka';
+
 include_once 'template/header.php';
-?>
-<?php include_once 'template/menu.php'; ?>
-<?php
+
+include_once 'template/menu.php';
+
 $cats = getCatsByCity($cats, 'Larnaka');
 include_once 'template/cat_list.php';
-?>
-<?php include_once 'template/footer.php'; ?>
+
+include_once 'fav_cats_city/larnaka.php';
+
+include_once 'template/footer.php';

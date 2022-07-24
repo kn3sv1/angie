@@ -3,9 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson100_html_cats/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson100_html_cats/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson100_html_cats/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson100_html_cats/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson100_html_cats/paphos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson100_html_cats/paphos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/data/top_menu_nav.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/template/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/template/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/template/larnaka.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/template/larnaka.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/template/limassol.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/template/limassol.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/template/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/template/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/template/paphos.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/template/paphos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/login_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/login_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/data/sign_in.json" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/data/sign_in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,10 +70,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson101_dynamic_cats" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson38_1_session_cookie" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -75,11 +84,11 @@
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson38_1_session_cookie" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson51_ajax" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats\template" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats\data" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson100_html_cats\larnaka" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson100_html_cats\limassol" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,7 +228,32 @@
       <workItem from="1654619875915" duration="6214000" />
       <workItem from="1654711528682" duration="2721000" />
       <workItem from="1654797181911" duration="4345000" />
-      <workItem from="1655009080826" duration="21332000" />
+      <workItem from="1655009080826" duration="29363000" />
+      <workItem from="1655104871470" duration="19700000" />
+      <workItem from="1655228280080" duration="4512000" />
+      <workItem from="1655543377656" duration="10297000" />
+      <workItem from="1655626105482" duration="11231000" />
+      <workItem from="1655753236481" duration="2879000" />
+      <workItem from="1655838182643" duration="4022000" />
+      <workItem from="1655919878724" duration="5047000" />
+      <workItem from="1656008184849" duration="3270000" />
+      <workItem from="1656130260247" duration="2161000" />
+      <workItem from="1656216849754" duration="5602000" />
+      <workItem from="1656437579938" duration="4564000" />
+      <workItem from="1656524611586" duration="3747000" />
+      <workItem from="1656610372742" duration="5234000" />
+      <workItem from="1656753100399" duration="3164000" />
+      <workItem from="1656791725917" duration="2919000" />
+      <workItem from="1656832413011" duration="4244000" />
+      <workItem from="1656953990387" duration="5493000" />
+      <workItem from="1657131458425" duration="3826000" />
+      <workItem from="1657430837818" duration="3182000" />
+      <workItem from="1657647529946" duration="4008000" />
+      <workItem from="1658035786340" duration="9193000" />
+      <workItem from="1658163878026" duration="4691000" />
+      <workItem from="1658256013600" duration="4182000" />
+      <workItem from="1658332830472" duration="9668000" />
+      <workItem from="1658670635382" duration="4940000" />
     </task>
     <servers />
   </component>
@@ -299,7 +333,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
-          <line>56</line>
+          <line>58</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -363,19 +397,19 @@
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
-          <line>52</line>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/lesson101_dynamic_cats/index.php</url>
           <line>7</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/lesson101_dynamic_cats/index.php</url>
-          <line>17</line>
+          <line>22</line>
           <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
+          <line>54</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lesson40_shop/main.js</url>
