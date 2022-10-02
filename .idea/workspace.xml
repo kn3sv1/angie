@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/01-color-flipper/final/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/01-color-flipper/final/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/01-color-flipper/final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/01-color-flipper/final/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/02-counter/final/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/02-counter/final/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/02-counter/final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/02-counter/final/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson50_dom/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson50_dom/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/data/sign_in.json" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/data/sign_in.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +258,7 @@
       <workItem from="1664103372843" duration="5396000" />
       <workItem from="1664297886572" duration="5628000" />
       <workItem from="1664610059235" duration="9718000" />
-      <workItem from="1664683532187" duration="5358000" />
+      <workItem from="1664683532187" duration="8459000" />
     </task>
     <servers />
   </component>

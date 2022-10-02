@@ -3,7 +3,7 @@
     <button onclick="decrease()">decrease</button>
     <button onclick="reset()">reset</button>
     <button onclick="increase()">increase</button>
-    <button onclick="increaseBy2()">increase by 2</button>
+    <button name="Angie" value="increase by 2+" class="Roma katerina" onclick="increaseBy2(this, 'angie', 123)">increase by 2+</button>
 </div>
 <script>
     let count = 0;
@@ -26,8 +26,19 @@
         showCount();
     }
 
-    function increaseBy2() {
+    function increaseBy2(element, param1, param2) {
+        //https://www.w3schools.com/jsref/dom_obj_pushbutton.asp
+        //HTMLButtonElement
+        console.log(element.constructor, param1, param2);
+
+        //console.log(element.name, element.className, element.classList);
+        console.log(element.classList);
+
+        console.log(element.textContent, element.innerHTML);
+
         count = count + 2;
         showCount();
+
+        element.innerHTML = element.value + " Count:" + count;
     }
 </script>
