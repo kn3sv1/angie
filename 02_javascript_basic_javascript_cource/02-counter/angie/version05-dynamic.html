@@ -1,0 +1,88 @@
+<div id="content"></div>
+<style type="text/css">
+    #body {
+        font-weight: bold;
+    }
+    .special {
+        background-color: greenyellow;
+    }
+</style>
+<script type="text/javascript">
+    //array of numbers
+    let example1 = [1,60,90,78,55];
+    example1.forEach(function (num, index) {
+        console.log(num, index);
+    });
+
+    //array of string
+    let example2 = ["Angie", "Katerina", "George"];
+    example2.forEach(function (num, index) {
+        console.log(num, index);
+    });
+
+    //array of objects { }
+    //inside are properties: name, age, status
+    let example3 = [
+        {name: "Angie", age: 20},
+        {name: "Katerina", age: 60, status: "malaka"},
+        {name: "George", age: 36},
+    ];
+    example3.forEach(function (num, index) {
+        console.log(num, index);
+    });
+
+
+    //array of objects
+    //LET's say we received this JSON from PHP server
+    let people = [
+        {
+            name: 'Angie',
+            age: 38,
+            photo: "../../photos/Angie.png",
+            //we receive this info bellow from server and javascript we DONT touch it is more professional
+            //to make changes in server
+            isSpecial: true,
+        },
+        {
+            name: 'George',
+            age: 36,
+            photo: "../../photos/George.png",
+            isSpecial: false,
+        },
+        {
+            name: 'Katerina',
+            age: 60,
+            photo: "../../photos/Katerina.png",
+            isSpecial: true,
+        },
+    ];
+
+    let html = [];
+    //foreach goes through people array and calls function and passes arguments
+    //element of array and index
+    people.forEach(function (person, index) {
+        // https://www.w3schools.com/js/js_string_templates.asp
+
+        //if isSpecial = true
+        if (person.isSpecial) {
+            html.push(`<button class="special" onclick="show(${index})">Show ${person.name}</button>`);
+        } else {
+            html.push(`<button onclick="show(${index})">Show ${person.name}</button>`);
+        }
+    });
+    html.push('<div id="body"></div>');
+
+    document.getElementById("content").innerHTML = html.join('<br /><br />');
+
+
+    function show(index) {
+        let person = people[index];
+        let text = `
+            <div>Name: ${person.name}</div>
+            <div>Age: ${person.age}</div>
+            <div><a href="#${person.name}" >Page of ${person.name}</a></div>
+            <div><img src="${person.photo}" height="200" /></div>
+        `;
+        document.getElementById("body").innerHTML = text;
+    }
+</script>

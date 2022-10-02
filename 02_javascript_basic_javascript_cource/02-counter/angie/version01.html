@@ -4,11 +4,16 @@
     <button onclick="reset()">reset</button>
     <button onclick="increase()">increase</button>
     <button name="Angie" value="increase by 2+" class="Roma katerina" onclick="increaseBy2(this, 'angie', 123)">increase by 2+</button>
+
+    <br />
+    <img id="angie-photo" src="../../photos/Angie.png" width="100" />
 </div>
 <script>
     let count = 0;
     function showCount() {
         document.getElementById("value").innerHTML = count;
+
+        document.getElementById("angie-photo").style.width = 100 + (10* count);
     }
 
     function decrease() {
