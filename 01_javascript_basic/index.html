@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my title</title>
+</head>
+<body>
+<h2>Create Object from JSON String</h2>
+
+<p id="demo"></p>
+
+<script>
+    let text = '{"employees":[' +
+        '{"firstName":"John","lastName":"Doe" },' +
+        '{"firstName":"Anna222","lastName":"Smith222" },' +
+        '{"firstName":"Katerina","lastName":"Neophytou" },' +
+        '{"firstName":"Peter","lastName":"Jones" }]}';
+
+    //class JSON has method parse that parses string to object
+    //let obj = JSON.parse(text);
+
+    //It is object and not string. So you dont need to parse anything
+    let obj = {
+      "employees": [
+          {"firstName":"Angie","lastName":"Neophytou","age":18,"photo":"photos/Angie.png"},
+          {"firstName":"Elena","lastName":"Christodoulou","age":10,"photo":"photos/Elena.png"},
+          {"firstName":"George","lastName":"Neophytou","age":16,"photo":"photos/George.png"},
+          {"firstName":"Katerina","lastName":"Diomidous","age":60,"photo":"photos/George.png"},
+      ]
+    };
+
+    obj.employees.push({"firstName":"Marios","lastName":"Malakas","age":45,"photo":"photos/Marios.png"});
+
+
+    console.log(obj);
+
+    //document.getElementById("demo").innerHTML = obj.employees[2].firstName + " " + obj.employees[2].lastName;
+
+    document.getElementById("demo").innerHTML =
+        '<span style="color: green;font-size:20px">' + obj.employees[2].firstName + '</span> <span style="color: red">' + obj.employees[2].lastName + '</span>';
+
+
+    let text2 = "";
+
+    for (let i = 0; i < obj.employees.length; i++) {
+        let myColor = "green";
+        if (obj.employees[i].age < 18) {
+            myColor = "red";
+        }
+        text2 = text2
+            + '<span style="color: ' + myColor + ';font-size:20px">' + obj.employees[i].firstName + '</span>'
+            + ' '
+            + obj.employees[i].lastName
+            + ' '
+            + obj.employees[i].age
+            + "<br><br>"
+            + '<img src="' + obj.employees[i].photo + '" />'
+            + "<br><br><br>";
+
+    }
+    console.log(text2);
+
+    document.getElementById("demo").innerHTML = text2;
+
+</script>
+
+
+<p><span style="color: green;font-size:20px">Angie</span> <span style="color: red">Neophytou</span></p>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Demo JavaScript in Body</h2>
+
+<p id="demo"></p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+    function myFunction() {
+        // innerText means to get only text ('Roma') without any HTML (<span></span>)
+        var oldText = document.getElementById("demo").innerText;
+        var newText = '';
+        if (oldText == 'Roma') {
+            newText = "<span style='color: #ba2222'>Angie</span>";
+        } else if (oldText == 'Angie') {
+            newText = "<span style='color: #00ba25'>Roma</span>";
+        } else {
+            //if we dont write text in paragraph and click button it will show text inside var newText
+            newText = "<span style='color: #00ba25'>Roma</span>";
+        }
+        // we cannot set document.getElementById("demo").innerText = newText; because it will show only text
+        // <span style='color: #00ba25'>Roma</span> in browser
+        // without last line nothing will work because we didnt say browser to update html with our newText so it will show nothing
+        document.getElementById("demo").innerHTML = newText;
+    }
+</script>
+
+</body>
+</html>

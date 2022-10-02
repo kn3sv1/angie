@@ -28,6 +28,12 @@ function login_form()
 {
     $path = getcwd() . '/' . config('content_path') . '/login_form.php';
     include_once $path;
+
+//  Both will work - code above and bellow, just the above code is more professional and good practice for programmers to
+//  assign the full current working directory to include the desired file.
+
+//      $path = config('content_path') . '/login_form.php';
+//      include_once $path;
 }
 
 /**

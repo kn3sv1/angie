@@ -7,9 +7,9 @@
     <title><?php page_title(); ?> | <?php site_name(); ?></title>
     <link href="<?php site_url(); ?>/<?php echo config('template_path') ; ?>/style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-<div class="wrap">
-    <h2>Learn PHP</h2>
+<body style="background-color: lightblue">
+<div class="wrap" style="background-color: white">
+    <h2>Welcome to our website</h2>
     <header>
         <h1><?php site_name(); ?></h1>
         <div class="login">

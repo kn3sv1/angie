@@ -18,5 +18,10 @@
         "name": "Ang",
         "surname": "Neophytou",
         "password": "1234AddMe"
+    },
+    {
+        "name": "Katerina",
+        "surname": "Diomidous",
+        "password": "1234"
     }
 ]

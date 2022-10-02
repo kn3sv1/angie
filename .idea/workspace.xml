@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/data/top_menu_nav.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/template/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/template/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/template/larnaka.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/template/larnaka.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/template/limassol.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/template/limassol.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/template/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/template/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/template/paphos.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/template/paphos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/login_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/login_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/01-color-flipper/final/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/01-color-flipper/final/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/01-color-flipper/final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/01-color-flipper/final/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/02-counter/final/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/02-counter/final/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/02-counter/final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_javascript_basic_javascript_cource/02-counter/final/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson50_dom/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson50_dom/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/data/sign_in.json" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/data/sign_in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/template/template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/02_javascript_basic_javascript_cource" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="PhpServers">
@@ -70,25 +69,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson38_1_session_cookie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02_javascript_basic_javascript_cource/02-counter/angie" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\02_javascript_basic_javascript_cource\02-counter\angie" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\02_javascript_basic_javascript_cource" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\01_javascript_basic" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson38_1_session_cookie" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson51_ajax" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats\template" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson35_class_is_a__has_a\demo" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\classes\bank" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson38_1_session_cookie" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson51_ajax" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats\template" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -102,6 +101,11 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="debuger javascript" type="JavascriptDebugType" uri="http://html5.local/">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -253,7 +257,19 @@
       <workItem from="1658163878026" duration="4691000" />
       <workItem from="1658256013600" duration="4182000" />
       <workItem from="1658332830472" duration="9668000" />
-      <workItem from="1658670635382" duration="4940000" />
+      <workItem from="1658670635382" duration="5406000" />
+      <workItem from="1658739470338" duration="3570000" />
+      <workItem from="1658828889490" duration="2445000" />
+      <workItem from="1658923301691" duration="5313000" />
+      <workItem from="1660202472269" duration="4798000" />
+      <workItem from="1660293312360" duration="10387000" />
+      <workItem from="1662810368533" duration="4278000" />
+      <workItem from="1662884769170" duration="9971000" />
+      <workItem from="1663436080055" duration="841000" />
+      <workItem from="1664103372843" duration="5396000" />
+      <workItem from="1664297886572" duration="5628000" />
+      <workItem from="1664610059235" duration="9718000" />
+      <workItem from="1664683532187" duration="5358000" />
     </task>
     <servers />
   </component>
@@ -333,7 +349,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
-          <line>58</line>
+          <line>64</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -408,8 +424,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php</url>
-          <line>54</line>
+          <line>60</line>
           <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lesson39_ajax_form/user.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lesson40_shop/main.js</url>
@@ -429,6 +450,10 @@
       <configuration name="min_max.php">
         <watch expression="$people[$i]" language="PHP" />
         <watch expression="$person" language="PHP" />
+      </configuration>
+      <configuration name="JavascriptDebugType">
+        <watch expression="e.currentTarget" language="JavaScript" />
+        <watch expression="e.currentTarget.attributes" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>

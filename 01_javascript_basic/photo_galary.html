@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .small-gallery {
+            height: 70px;
+            border: 2px solid #ba2222;
+            cursor: pointer;
+        }
+    </style>
+    <script type="text/javascript">
+        var people = {
+            Angie: {
+                personInfo: "<span style='color: #ba2222;font-weight: bold'>Angie</span> was born in limassol",
+                age: 38
+            },
+            Elena: {
+                personInfo: "Elena was born in paphos",
+                age: 38
+            },
+            George: {
+                personInfo: "George was born in limassol",
+                age: 36
+            },
+            Katerina: {
+                personInfo: "Katerina was born in paphos",
+                age: 60
+            },
+            Marios: {
+                personInfo: "Marios was born in hell",
+                age: 41
+            },
+        };
+        //showMainPhoto(this) = document.getElementById("element");
+        // element = <img TAG  with ALL ATTRIBUTEs
+        function showMainPhoto(element) {
+            //console.log(element.src);
+            document.getElementById("main-photo").src = element.src;
+
+            //we added custom attribute function to get value of attribute with data-id
+            //console.log(element.getAttribute('data-id'));
+            var key = element.getAttribute('data-id');
+            var ageStyle = '';
+            var age = people[key].age;
+            //debugger pauses execution in browser so you can check if code works properly in source tab(browser)
+            //debugger;
+            if (age > 50) {
+                ageStyle = 'color: red';
+            } else if (age <= 40) {
+                ageStyle = 'color: blue';
+            }
+
+            document.getElementById("main-info").innerHTML = people[key].personInfo
+                + "<p style='" + ageStyle + "'>Age is: " + age +  "</p>";
+        }
+    </script>
+</head>
+<body>
+
+<img onclick="showMainPhoto(this)" class="small-gallery" src="photos/Angie.png" data-id="Angie" />&nbsp;&nbsp;
+<img onclick="showMainPhoto(this)" class="small-gallery" src="photos/Elena.png" data-id="Elena" />&nbsp;&nbsp;
+<img onclick="showMainPhoto(this)" class="small-gallery" src="photos/George.png" data-id="George" />&nbsp;&nbsp;
+<img onclick="showMainPhoto(this)" class="small-gallery" src="photos/Katerina.png" data-id="Katerina" />&nbsp;&nbsp;
+<img onclick="showMainPhoto(this)" class="small-gallery" src="photos/Marios.png" data-id="Marios" /><br /><br /><br />
+
+<img id="main-photo" height="300" src="photos/Angie.png" /><br />
+<p id="main-info"></p>
+</body>
+</html>
