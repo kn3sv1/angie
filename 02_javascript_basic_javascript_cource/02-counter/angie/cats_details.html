@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat details</title>
+    <style type="text/css">
+        .button {
+            /* https://www.w3schools.com/html/html_blocks.asp */
+            margin-right: 10px;
+            /*display: block;*/
+            /*float: left;*/
+        }
+        .button-mouseover {
+            background-color: #aaa6ff;
+        }
+    </style>
+</head>
+<body>
+
+<div id="buttons"></div>
+<br /><br /><div id="body"></div>
+<button class="button" onmouseout="removeColor(this)"  onmouseover="setColor(this)">PROFESSIONAL WAY</button>
+
+<script type="text/javascript">
+
+    let cats = [
+        {
+            name: 'Teadaki',
+            age: 4,
+            city: 'limassl',
+            photo: "../../../cats/photos_of_cats/tedaki.png",
+        },
+        {
+            name: 'Ginger',
+            age: 3,
+            city: 'limassol',
+            photo: "../../../cats/photos_of_cats/ginger.png",
+        },
+        {
+            name: 'Hitler',
+            age: 2,
+            city: 'paphos',
+            photo: "../../../cats/photos_of_cats/hitler.png",
+        },
+    ];
+
+    let html = [];
+    //https://www.w3schools.com/js/js_string_templates.asp
+
+    cats.forEach(function (cat, index) {
+        // when we have variables in code $ we use backslash ` otherwise will not show values
+        //not productive way
+        //html.push(`<button class="button" onmouseout="this.style.backgroundColor='buttonface'" onmouseover="this.style.backgroundColor='#aaa6ff'" onclick="show_cats(${index})">${cat.name} Info</button>`);
+        html.push(`<button class="button" onmouseout="removeColor(this)"  onmouseover="setColor(this)" onclick="show_cats(${index})">${cat.name} Info</button>`);
+    });
+    //html.push('<div id="body"></div>');
+    //let htmlString = html.join('<br /><br />');
+    //join buttons with space not to show comma after each button
+    let htmlString = html.join('');
+
+    document.getElementById("buttons").innerHTML = htmlString;
+
+    //when we declare a variable in javascript eg. let cat we dont use $ but when we express the variable
+    //in a string or html tags we need to do this ${cat}
+    function show_cats(index) {
+        let cat = cats[index];
+        let details = `
+            <div>Name: ${cat.name}</div>
+            <div>Age: ${cat.age}</div>
+            <div>City: ${cat.city}</div>
+            <div><img src="${cat.photo}" height="200" /></div>
+        `;
+    document.getElementById("body").innerHTML = details;
+    }
+
+    function setColor(element) {
+        element.classList.add('button-mouseover');
+    }
+
+    function removeColor(element) {
+        element.classList.remove('button-mouseover');
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .task_item {
+           padding-top: 10px;
+           padding-bottom: 10px;
+           padding-left: 10px;
+        }
+
+        .task_accounting {
+            background-color: #539def;
+        }
+    </style>
+    <script type="text/javascript">
+        //we use taskcounter to get unique id for each task. Id generator
+        let taskCounter = 0;
+        function addTask() {
+            let text = document.getElementById("task").value;
+            let person = document.getElementById("task_person").value;
+            let photo = document.getElementById("task_photo").value;
+            //validate here dont go more down stop if errors
+
+            if (text === '' || person === '' || photo === '') {
+                alert('required field');
+                return;
+            }
+
+            let cssClass = text === 'accounting' ? 'task_accounting' : '';
+
+            // document.getElementById("task").value = ''; //reset to empty input field
+            // document.getElementById("task_person").value = ''; //reset to empty input field
+            // document.getElementById("task_photo").value = ''; //reset to empty input field
+
+            let tasks = document.getElementById("tasks");
+            tasks.innerHTML = tasks.innerHTML +  `
+                <div class="task_item ${cssClass}" id="task${taskCounter}">
+                    <input type="text" id="task${taskCounter}" name="task${taskCounter}" value="${text}">&nbsp;
+                    <input type="text" id="task_person${taskCounter}" name="task_person${taskCounter}" value="${person}">&nbsp;
+                    <input type="text" id="task_photo${taskCounter}" name="task_photo${taskCounter}" value="${photo}">&nbsp;
+                    <img height="100" src="${photo}" />&nbsp;
+                    <button type="button" onclick="removeTask('task${taskCounter}')">Remove Task ${taskCounter}</button>
+                </div>
+            `;
+            taskCounter++;
+        }
+
+        function removeTask(id) {
+            //.task_item = we replaced html br with css class not to have empty space after we remove button
+            document.getElementById(id).remove();
+        }
+    </script>
+</head>
+<body>
+<p>Generate dynamically input elements in form = array of tasks what to do <strong>../cats/photos_of_cats/hitler.png</strong><br />
+<strong>https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=620&quality=85&dpr=1&s=none</strong>
+</p>
+<label for="task">Task Subject:</label>
+<input type="text" id="task" name="task" placeholder="enter your subject">&nbsp;
+<label for="task_person">Task Person:</label>
+<input type="text" id="task_person" name="task_person" placeholder="enter your name">&nbsp;
+<input type="text" id="task_photo" name="task_photo" placeholder="enter your src: ../../../cats/photos_of_cats/hitler.png">&nbsp;
+<button type="button" onclick="addTask()">Add Task</button><br><br>
+<form action="">
+    <div id="tasks">
+    </div>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

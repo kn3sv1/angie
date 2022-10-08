@@ -1,4 +1,6 @@
 <div id="content"></div>
+<p id="text"></p>
+<p id="text1"></p>
 <style type="text/css">
     #body {
         font-weight: bold;
@@ -10,14 +12,22 @@
 <script type="text/javascript">
     //array of numbers
     let example1 = [1,60,90,78,55];
+    let angie = document.getElementById("text");
     example1.forEach(function (num, index) {
         console.log(num, index);
+        //+= this will take what you have and append more
+        // if we dont append with += the foreach loop will destroy what we had before and only
+        // show the last iteration
+        angie.innerHTML += 'num:' + num + ' index:' + index + '<br />';
     });
 
     //array of string
     let example2 = ["Angie", "Katerina", "George"];
+    let angie1 = document.getElementById("text1");
     example2.forEach(function (num, index) {
         console.log(num, index);
+
+        angie1.innerHTML += 'Name:' + ' ' + num + ' ' + 'index:' + ' ' + index + '<br />';
     });
 
     //array of objects { }
@@ -71,8 +81,10 @@
         }
     });
     html.push('<div id="body"></div>');
+    let htmlString = html.join('<br /><br />');
 
-    document.getElementById("content").innerHTML = html.join('<br /><br />');
+    //to display all buttons in HTML without this it will not show anything
+    document.getElementById("content").innerHTML = htmlString;
 
 
     function show(index) {

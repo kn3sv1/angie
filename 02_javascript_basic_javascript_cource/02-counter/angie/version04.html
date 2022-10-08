@@ -1,8 +1,12 @@
 <span id="value">0</span>
+    <br /><br />
 <div class="button-container">
     <button class="btn decrease roma">decrease</button>
     <button class="btn reset">reset</button>
     <button class="btn increase">increase</button>
+
+    <br /><br />
+    <img id="angie-photo" src="../../photos/Angie.png" width="100" />
 </div>
 <script>
     let count = 0;
@@ -18,6 +22,7 @@
 
     function showCount() {
         document.getElementById("value").innerHTML = count;
+        document.getElementById("angie-photo").style.width = 100 + (10* count);
     }
 
     function operation(element) {

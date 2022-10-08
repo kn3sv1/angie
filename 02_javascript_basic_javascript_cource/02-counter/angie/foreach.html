@@ -1,0 +1,39 @@
+<script type="text/javascript">
+    let cats = [
+        {
+            name: 'Teadaki',
+            age: 4,
+            city: 'limassl',
+            photo: "../../../cats/photos_of_cats/tedaki.png",
+        },
+        {
+            name: 'Ginger',
+            age: 3,
+            city: 'limassol',
+            photo: "../../../cats/photos_of_cats/ginger.png",
+        },
+        {
+            name: 'Hitler',
+            age: 2,
+            city: 'paphos',
+            photo: "../../../cats/photos_of_cats/hitler.png",
+        },
+    ];
+
+    //callbackfn
+    // https://www.w3schools.com/jsref/jsref_foreach.asp
+    // https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_foreach
+
+    // https://www.w3schools.com/js/js_function_definition.asp
+    cats.forEach(angieFn);
+
+
+    angieFn(cats[0], 0);
+    angieFn(cats[1], 1);
+    angieFn(cats[2], 2);
+
+    function angieFn(argument1, index1) {
+        console.log(argument1, index1);
+    }
+
+</script>
