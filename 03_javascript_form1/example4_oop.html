@@ -44,7 +44,7 @@
         }
     }
 
-    class RadioButton
+    class RadioButtonElement
     {
         //id is optional by default = null
         constructor(name, value, id = null) {
@@ -74,16 +74,16 @@
     demo.innerHTML += "<br />The same family? " + angieCarObject.isTheSameFamilyOwner(georgeCarObject);
 
 
-    demo.innerHTML += "<br /><br />RadioButton example:";
+    demo.innerHTML += "<br /><br />RadioButton example (Client - place in code where you use this class - PROGRAMMER don't need to think about HTML):";
 
-    const radio1 = new RadioButton('age', 20, 'age0');
+    const radio1 = new RadioButtonElement('age', 20, 'age0');
     demo.innerHTML += "<br />" + radio1.getHTML();
 
-    const radio2 = new RadioButton('age', 60, 'age1');
+    const radio2 = new RadioButtonElement('age', 60, 'age1');
     demo.innerHTML += "<br />" + radio2.getHTML();
 
     //ID is optional - we not always need it
-    const radio3 = new RadioButton('age', 100);
+    const radio3 = new RadioButtonElement('age', 100);
     demo.innerHTML += "<br />" + radio3.getHTML();
 </script>
 
