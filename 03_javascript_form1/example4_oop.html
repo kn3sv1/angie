@@ -55,8 +55,11 @@
 
         getHTML() {
             //use 2 times = so I have made variable optional
+            // https://www.w3schools.com/react/react_es6_ternary.asp
             const idString = `${this.id ? `id="${this.id}"` : ''}`;
-            return `<input type="radio" ${idString} name="${this.name}" value="${this.value}"><label for="${idString}">${this.value}</label>`;
+            const idForString = `${this.id ? `for="${this.id}"` : ''}`;
+            //debugger;
+            return `<input type="radio" ${idString} name="${this.name}" value="${this.value}"><label ${idForString}>${this.value}</label>`;
         }
     }
 
