@@ -44,6 +44,22 @@
         }
     }
 
+    class RadioButton
+    {
+        //id is optional by default = null
+        constructor(name, value, id = null) {
+            this.name = name;
+            this.value = value;
+            this.id = id;
+        }
+
+        getHTML() {
+            //use 2 times = so I have made variable optional
+            const idString = `${this.id ? `id="${this.id}"` : ''}`;
+            return `<input type="radio" ${idString} name="${this.name}" value="${this.value}"><label for="${idString}">${this.value}</label>`;
+        }
+    }
+
     let demo = document.getElementById("demo");
 
     const angieCarObject = new Car("Angie Neophytou", "Toyota", 2015);
@@ -55,7 +71,17 @@
     const romanCarObject = new Car("Roman Satanovskyi", "Toyota", 2008);
     demo.innerHTML += romanCarObject.getModel();
 
-    demo.innerHTML += "THe same family? " + angieCarObject.isTheSameFamilyOwner(georgeCarObject);
+    demo.innerHTML += "<br />The same family? " + angieCarObject.isTheSameFamilyOwner(georgeCarObject);
+
+    const radio1 = new RadioButton('age', 20, 'age0');
+    demo.innerHTML += "<br />" + radio1.getHTML();
+
+    const radio2 = new RadioButton('age', 60, 'age1');
+    demo.innerHTML += "<br />" + radio2.getHTML();
+
+    //ID is optional - we not always need it
+    const radio3 = new RadioButton('age', 100);
+    demo.innerHTML += "<br />" + radio3.getHTML();
 </script>
 
 </body>
