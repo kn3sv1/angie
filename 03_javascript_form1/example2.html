@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select id="framework">
+    <option value="1">Angular</option>
+    <option value="2">React</option>
+    <option value="3" selected>Vue.js</option>
+    <option value="4">Ember.js</option>
+</select>
+<br><br>
+<input type="radio" id="age1" name="age" value="30">
+<label for="age1">0 - 30</label><br>
+<input type="radio" id="age2" name="age" value="60">
+<label for="age2">31 - 60</label><br>
+<input type="radio" id="age3" name="age" value="100">
+<label for="age3">61 - 100</label><br><br>
+
+<script type="text/javascript">
+    const framework = document.getElementById('framework');
+    //console.log(framework.value);
+
+    framework.value = 2;
+
+    // 3 elements
+    // https://www.w3schools.com/jsref/prop_radio_checked.asp
+    const radioButtons = document.querySelectorAll('input[name="age"]');
+    // i make selected 0,1,2=> this
+    radioButtons[2].checked = true;
+
+
+    //https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/
+
+</script>
+</body>
+</html>

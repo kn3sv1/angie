@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Class</h2>
+
+<p>How to use a JavaScript Class.</p>
+
+<p id="demo"></p>
+
+<script>
+    // https://medium.com/@luke_smaki/javascript-es6-classes-8a34b0a6720a
+    // https://www.javascripttutorial.net/es6/javascript-class/
+    // https://www.geeksforgeeks.org/es6-classes/
+    // https://www.w3schools.com/js/js_classes.asp
+
+    //TEMPLATE = BLUEPRINT = LIKE THE SAME FORMAT
+    class Car {
+        constructor(owner, name, year) {
+            this.owner = owner;
+            this.name = name;
+            this.year = year;
+        }
+
+        getModel() {
+            return "Owner: " + this.owner
+                + " Mode: " + this.name
+                + " Year: " + this.year
+                + " Years  old:" + this.getYearOld()
+                + "<br />";
+        }
+        getYearOld() {
+            return new Date().getFullYear() - this.year;
+        }
+        isTheSameFamilyOwner(anotherCar) {
+            //debugger;
+            //SPLIT OWNER by WHITESPACE
+            let [firstName, lastName] = anotherCar.owner.split(' ');
+            if (this.owner.includes(lastName)) {
+                return  true;
+            }
+
+            return false;
+        }
+    }
+
+    let demo = document.getElementById("demo");
+
+    const angieCarObject = new Car("Angie Neophytou", "Toyota", 2015);
+    demo.innerHTML += angieCarObject.getModel();
+
+    const georgeCarObject = new Car("George Neophytou", "Kia", 2018);
+    demo.innerHTML += georgeCarObject.getModel();
+
+    const romanCarObject = new Car("Roman Satanovskyi", "Toyota", 2008);
+    demo.innerHTML += romanCarObject.getModel();
+
+    demo.innerHTML += "THe same family? " + angieCarObject.isTheSameFamilyOwner(georgeCarObject);
+</script>
+
+</body>
+</html>

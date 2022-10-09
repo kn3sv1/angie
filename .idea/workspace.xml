@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_javascript_form1/example1.html" beforeDir="false" afterPath="$PROJECT_DIR$/03_javascript_form1/example1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,25 +59,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02_javascript_basic_javascript_cource/02-counter/angie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/03_javascript_form1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\03_javascript_form1" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\02_javascript_basic_javascript_cource\02-counter\angie" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\02_javascript_basic_javascript_cource" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\01_javascript_basic" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\lesson38_1_session_cookie" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats\template" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson35_class_is_a__has_a\demo" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\classes\bank" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql" />
       <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\02_javascript_basic_javascript_cource\02-counter\angie" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\02_javascript_basic_javascript_cource" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\01_javascript_basic" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson38_1_session_cookie" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson51_ajax" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,7 +265,8 @@
       <workItem from="1665074032837" duration="9574000" />
       <workItem from="1665115297504" duration="867000" />
       <workItem from="1665162405137" duration="6226000" />
-      <workItem from="1665219564734" duration="10135000" />
+      <workItem from="1665219564734" duration="10386000" />
+      <workItem from="1665291563039" duration="11666000" />
     </task>
     <servers />
   </component>

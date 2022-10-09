@@ -21,10 +21,11 @@
             let text = document.getElementById("task").value;
             let person = document.getElementById("task_person").value;
             let photo = document.getElementById("task_photo").value;
-            //validate here dont go more down stop if errors
 
+                //validate here dont go more down stop if errors
             if (text === '' || person === '' || photo === '') {
                 alert('required field');
+                //same as php die; Do not execute code further down
                 return;
             }
 
@@ -33,6 +34,9 @@
             // document.getElementById("task").value = ''; //reset to empty input field
             // document.getElementById("task_person").value = ''; //reset to empty input field
             // document.getElementById("task_photo").value = ''; //reset to empty input field
+
+
+            //<img height="100" src="${photo}" /> - this is preview to be sure that we copied correctly link
 
             let tasks = document.getElementById("tasks");
             tasks.innerHTML = tasks.innerHTML +  `
@@ -44,11 +48,13 @@
                     <button type="button" onclick="removeTask('task${taskCounter}')">Remove Task ${taskCounter}</button>
                 </div>
             `;
+            //taskcounter = taskcounter + 1;
             taskCounter++;
         }
 
+        //.task_item = we replaced html br with css class not to have empty space after we remove button
+
         function removeTask(id) {
-            //.task_item = we replaced html br with css class not to have empty space after we remove button
             document.getElementById(id).remove();
         }
     </script>
@@ -60,9 +66,12 @@
 <label for="task">Task Subject:</label>
 <input type="text" id="task" name="task" placeholder="enter your subject">&nbsp;
 <label for="task_person">Task Person:</label>
-<input type="text" id="task_person" name="task_person" placeholder="enter your name">&nbsp;
+<input type="text" id="task_person" name="task_person" placeholder="enter your name">
+<label for="task_photo">Task Photo:</label>&nbsp;
 <input type="text" id="task_photo" name="task_photo" placeholder="enter your src: ../../../cats/photos_of_cats/hitler.png">&nbsp;
 <button type="button" onclick="addTask()">Add Task</button><br><br>
+
+<h3>All tasks</h3>
 <form action="">
     <div id="tasks">
     </div>
