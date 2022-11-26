@@ -4,9 +4,11 @@ $name = $_GET['name'];
 $age = $_GET['age'];
 $city = $_GET['city'];
 
-echo "<p style='color:green'>Your name is: $name</p>";
-echo "<p style='color:red'>Your age is: $age</p>";
+
+echo "<p style='color:red'>Your name is: $name</p>";
+echo "<p style='color:green'>Your age is: $age</p>";
 echo "<p style='color:blue'>Your city is: $city</p>";
+
 
 $hobbies = $_GET['hobbies'];
 echo "<p>Hobbies:</p>";

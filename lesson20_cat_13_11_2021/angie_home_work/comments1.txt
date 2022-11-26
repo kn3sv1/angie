@@ -4,5 +4,9 @@
     "Hello world",
     "444444444444448888888888888888",
     "44444444455555",
-    "11111111"
+    "11111111",
+    "hello from Limassol",
+    "Hello from Paphos",
+    "Hello from Paphos",
+    "Hello from South Africa"
 ]

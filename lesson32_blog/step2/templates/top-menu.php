@@ -16,4 +16,5 @@ echo  '<div class="menu">';
 foreach ($menu as $item) {
     echo '<a href="' . $item['href'] . '">' . $item['text'] . '</a>';
 }
+
 echo  '</div>';

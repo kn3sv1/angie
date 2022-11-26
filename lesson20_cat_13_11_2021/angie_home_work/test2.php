@@ -35,7 +35,7 @@ for ($i = 0; $i < count($cats); $i++) {
 		<?php } ?>	
 	</select>
 	&nbsp;
-	&nbsp;  
+
 	<input type="submit" value="SHOW">
 </form>	
 <?php

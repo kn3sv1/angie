@@ -44,15 +44,29 @@ tr:nth-child(even) {
     <th>AGE</th>
     <th>CITY</th>
     <th>FRIEND</th>
-	<td>PHOTO</th>
+	<th>PHOTO</th>
   </tr>
 <?php  
-  for ($i = 0; $i < count($cats[$i]); $i++) {
-    echo "<tr>" . $cats[$i] . "</tr>";  
-	  
-	  
-	  
-  }
+    for ($i = 0; $i < count($cats); $i++) {
+        //wrong!!
+        //echo "<tr>" . $cats[$i] . "</tr>";
+        echo "<tr>";
+            //if new field e.g surname will appear in array it will automatically show in table data
+            foreach ($cats[$i] as $key => $value) {
+                if ($key == 'photo') {
+                    echo '<td><img height="100" src="photo_of_cats/' . $value . '" /></td>';
+                } else {
+                    echo "<td>" . $value . "</td>";
+                }
+            }
+//        echo "<td>" . $cats[$i]['name'] . "</td>";
+//        echo "<td>" . $cats[$i]['age'] . "</td>";
+//        echo "<td>" . $cats[$i]['city'] . "</td>";
+//        echo "<td>" . $cats[$i]['friend'] . "</td>";
+//        echo '<td><img height="100" src="photo_of_cats/' . $cats[$i]['photo'] . '" /></td>';
+        echo "</tr>";
+
+    }
 ?>  
  </table>
 </body>

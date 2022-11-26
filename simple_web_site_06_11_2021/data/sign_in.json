@@ -23,5 +23,26 @@
         "name": "Katerina",
         "surname": "Diomidous",
         "password": "1234"
+    },
+    {
+        "name": "Johanna",
+        "surname": "Samsonite",
+        "password": "ginger222"
+    },
+    {
+        "name": "Samantha",
+        "surname": "Kenedy",
+        "password": "ht458!"
+    },
+    {
+        "name": "Savvas",
+        "surname": "Neophytou",
+        "password": "1234"
+    },
+    {
+        "name": "Angie",
+        "surname": "Neophytou",
+        "email": "gh@gmail.com",
+        "password": "1234AddMe"
     }
 ]

@@ -1,6 +1,4 @@
 [
-    "c2",
-    "c4",
     "c6",
     "c7",
     "utyutyutyu",
@@ -13,5 +11,6 @@
     "333333333333333333333333",
     "lkasjdf;laksj",
     "hello777777",
-    "hello777777"
+    "hello777777",
+    "Hi from Limassol"
 ]

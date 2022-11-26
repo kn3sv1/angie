@@ -74,5 +74,47 @@
         "operation": "add",
         "result": 13,
         "date": "2021-12-10 09:52:09"
+    },
+    {
+        "number1": "10",
+        "number2": "2",
+        "operation": "add",
+        "result": 12,
+        "date": "2022-10-27 19:48:41"
+    },
+    {
+        "number1": "10",
+        "number2": "2",
+        "operation": "add",
+        "result": 12,
+        "date": "2022-10-27 19:48:55"
+    },
+    {
+        "number1": "10",
+        "number2": "2",
+        "operation": "add",
+        "result": 12,
+        "date": "2022-10-27 19:48:55"
+    },
+    {
+        "number1": "10",
+        "number2": "2",
+        "operation": "add",
+        "result": 12,
+        "date": "2022-10-27 19:48:57"
+    },
+    {
+        "number1": "10",
+        "number2": "2",
+        "operation": "add",
+        "result": 12,
+        "date": "2022-10-27 19:48:58"
+    },
+    {
+        "number1": "10",
+        "number2": "5",
+        "operation": "add",
+        "result": 15,
+        "date": "2022-10-29 11:32:35"
     }
 ]

@@ -19,7 +19,7 @@ if (!empty($_POST['username'])) {
     }
 }
 
-
+//if its not wrong or wright which means its empty - no input then show the login form
 if (empty($_SESSION['user'])) { ?>
 <form action="" method="post" enctype="multipart/form-data">
     <span style="color:#3333ff; font-weight: bold">USER NAME:</span><br />
@@ -34,6 +34,6 @@ if (empty($_SESSION['user'])) { ?>
 </form>
 <br /><br />
 <?php } else {
-    echo 'Good morning ' . $_SESSION['user']['name'];
+    echo '<span style="color:#008300; font-size: 20px; font-family: Brush Script MT, cursive; font-weight: bold">Good morning ' . $_SESSION['user']['name'] . '</span>';
     echo '<br /><br />';
 }  ?>

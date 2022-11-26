@@ -56,7 +56,7 @@ $answer = array("orange" => 1);
 	} else {
 		$answer[$fruit] = $answer[$fruit] + 1;
 	}
-	print_r($answer);
+	//print_r($answer);
 }
 
 echo '<pre>';

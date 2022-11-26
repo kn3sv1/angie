@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<a href="https://www.roma">Roma66666666</a>
+<p>99999999</p>
+<a href="https://www.george">George</a>
+
+<p>222222</p>
+<a href="https://www.angie">Angie</a>
+
+<script>
+    document.links[1].text += ' 6666';
+    document.links[1].href = 'http://example.com';
+    //document.links[1].click();
+    //let angie = document.links[1];
+    //debugger;
+    console.log(document.links[1]);
+
+
+    document.links[1].text += document.links[0].text;
+
+    console.log(document.links[1]);
+//console.log(document.links);
+</script>
+
+</body>
+<script>
+    var p1 = { // object literal syntax
+        name:"Steve1",
+        getName: function () {
+            return "Mr(s). " + this.name;
+        }
+    };
+
+    var p2 = new Object(); // Object() constructor function
+    p2.name = "Steve2"; // property
+    //and method
+    p2.getName = function() {
+        return "Mr(s). " + this.name;
+    };
+
+    console.log(p1);
+    console.log(p1.getName());
+
+    console.log(p2);
+    console.log(p2.getName());
+</script>
+</html>

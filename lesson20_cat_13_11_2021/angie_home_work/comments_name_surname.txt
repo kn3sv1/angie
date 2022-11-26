@@ -15,13 +15,13 @@
         "surname": "neophytou"
     },
     {
-        "comment": "hello",
-        "name": "angie",
-        "surname": "neophytou"
+        "comment": "hello world",
+        "name": "Angie",
+        "surname": "Neophytou"
     },
     {
-        "comment": "4444444444444",
-        "name": "111111111111666",
+        "comment": "bla bla bla",
+        "name": "55555555555555",
         "surname": "11111111111111111666"
     },
     {

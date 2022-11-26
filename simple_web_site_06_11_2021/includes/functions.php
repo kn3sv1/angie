@@ -132,15 +132,23 @@ function saveInfo(array  $sign_in) {
     file_put_contents($file, $json);
 }
 
+
 function validation($errors, $key) {
+
     if (empty($_POST[$key])) {
         $errors[$key] = '*Required field';
     } elseif (strlen($_POST[$key]) < 3) {
-        $errors[$key] = 'Characters need to be more than 3';
+        $errors[$key] = '*Characters need to be more than 3';
+    } elseif($key == 'email') { // we use else if because we should check the other 2 conditions first otherwise
+        $emails = $_POST[$key]; //it will overwrite them and execute (check only this one)
+        if(!filter_var($emails, FILTER_VALIDATE_EMAIL)){
+            $errors[$key] = '*Invalid email format';
+        }
     }
 
     return $errors;
 }
+
 
 function printErrors($errors, $key) {
     if (!empty($errors[$key])) {

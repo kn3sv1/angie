@@ -11,6 +11,7 @@ if (!empty($_POST)) {
 
     $errors = validation($errors, 'name');
     $errors = validation($errors, 'surname');
+    $errors = validation($errors, 'email');
     $errors = validation($errors, 'password');
 
 }
@@ -20,6 +21,7 @@ if (!empty($_POST['name']) && empty($errors)) {
     $newArray = [];
     $newArray['name'] = $_POST['name'];
     $newArray['surname'] = $_POST['surname'];
+    $newArray['email'] = $_POST['email'];
     $newArray['password'] = $_POST['password'];
 
 //    $source_file = $_FILES['fileToUpload']['tmp_name'];
@@ -54,6 +56,10 @@ if (!empty($_POST['name']) && empty($errors)) {
     <span style="color:#3333ff; font-weight: bold">SURNAME:</span><br />
     <input type="text" name="surname" value="">
     <?php printErrors($errors, 'surname'); ?>
+    <br /><br />
+    <span style="color:#3333ff; font-weight: bold">EMAIL:</span><br />
+    <input type="text" name="email" value="">
+    <?php printErrors($errors, 'email'); ?>
     <br /><br />
     <span style="color:#3333ff; font-weight: bold">PASSWORD:</span><br />
     <input type="text" name="password" value="">

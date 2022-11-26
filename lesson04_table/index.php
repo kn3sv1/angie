@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 // http://html5.local/angie/lesson04_table/
 
