@@ -1,7 +1,7 @@
 <?php
 
 $cats = [
-    ["name" => "Ted", "color" => "#8217DC", "photo" => "photos_of_cats/tedaki.png"],
+    ["name" => "Tedaki", "color" => "#8217DC", "photo" => "photos_of_cats/tedaki.png"],
     ["name" => "Lucky", "color" => "orange", "photo" => "photos_of_cats/lucky.png"],
     ["name" => "Ginger", "color" => "#4CFF33", "photo" => "photos_of_cats/ginger.png"],
     ["name" => "Kiara", "color" => "#3390FF", "photo" => "photos_of_cats/kiara.png"],
