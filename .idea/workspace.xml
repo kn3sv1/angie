@@ -3,23 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_javascript_form1/example1.html" beforeDir="false" afterPath="$PROJECT_DIR$/03_javascript_form1/example1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson02/print.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson02/print.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson04_table/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson04_table/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13_multiple_array/fruits.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13_multiple_array/fruits.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/all_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/all_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/calculator.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/calculator.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments_name_surname.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/comments_name_surname.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/test2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/angie_home_work/test2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson20_cat_13_11_2021/cats_table_version1.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson20_cat_13_11_2021/cats_table_version1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/data/post-comments.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/data/post-comments.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/step2/templates/top-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/step2/templates/top-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/login_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/login_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/content/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/data/sign_in.json" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/data/sign_in.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/simple_web_site_06_11_2021/includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_html/tinymce/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/00_html/tinymce/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cda/details.php" beforeDir="false" afterPath="$PROJECT_DIR$/cda/details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cda/photos/Angie.png" beforeDir="false" afterPath="$PROJECT_DIR$/cda/photos/Angie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cda/students.php" beforeDir="false" afterPath="$PROJECT_DIR$/cda/students.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson31_project1_form_input_cats/input_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson31_project1_form_input_cats/input_form.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +41,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,25 +63,25 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01_html_simple" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/000_javascript_php/01_api" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\travel_page\images\icons" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\travel_page\images\places" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\daily_challenges" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\styles" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\000_javascript_php\01_api" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\exam_19_09_2021" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\02_html_my_website" />
       <recent name="E:\xampp\htdocs\html5.local\angie\01_html_simple" />
       <recent name="E:\xampp\htdocs\html5.local\angie\angie_home_work_php" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\03_javascript_form1" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\02_javascript_basic_javascript_cource\02-counter\angie" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\02_javascript_basic_javascript_cource" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson101_dynamic_cats\template" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson35_class_is_a__has_a\demo" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\classes\bank" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\lesson34_mysql\controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,7 +296,29 @@
       <workItem from="1668934554976" duration="7002000" />
       <workItem from="1669057260336" duration="4041000" />
       <workItem from="1669141179278" duration="6500000" />
-      <workItem from="1669444272733" duration="15460000" />
+      <workItem from="1669444272733" duration="15989000" />
+      <workItem from="1669535195318" duration="7870000" />
+      <workItem from="1670073061017" duration="8378000" />
+      <workItem from="1670142734259" duration="4554000" />
+      <workItem from="1670654151670" duration="10838000" />
+      <workItem from="1670739349703" duration="12396000" />
+      <workItem from="1671262836865" duration="2225000" />
+      <workItem from="1672474127639" duration="6522000" />
+      <workItem from="1672559029213" duration="5014000" />
+      <workItem from="1672641950527" duration="12791000" />
+      <workItem from="1672985465121" duration="20774000" />
+      <workItem from="1673160367933" duration="7419000" />
+      <workItem from="1673680096659" duration="1272000" />
+      <workItem from="1674279145992" duration="12727000" />
+      <workItem from="1674369150230" duration="7765000" />
+      <workItem from="1674669939777" duration="4561000" />
+      <workItem from="1674888173466" duration="1185000" />
+      <workItem from="1674976977412" duration="4316000" />
+      <workItem from="1675578880331" duration="7408000" />
+      <workItem from="1676099704362" duration="16171000" />
+      <workItem from="1676183810215" duration="11536000" />
+      <workItem from="1676477197582" duration="13111000" />
+      <workItem from="1676814687865" duration="5577000" />
     </task>
     <servers />
   </component>

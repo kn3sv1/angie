@@ -38,33 +38,39 @@ if (!empty($_POST['name']) && empty($userErrors)) {
 <head>
     <meta charset="UTF-8">
     <title>cats info page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h2 style="color:#ba2222">PLEASE ENTER YOUR CAT'S INFO BELLOW</h2>
-<br /><br />
-<form action="" method="post" enctype="multipart/form-data">
-    <span style="color:#ba2222; font-weight: bold">NAME:</span><br />
-    <input type="text" name="name" value="">
-    <?php printErrors($userErrors, 'name'); ?>
+<div>
+    <h2 class="label">PLEASE ENTER YOUR CAT'S INFO BELLOW</h2>
     <br /><br />
-    <span style="color:#ba2222; font-weight: bold">COLOR:</span><br />
-    <input type="text" name="color" value="">
-    <?php printErrors($userErrors, 'color'); ?>
+    <form action="" method="post" enctype="multipart/form-data">
+        <span class="label">NAME:</span>
+        <br /><br />
+        <input type="text" name="name" value="">
+        <?php printErrors($userErrors, 'name'); ?>
+        <br /><br />
+        <span class="label">COLOR:</span>
+        <br /><br />
+        <input type="text" name="color" value="">
+        <?php printErrors($userErrors, 'color'); ?>
+        <br /><br /><br />
+        <label class="label" for="city">SELECT YOUR CAT'S CITY</label>
+        <br /><br />
+        <select name="city">
+            <option value="Limassol">Limassol</option>
+            <option value="Larnaka">Larnaka</option>
+            <option value="Paphos">Paphos</option>
+        </select>
+    <br /><br /><br /><br />
+        Upload your photo here:
+        <input type="file" name="fileToUpload">
+    <br /><br /><br /><br />
+        <button type="submit">SUBMIT FORM</button>
+    </form>
     <br /><br />
-    <label style="color:#ba2222; font-weight: bold" for="city">SELECT YOUR CAT'S CITY</label>
-    <select name="city">
-        <option value="Limassol">Limassol</option>
-        <option value="Larnaka">Larnaka</option>
-        <option value="Paphos">Paphos</option>
-    </select>
-<br /><br /><br /><br />
-    Upload your photo here:
-    <input type="file" name="fileToUpload">
-<br /><br /><br /><br />
-    <input type="submit" value="SUBMIT FORM">
-</form>
-<br /><br />
-<a style="color:blue" href="cats_info.php">Click here to see your cats details</a>
+    <a style="color:blue" href="cats_info.php">Click here to see your cats details</a>
+</div>
 </body>
 </html>
 

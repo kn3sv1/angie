@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API example</title>
+</head>
+<body onload="loadCats()">
+<div id="cats">
+
+</div>
+
+<script>
+    function loadCats() {
+        // https://www.w3schools.com/js/tryit.asp?filename=tryjs_ajax_first
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function() {
+
+            // convert string from "this.responseText" to javascript object
+            var cats = JSON.parse(this.responseText);
+            //console.log(cats);
+
+            var htmlElement = document.getElementById("cats");
+
+            // https://www.w3schools.com/js/js_loop_for.asp
+            // generate html from json api data
+            for (let i = 0; i < cats.length; i++) {
+                var newCat = `<p><span style="color:${cats[i].color}">name: ${cats[i].name}</span> <img width="150" src="${cats[i].photo}" /></p>`;
+
+                // we append new cat to previous body
+                htmlElement.innerHTML = htmlElement.innerHTML + newCat;
+            }
+        }
+        // absolute path for getting cats - json api
+        xhttp.open("GET", "/angie/000_javascript_php/01_api/cats.php");
+        xhttp.send();
+    }
+</script>
+</body>
+</html>

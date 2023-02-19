@@ -1,0 +1,12 @@
+div {
+    width: 550px;
+    margin: 150px auto;
+    padding: 25px;
+    background-color: #f3babc;
+    border-radius: 24px;
+}
+
+.label {
+    color:#ba2222;
+    font-weight: bold;
+}

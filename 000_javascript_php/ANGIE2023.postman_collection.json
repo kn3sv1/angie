@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "805302a8-fbc3-457a-bb7b-6f79be701894",
+		"name": "ANGIE2023",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6834280"
+	},
+	"item": [
+		{
+			"name": "cats_19_02_2023",
+			"item": [
+				{
+					"name": "01_api cats info",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// https://learning.postman.com/docs/writing-scripts/script-references/test-examples/\r",
+									"// https://blog.postman.com/how-to-test-json-properties-in-postman/\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"expect amount of cats to be 5, otherwise error\", function () {\r",
+									"    //we expect json so we convert string to javascript object - array of cats. Get response body as javascript object \r",
+									"    var responseJson = pm.response.json();\r",
+									"    console.log('array of objects has length', responseJson.length);\r",
+									"\r",
+									"    pm.expect(responseJson.length).to.eql(5);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"expect name of cat not smaller than 3\", function () {\r",
+									"    // Get response body as array of cats\r",
+									"    var cats = pm.response.json();\r",
+									"\r",
+									"    // using FOR go through each cat and check his name lenght\r",
+									"    for (let i = 0; i < cats.length; i++) {\r",
+									"        //gt = grater than (4,...), gte = greter than or equal (3,...)\r",
+									"        pm.expect(cats[i].name.length, `Name: \"${cats[i].name}\" under index: ${i}`).to.gt(3);\r",
+									"        // we dont need this because this pm.expect has method: to.gt(3);\r",
+									"        // if (cats[i].name.length < 3) {\r",
+									"        // }\r",
+									"    }\r",
+									"\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://html5.local/angie/000_javascript_php/01_api/cats.php",
+							"protocol": "http",
+							"host": [
+								"html5",
+								"local"
+							],
+							"path": [
+								"angie",
+								"000_javascript_php",
+								"01_api",
+								"cats.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

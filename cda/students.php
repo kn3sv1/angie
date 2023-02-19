@@ -42,6 +42,22 @@ for ($i = 0; $i < count($students); $i = $i+1) {
 	//echo '<p style="color:' . $myColor . '">Angie</p>';
 }
 echo 'FINISH ALL';
+echo '<br>';
+echo '<h1>Cy Medical Center Accounting department</h1>';
+
 //<a href="details.php?name=ANGIE">ANGIE</a>
 
 //<a href="details.php?name= + ANGIE +  "> + ANGIE + "</a>"
+
+$people = array(
+  0 => array("name" => "Marios", "occupation" => "audit"),
+  1 => array("name" => "Machi", "occupation" => "accountant"),
+  2 => array("name" => "Angie", "occupation" => "assistant"),
+  3 => array("name" => "Athina", "occupation" => "secretary"),
+);
+
+for ($i = 0; $i < count($people); $i++) {
+
+    echo '<a href="details_accounting.php?name=' . $people[$i]['name'] . "&occupation=" . $people[$i]['occupation'] . '">' . $people[$i]['name'] . '<a/><br/>';
+
+}
