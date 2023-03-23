@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Advanced Javascript</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--The defer attribute is a boolean (true or false) and tells the browser that it should wait with the
+       script execution until the entire document has been parsed-->
+    <script src="loop.js" defer></script>
+</head>
+<body>
+<form action="">
+    <div class="control">
+        <label for="product-name">Product Name</label>
+        <input type="text" id="product-name" name="product-name" maxlength="60">
+        <span id="charcount">
+            <span id="remaining-chars">60</span>/60
+        </span>
+    </div>
+    <button>Submit</button>
+</form>
+</body>
+</html>

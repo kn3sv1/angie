@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/old-app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/travel_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/travel_page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/travel_page/places.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/travel_page/places.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/travel_page/places.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/travel_page/places.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/travel_page/shared.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/travel_page/shared.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/travel_page/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/travel_page/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,19 +67,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\java_script_practice" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\travel_page\images\places" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\travel_page\images\icons" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\daily_challenges" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\html5.local\angie\000_javascript_php\01_api" />
       <recent name="E:\xampp\htdocs\html5.local\angie\exam_19_09_2021" />
       <recent name="E:\xampp\htdocs\html5.local\angie\02_html_my_website" />
       <recent name="E:\xampp\htdocs\html5.local\angie\01_html_simple" />
       <recent name="E:\xampp\htdocs\html5.local\angie\angie_home_work_php" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\advanced_javascript\exercise-2" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\java_script_practice" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\travel_page\images\places" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\travel_page\images\icons" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,7 +331,21 @@
       <workItem from="1677955305815" duration="7202000" />
       <workItem from="1678006601045" duration="5501000" />
       <workItem from="1678085753297" duration="16107000" />
-      <workItem from="1678302019405" duration="1788000" />
+      <workItem from="1678302019405" duration="6831000" />
+      <workItem from="1678391137477" duration="656000" />
+      <workItem from="1678467086642" duration="5329000" />
+      <workItem from="1678515932909" duration="8012000" />
+      <workItem from="1678553363158" duration="5608000" />
+      <workItem from="1678604499415" duration="12593000" />
+      <workItem from="1678726992409" duration="1212000" />
+      <workItem from="1678813707634" duration="7693000" />
+      <workItem from="1679151995614" duration="8815000" />
+      <workItem from="1679210733653" duration="6179000" />
+      <workItem from="1679257635814" duration="1312000" />
+      <workItem from="1679326670181" duration="7828000" />
+      <workItem from="1679420887566" duration="7920000" />
+      <workItem from="1679507775268" duration="5625000" />
+      <workItem from="1679595857609" duration="3843000" />
     </task>
     <servers />
   </component>
