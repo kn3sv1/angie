@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/old-app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson27_free_hosting/hosting_access" beforeDir="false" afterPath="$PROJECT_DIR$/lesson27_free_hosting/hosting_access" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/09-practice-time-starting-setup/09-practice-time-starting-setup/loops-in-action/loops_in_action.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/09-practice-time-starting-setup/09-practice-time-starting-setup/loops-in-action/loops_in_action.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,10 +93,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.udemy_practice">
     <configuration name="debuger javascript" type="JavascriptDebugType" uri="http://html5.local/">
       <method v="2" />
     </configuration>
+    <configuration name="udemy_practice" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/udemy_practice" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.udemy_practice" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -345,7 +353,24 @@
       <workItem from="1679326670181" duration="7828000" />
       <workItem from="1679420887566" duration="7920000" />
       <workItem from="1679507775268" duration="5625000" />
-      <workItem from="1679595857609" duration="3843000" />
+      <workItem from="1679595857609" duration="4508000" />
+      <workItem from="1679725185204" duration="12848000" />
+      <workItem from="1679808813837" duration="3718000" />
+      <workItem from="1679855767301" duration="2101000" />
+      <workItem from="1679934383482" duration="3808000" />
+      <workItem from="1680199439165" duration="4027000" />
+      <workItem from="1680324750231" duration="12536000" />
+      <workItem from="1680448464792" duration="8049000" />
+      <workItem from="1680628460310" duration="4287000" />
+      <workItem from="1680805118100" duration="5176000" />
+      <workItem from="1680933634315" duration="21276000" />
+      <workItem from="1681028408495" duration="6577000" />
+      <workItem from="1681448832400" duration="20587000" />
+      <workItem from="1681712070013" duration="15179000" />
+      <workItem from="1681801096598" duration="12674000" />
+      <workItem from="1681925126965" duration="5425000" />
+      <workItem from="1682166177454" duration="7802000" />
+      <workItem from="1682230857889" duration="2754000" />
     </task>
     <servers />
   </component>
