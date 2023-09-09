@@ -1,13 +1,14 @@
 let paragraphElement = document.querySelector('p');
 let counter = 0;
+
 function changeParagraphText (event) {
     counter++;
     paragraphElement.textContent = 'Clicked! Times: ' + counter;
     console.log('Paragraph clicked! Times: ' + counter);
-    // let paragraph = event.target;
-    // paragraph.innerText = 'Changed! Times:' + counter;
-    // console.log('Paragraph Changed! Times: ' + counter);
-    //console.log(event);
+/*   let paragraph = event.target;
+     paragraph.innerText = 'Changed! Times:' + counter;
+     console.log('Paragraph Changed! Times: ' + counter);
+     console.log(event);*/
 }
 
 paragraphElement.addEventListener('click', changeParagraphText);

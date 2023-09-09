@@ -23,6 +23,8 @@
     display: none;
 }
 
+/*for 48rem (768px) and more (min-width) this code should be executed. Used for bigger screens eg. laptop*/
+
 @media (min-width: 48rem){
     .modal {
         left: calc(50% - 20rem);

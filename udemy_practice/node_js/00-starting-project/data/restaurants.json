@@ -1,0 +1,34 @@
+[
+  {
+    "id": "r1",
+    "name": "Test",
+    "address": "Teststreet 5, Testcity",
+    "cuisine": "Italian",
+    "website": "https://mytest.com",
+    "description": "It's awesome!"
+  },
+  {
+    "id": "r2",
+    "name": "WOKnROLL",
+    "address": "Ayias Fylaxeos 97, Limassol",
+    "cuisine": "Asian",
+    "website": "https://www.woknroll.com.cy",
+    "description": "It's very tasty!"
+  },
+  {
+    "name": "TGI Fridays ",
+    "address": "Limassol Marina",
+    "cuisine": "American",
+    "website": "https://fridays.com.cy/",
+    "description": "Rich menu and delicious pork chops with a unique tasty Jack Daniels sauce",
+    "id": "6243d66d-8630-4327-82bf-84b651242014"
+  },
+  {
+    "name": "Columbia Beach",
+    "address": "Agios Athanasios, Limassol",
+    "cuisine": "Mediterranean ",
+    "website": "https://columbia-beach.com/",
+    "description": "Relaxing atmosphere and great food!",
+    "id": "73d931c3-36a7-4e48-8a00-edb332a565f4"
+  }
+]

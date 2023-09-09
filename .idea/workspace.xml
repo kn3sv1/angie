@@ -2,130 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/images/berries.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/images/christmas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/images/tasty.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/parallax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/parallax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/TUTORIAL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/comand_prompt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/assert.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/assert/strict.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/async_hooks.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/buffer.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/child_process.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/cluster.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/console.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/constants.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/crypto.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/dgram.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/diagnostics_channel.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/dns.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/dns/promises.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/dom-events.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/domain.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/events.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/fs.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/fs/promises.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/globals.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/globals.global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/http.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/http2.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/https.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/inspector.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/net.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/os.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/path.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/perf_hooks.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/process.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/punycode.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/querystring.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/readline.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/readline/promises.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/repl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/stream.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/stream/consumers.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/stream/promises.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/stream/web.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/string_decoder.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/test.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/timers.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/timers/promises.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/tls.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/trace_events.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/assert.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/assert/strict.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/async_hooks.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/buffer.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/child_process.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/cluster.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/console.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/constants.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/crypto.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/dgram.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/diagnostics_channel.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/dns.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/dns/promises.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/dom-events.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/domain.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/events.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/fs.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/fs/promises.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/globals.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/globals.global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/http.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/http2.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/https.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/inspector.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/module.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/net.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/os.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/path.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/perf_hooks.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/process.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/punycode.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/querystring.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/readline.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/readline/promises.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/repl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/stream.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/stream/consumers.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/stream/promises.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/stream/web.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/string_decoder.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/test.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/timers.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/timers/promises.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/tls.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/trace_events.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/tty.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/url.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/util.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/v8.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/vm.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/wasi.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/worker_threads.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/ts4.8/zlib.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/tty.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/url.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/util.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/v8.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/vm.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/wasi.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/worker_threads.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/node_modules/@types/node/zlib.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udemy_practice/node_js/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/09-practice-time-starting-setup/09-practice-time-starting-setup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/09-practice-time-starting-setup/09-practice-time-starting-setup/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/bootstrap/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/styles/overlays.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/styles/overlays.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,8 +47,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -187,25 +76,26 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/000_javascript_php/01_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="E:\PhpStorm 2019.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\bootstrap\images" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\bootstrap" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\advanced_javascript\exercise-2" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\java_script_practice" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\travel_page\images\places" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\views" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js" />
       <recent name="E:\xampp\htdocs\html5.local\angie\000_javascript_php\01_api" />
       <recent name="E:\xampp\htdocs\html5.local\angie\exam_19_09_2021" />
       <recent name="E:\xampp\htdocs\html5.local\angie\02_html_my_website" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\01_html_simple" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\angie_home_work_php" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\data" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\public" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\views" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\data" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\bootstrap\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,8 +110,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.udemy_practice">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="debuger javascript" type="JavascriptDebugType" uri="http://html5.local/">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://html5.local/angie/udemy_practice/travel_page/index.html">
       <method v="2" />
     </configuration>
     <configuration name="udemy_practice" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -230,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="PHPUnit.udemy_practice" />
       </list>
     </recent_temporary>
@@ -504,7 +398,72 @@
       <workItem from="1682835823822" duration="1876000" />
       <workItem from="1682921563729" duration="6599000" />
       <workItem from="1683366711304" duration="1931000" />
-      <workItem from="1683371371522" duration="902000" />
+      <workItem from="1683371371522" duration="6067000" />
+      <workItem from="1683452088935" duration="2478000" />
+      <workItem from="1683650857192" duration="4601000" />
+      <workItem from="1683966756042" duration="2242000" />
+      <workItem from="1683972352515" duration="10364000" />
+      <workItem from="1684051876979" duration="4183000" />
+      <workItem from="1684173001216" duration="4251000" />
+      <workItem from="1684342189262" duration="3164000" />
+      <workItem from="1684507941753" duration="4534000" />
+      <workItem from="1684571024472" duration="2433000" />
+      <workItem from="1684647296022" duration="7267000" />
+      <workItem from="1684690754402" duration="4802000" />
+      <workItem from="1684777008957" duration="3198000" />
+      <workItem from="1685037037194" duration="4353000" />
+      <workItem from="1685258532635" duration="5483000" />
+      <workItem from="1685271425371" duration="1043000" />
+      <workItem from="1685947145217" duration="4837000" />
+      <workItem from="1686460182276" duration="4743000" />
+      <workItem from="1686990742968" duration="1896000" />
+      <workItem from="1687071125017" duration="7066000" />
+      <workItem from="1687326620493" duration="4673000" />
+      <workItem from="1687347220674" duration="2073000" />
+      <workItem from="1687374936151" duration="3203000" />
+      <workItem from="1687455386253" duration="5188000" />
+      <workItem from="1687506201490" duration="5826000" />
+      <workItem from="1687588486693" duration="5967000" />
+      <workItem from="1687675795436" duration="662000" />
+      <workItem from="1687763553120" duration="7184000" />
+      <workItem from="1687852890129" duration="6143000" />
+      <workItem from="1687939700568" duration="3873000" />
+      <workItem from="1688017379265" duration="1769000" />
+      <workItem from="1688197549682" duration="11462000" />
+      <workItem from="1688280938924" duration="3834000" />
+      <workItem from="1688803646577" duration="5642000" />
+      <workItem from="1688881741200" duration="3980000" />
+      <workItem from="1689403274538" duration="5435000" />
+      <workItem from="1689486508864" duration="7953000" />
+      <workItem from="1690786034456" duration="6667000" />
+      <workItem from="1690864623409" duration="636000" />
+      <workItem from="1690963377810" duration="655000" />
+      <workItem from="1691127637612" duration="3380000" />
+      <workItem from="1691229339771" duration="1282000" />
+      <workItem from="1691306970390" duration="2000000" />
+      <workItem from="1691397881438" duration="9789000" />
+      <workItem from="1691475753129" duration="8153000" />
+      <workItem from="1691561598071" duration="5345000" />
+      <workItem from="1691650164375" duration="6799000" />
+      <workItem from="1691737108729" duration="6566000" />
+      <workItem from="1692182552151" duration="3576000" />
+      <workItem from="1692258843694" duration="1075000" />
+      <workItem from="1693032393955" duration="1393000" />
+      <workItem from="1693119841810" duration="616000" />
+      <workItem from="1693225289949" duration="5160000" />
+      <workItem from="1693291899623" duration="3412000" />
+      <workItem from="1693379783701" duration="1678000" />
+      <workItem from="1693487149250" duration="2573000" />
+      <workItem from="1693552282333" duration="3773000" />
+      <workItem from="1693638451622" duration="740000" />
+      <workItem from="1693723185337" duration="4372000" />
+      <workItem from="1693812610272" duration="5085000" />
+      <workItem from="1693895774136" duration="2998000" />
+      <workItem from="1693978084089" duration="5532000" />
+      <workItem from="1694070766996" duration="4190000" />
+      <workItem from="1694154475595" duration="4713000" />
+      <workItem from="1694187287292" duration="4387000" />
+      <workItem from="1694246387902" duration="2445000" />
     </task>
     <servers />
   </component>
