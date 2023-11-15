@@ -8,8 +8,8 @@ function calculateSum() {
 
     let sumUpToNumber = 0;
 
-    let i = 0;
-    for (; i <= enteredNumber; i++) {
+
+    for (let i = 0; i <= enteredNumber; i++) {
         sumUpToNumber = sumUpToNumber + i;
     }
 
@@ -60,8 +60,8 @@ highlightLinksButtonElement.addEventListener('click', highlightLinks);
 // Display user data
 
 const dummyUserData = {
-    firstName: 'Angie',
-    lastName: 'Neophytou',
+    firstName: 'Angela',
+    lastName: 'Neo',
     age: '39'
 }
 
@@ -108,14 +108,15 @@ function deriveNumberOfDiceRolls() {
     // until hasRolledTargetNumber = false while will work
     while (!hasRolledTargetNumber) {
         const rolledNumber = rollDice();
-     // if (rolledNumber == enteredNumber) {
-     //     hasRolledTargetNumber = true;
-     // }
      numberOfRolls++;
      const newRollListItemElement = document.createElement('li');
      const outputText = 'Roll ' + numberOfRolls + ': ' + rolledNumber;
      newRollListItemElement.textContent = outputText;
      diceRollsListElement.append(newRollListItemElement);
+     // if (rolledNumber == enteredNumber) {
+     //     hasRolledTargetNumber = true;
+     // }
+     // a quicker way of stating the above:
      hasRolledTargetNumber = rolledNumber == enteredNumber;
     }
 

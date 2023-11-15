@@ -62,6 +62,7 @@ function selectGameField(event) {
 
     const winnerId = checkForGameOver();
 
+    // If it's above 0 or under (1, 2 or -1)
     if (winnerId !== 0) {
         endGame(winnerId);
     }
@@ -94,7 +95,7 @@ function checkForGameOver() {
 
     }
     // Diagonal: Top left to bottom right
-    for (let i = 0; i < 3; i++) {
+
         if (
             gameData[0][0] > 0 &&
             gameData[0][0] === gameData[1][1] &&
@@ -103,9 +104,9 @@ function checkForGameOver() {
             return gameData[0][0];
         }
 
-    }
+
     // Diagonal: Bottom left to top right
-    for (let i = 0; i < 3; i++) {
+
         if (
             gameData[2][0] > 0 &&
             gameData[2][0] === gameData[1][1] &&
@@ -113,12 +114,13 @@ function checkForGameOver() {
         ) {
             return gameData[2][0];
         }
-
+        // current round is according to how many list items are clicked - we have total 9 list items
+        // so if we have exhausted all the rounds and we haven't made it into any of the above if checks
+        // then its a draw.
         if (currentRound === 9) {
             return -1;
         }
         return 0;
-    }
 }
 
 function endGame(winnerId) {

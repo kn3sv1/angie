@@ -15,9 +15,17 @@ function closePlayerConfig() {
 function savePlayerConfig(event) {
     event.preventDefault();
     console.log(event)
+
     const formData = new FormData(event.target);
+    console.log(formData);
     const enteredPlayername = formData.get('playername').trim() // '   Angie Neo  ' => 'Angie Neo';
     console.log(enteredPlayername);
+
+    // Easier way of getting the value inside of an input field, but the method above would be
+    // more practical if we had more input fields or select menus to receive values from.
+
+    // const inputElement = document.getElementById('playername');
+    // const enteredPlayername = inputElement.value.trim();
 
     if (!enteredPlayername) { // enteredPlayername === ''
         event.target.firstElementChild.classList.add('error');

@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/free_code_camp/debug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/free_code_camp/profile_lookup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/free_code_camp/wrong_profile_lookup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/if_inside_if_example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice-array-in-array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice-array-in-array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/09-practice-time-starting-setup/09-practice-time-starting-setup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/09-practice-time-starting-setup/09-practice-time-starting-setup/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/09-practice-time-starting-setup/09-practice-time-starting-setup/loops-in-action/loops_in_action.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/09-practice-time-starting-setup/09-practice-time-starting-setup/loops-in-action/loops_in_action.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/bootstrap/parallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/parallax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy_practice/bootstrap/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/routes/restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/routes/restaurants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/views/restaurants.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/views/restaurants.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/data/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/scripts/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/scripts/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/scripts/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/scripts/game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/styles/overlays.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/styles/overlays.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/travel_page/places.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/travel_page/places.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,11 +99,11 @@
       <recent name="E:\xampp\htdocs\html5.local\angie\02_html_my_website" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\free_code_camp" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\data" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\public" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\views" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\data" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\bootstrap\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -464,6 +472,52 @@
       <workItem from="1694154475595" duration="4713000" />
       <workItem from="1694187287292" duration="4387000" />
       <workItem from="1694246387902" duration="2445000" />
+      <workItem from="1694505792167" duration="4727000" />
+      <workItem from="1694687336847" duration="1269000" />
+      <workItem from="1694759363764" duration="5590000" />
+      <workItem from="1694798419963" duration="6966000" />
+      <workItem from="1694848813631" duration="4951000" />
+      <workItem from="1695102017334" duration="3315000" />
+      <workItem from="1695191052153" duration="7224000" />
+      <workItem from="1695276894235" duration="11516000" />
+      <workItem from="1695368046214" duration="8788000" />
+      <workItem from="1695557846307" duration="2162000" />
+      <workItem from="1695621444496" duration="4930000" />
+      <workItem from="1695718358526" duration="6552000" />
+      <workItem from="1695796467449" duration="14481000" />
+      <workItem from="1695875488180" duration="2618000" />
+      <workItem from="1695899295071" duration="6769000" />
+      <workItem from="1695966635452" duration="10741000" />
+      <workItem from="1696052779472" duration="6814000" />
+      <workItem from="1696137921122" duration="1249000" />
+      <workItem from="1696224470673" duration="16250000" />
+      <workItem from="1696311301036" duration="7990000" />
+      <workItem from="1696402897035" duration="13297000" />
+      <workItem from="1696489623231" duration="9683000" />
+      <workItem from="1696573406530" duration="12713000" />
+      <workItem from="1696834908870" duration="3793000" />
+      <workItem from="1696922726832" duration="3418000" />
+      <workItem from="1697022039501" duration="625000" />
+      <workItem from="1697175637963" duration="1182000" />
+      <workItem from="1697266186716" duration="1561000" />
+      <workItem from="1697352290843" duration="768000" />
+      <workItem from="1697436917068" duration="5305000" />
+      <workItem from="1697525874894" duration="592000" />
+      <workItem from="1698042074664" duration="7620000" />
+      <workItem from="1698304208972" duration="2413000" />
+      <workItem from="1698649359983" duration="10553000" />
+      <workItem from="1698746758605" duration="10964000" />
+      <workItem from="1698823841529" duration="7195000" />
+      <workItem from="1699000228100" duration="3367000" />
+      <workItem from="1699365409083" duration="1241000" />
+      <workItem from="1699442948279" duration="3541000" />
+      <workItem from="1699514708889" duration="3236000" />
+      <workItem from="1699605232920" duration="4117000" />
+      <workItem from="1699687014145" duration="6087000" />
+      <workItem from="1699772769240" duration="7064000" />
+      <workItem from="1699860672569" duration="2233000" />
+      <workItem from="1699968623054" duration="5677000" />
+      <workItem from="1700030131748" duration="7277000" />
     </task>
     <servers />
   </component>

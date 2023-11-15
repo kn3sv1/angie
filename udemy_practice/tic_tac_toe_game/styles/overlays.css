@@ -22,7 +22,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
 }
-
+/*Min-width = mobile first design*/
 /*for 48rem (768px) and more (min-width) this code should be executed. Used for bigger screens eg. laptop*/
 
 @media (min-width: 48rem){
