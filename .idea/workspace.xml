@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/free_code_camp/debug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/free_code_camp/profile_lookup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/free_code_camp/wrong_profile_lookup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if_inside_if_example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-array-in-array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice-array-in-array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/09-practice-time-starting-setup/09-practice-time-starting-setup/loops-in-action/loops_in_action.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/09-practice-time-starting-setup/09-practice-time-starting-setup/loops-in-action/loops_in_action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/advanced_javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/advanced_javascript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/bootstrap/parallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/parallax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/bootstrap/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/bootstrap/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/routes/restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/routes/restaurants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/views/restaurants.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/views/restaurants.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/scripts/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/scripts/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/scripts/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/scripts/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/styles/overlays.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/tic_tac_toe_game/styles/overlays.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/travel_page/places.html" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/travel_page/places.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,11 +80,11 @@
       <recent name="E:\xampp\htdocs\html5.local\angie\02_html_my_website" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\00-starting-project" />
       <recent name="E:\xampp\htdocs\html5.local\angie\free_code_camp" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\data" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\public" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\views" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -517,7 +498,25 @@
       <workItem from="1699772769240" duration="7064000" />
       <workItem from="1699860672569" duration="2233000" />
       <workItem from="1699968623054" duration="5677000" />
-      <workItem from="1700030131748" duration="7277000" />
+      <workItem from="1700030131748" duration="7396000" />
+      <workItem from="1700117292316" duration="7764000" />
+      <workItem from="1700203800653" duration="7301000" />
+      <workItem from="1700459434195" duration="8429000" />
+      <workItem from="1700563125459" duration="1186000" />
+      <workItem from="1700644642866" duration="1952000" />
+      <workItem from="1700725753805" duration="1799000" />
+      <workItem from="1700809242282" duration="3380000" />
+      <workItem from="1701156023178" duration="2788000" />
+      <workItem from="1701244720784" duration="4770000" />
+      <workItem from="1701328158037" duration="7486000" />
+      <workItem from="1701418320595" duration="9968000" />
+      <workItem from="1702054422377" duration="3572000" />
+      <workItem from="1702280115871" duration="1715000" />
+      <workItem from="1702374564448" duration="6890000" />
+      <workItem from="1702451040883" duration="3899000" />
+      <workItem from="1702539408448" duration="15913000" />
+      <workItem from="1702799661794" duration="5308000" />
+      <workItem from="1702878956716" duration="18655000" />
     </task>
     <servers />
   </component>
