@@ -2,20 +2,26 @@
 <html lang="en">
 
 <head>
-  <%- include('includes/head', { title: 'Post title' }) %>
+  <%- include('includes/head', { title: post.title }) %>
   <link rel="stylesheet" href="/styles/posts.css">
 </head>
 
 <body>
   <%- include('includes/header') %>
   <main id="post-detail">
-    <h1>...</h1>
+    <h1><%= post.title %></h1>
     <section id="post-meta">
-      ...
+<!--  The address HTML element is a standard HTML element which typically should be used if you are outputting
+      some address information like the email address of an author of a blog post or any other contact details.  -->
+
+<!--  This link bellow will automatically open the mail-client with an email to that author being composed.
+      It will not send it automatically, but just open the mail-client.  -->
+      <address><a href="mailto:<%= post.author_email %>"><%= post.author_name %></a></address> |
+      <time datetime="<%= post.date %>"><%= post.humanReadableDate %></time>
     </section>
     <hr>
     <section>
-      <p id="body">...</p>
+      <p id="body"><%= post.body %></p>
     </section>
   </main>
 </body>

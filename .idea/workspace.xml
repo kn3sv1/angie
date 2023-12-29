@@ -4,7 +4,10 @@
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00-starting-project/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/00-starting-project/routes/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-starting-project/views/includes/post-item.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/00-starting-project/views/includes/post-item.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-starting-project/views/post-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/00-starting-project/views/post-detail.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00-starting-project/views/posts-list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/00-starting-project/views/posts-list.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00-starting-project/views/update-post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/00-starting-project/views/update-post.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,19 +77,19 @@
     <property name="ts.external.directory.path" value="E:\PhpStorm 2019.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\views" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\000_javascript_php\01_api" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\exam_19_09_2021" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\02_html_my_website" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\html5.local\angie\00-starting-project" />
       <recent name="E:\xampp\htdocs\html5.local\angie\free_code_camp" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\data" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\public" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\views" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\000_javascript_php\01_api" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\exam_19_09_2021" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\02_html_my_website" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -518,7 +521,18 @@
       <workItem from="1702451040883" duration="3899000" />
       <workItem from="1702539408448" duration="15913000" />
       <workItem from="1702799661794" duration="5308000" />
-      <workItem from="1702878956716" duration="19687000" />
+      <workItem from="1702878956716" duration="20986000" />
+      <workItem from="1702972621309" duration="28906000" />
+      <workItem from="1703052033247" duration="4893000" />
+      <workItem from="1703143160603" duration="17271000" />
+      <workItem from="1703231686142" duration="6952000" />
+      <workItem from="1703403557975" duration="590000" />
+      <workItem from="1703514961376" duration="5808000" />
+      <workItem from="1703574573803" duration="7384000" />
+      <workItem from="1703659327584" duration="18003000" />
+      <workItem from="1703745984649" duration="5742000" />
+      <workItem from="1703783059042" duration="4094000" />
+      <workItem from="1703836169895" duration="7960000" />
     </task>
     <servers />
   </component>
