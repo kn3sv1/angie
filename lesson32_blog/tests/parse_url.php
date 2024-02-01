@@ -1,3 +1,4 @@
+
 <?php
 
 
@@ -46,7 +47,7 @@ function checkQuery($url, $key)
 
     if (isset($query['query'])) {
         parse_str($query['query'], $myArray);
-//print_r($myArray);
+        //print_r($myArray);
 
         if (isset($myArray[$key])) {
             //function shouldn't depend on specific text customer should have choice what message
@@ -107,3 +108,6 @@ foreach ($links as $link) {
         echo '<br />';
     }
 }
+
+
+
