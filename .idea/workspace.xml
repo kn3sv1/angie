@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson32_blog/tests/parse_url.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson32_blog/tests/parse_url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_JS_MongoDB_project/00-starting-project1/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/Node_JS_MongoDB_project/00-starting-project1/routes/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_JS_MongoDB_project/00-starting-project1/views/includes/post-item.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Node_JS_MongoDB_project/00-starting-project1/views/includes/post-item.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_JS_MongoDB_project/00-starting-project1/views/post-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Node_JS_MongoDB_project/00-starting-project1/views/post-detail.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node_JS_MongoDB_project/00-starting-project1/views/update-post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Node_JS_MongoDB_project/00-starting-project1/views/update-post.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +41,8 @@
       <list>
         <option value="tsconfig.json" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,26 +69,27 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="E:\PhpStorm 2019.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\Node_JS_MongoDB_project" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\00-starting-project" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\free_code_camp" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\data" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\views" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js" />
       <recent name="E:\xampp\htdocs\html5.local\angie\000_javascript_php\01_api" />
       <recent name="E:\xampp\htdocs\html5.local\angie\exam_19_09_2021" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\02_html_my_website" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\file_upload\00-starting-project\public" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\file_upload" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\Node_JS_MongoDB_project" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\00-starting-project" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\free_code_camp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -100,20 +104,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="debuger javascript" type="JavascriptDebugType" uri="http://html5.local/">
+  <component name="RunManager" selected="JavaScript Debug.debugging_javascript.html">
+    <configuration name="html5" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" host="html5.local" port="9229">
+      <mapping url="http://html5.local/angie/debugging_javascript.html" local-file="$PROJECT_DIR$/debugging_javascript.html" />
+      <mapping url="http://html5.local/angie" local-file="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://html5.local/angie/udemy_practice/travel_page/index.html">
+    <configuration name="debuger javascript" type="JavascriptDebugType" uri="http://html5.local/">
+      <mapping url="http://html5.local" local-file="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="debugging_javascript.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://html5.local/angie/debugging_javascript.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="test5" type="JavascriptDebugType" uri="http://html5.local/angie">
+      <method v="2" />
+    </configuration>
+    <configuration name="debugging_javascript.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/debugging_javascript.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="udemy_practice" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/udemy_practice" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.html5" />
+      <item itemvalue="JavaScript Debug.debuger javascript" />
+      <item itemvalue="JavaScript Debug.test5" />
+      <item itemvalue="JavaScript Debug.debugging_javascript.html" />
+      <item itemvalue="Node.js.debugging_javascript.js" />
+      <item itemvalue="PHPUnit.udemy_practice" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.debugging_javascript.html" />
+        <item itemvalue="Node.js.debugging_javascript.js" />
         <item itemvalue="PHPUnit.udemy_practice" />
       </list>
     </recent_temporary>
@@ -545,7 +570,47 @@
       <workItem from="1706597452356" duration="10181000" />
       <workItem from="1706697532390" duration="10928000" />
       <workItem from="1706768466025" duration="3127000" />
-      <workItem from="1706814694205" duration="708000" />
+      <workItem from="1706814694205" duration="3437000" />
+      <workItem from="1706860961930" duration="3387000" />
+      <workItem from="1706941632372" duration="3550000" />
+      <workItem from="1707028803836" duration="1622000" />
+      <workItem from="1707213250031" duration="10160000" />
+      <workItem from="1707250981013" duration="848000" />
+      <workItem from="1707252764057" duration="370000" />
+      <workItem from="1707292091059" duration="1201000" />
+      <workItem from="1707389801044" duration="1591000" />
+      <workItem from="1707465132640" duration="4250000" />
+      <workItem from="1707547975661" duration="6572000" />
+      <workItem from="1707723687482" duration="9438000" />
+      <workItem from="1707810196014" duration="8352000" />
+      <workItem from="1707896456851" duration="7480000" />
+      <workItem from="1708001655784" duration="8120000" />
+      <workItem from="1708069602035" duration="6653000" />
+      <workItem from="1708330194993" duration="9175000" />
+      <workItem from="1708416040880" duration="4997000" />
+      <workItem from="1708583177021" duration="8335000" />
+      <workItem from="1708622443132" duration="1539000" />
+      <workItem from="1708676166818" duration="8021000" />
+      <workItem from="1708963145996" duration="923000" />
+      <workItem from="1709103543201" duration="3006000" />
+      <workItem from="1709191950166" duration="1822000" />
+      <workItem from="1710753860005" duration="16029000" />
+      <workItem from="1710834099718" duration="14533000" />
+      <workItem from="1710922703907" duration="4954000" />
+      <workItem from="1711001840703" duration="11220000" />
+      <workItem from="1711049246010" duration="3617000" />
+      <workItem from="1711091877396" duration="2703000" />
+      <workItem from="1711127702474" duration="3495000" />
+      <workItem from="1711264701053" duration="8474000" />
+      <workItem from="1711351990815" duration="11227000" />
+      <workItem from="1711438799525" duration="13602000" />
+      <workItem from="1711522181154" duration="4133000" />
+      <workItem from="1711606954126" duration="588000" />
+      <workItem from="1711621759969" duration="1130000" />
+      <workItem from="1711646778604" duration="1127000" />
+      <workItem from="1711690807464" duration="4959000" />
+      <workItem from="1711873191183" duration="789000" />
+      <workItem from="1711948930808" duration="9228000" />
     </task>
     <servers />
   </component>

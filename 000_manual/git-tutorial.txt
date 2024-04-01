@@ -1,0 +1,9 @@
+//git add . means add all files
+E:\xampp\htdocs\html5.local\angie>git add .
+
+//commit with message
+E:\xampp\htdocs\html5.local\angie>git commit -m "mongodb"
+
+//git push origin means send all these files to remote server
+E:\xampp\htdocs\html5.local\angie>git push origin
+
