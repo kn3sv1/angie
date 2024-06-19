@@ -4,8 +4,10 @@
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/routes/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/routes/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/views/includes/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/views/includes/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/views/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/views/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/views/signup.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/views/signup.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +42,8 @@
       <list>
         <option value="tsconfig.json" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -71,7 +73,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_authentication/00-starting-project/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -80,18 +82,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\refactoring_and_the_mvc_pattern\00-starting-project" />
       <recent name="E:\xampp\htdocs\html5.local\angie\file_upload\00-starting-project\public" />
       <recent name="E:\xampp\htdocs\html5.local\angie\file_upload" />
       <recent name="E:\xampp\htdocs\html5.local\angie\Node_JS_MongoDB_project" />
       <recent name="E:\xampp\htdocs\html5.local\angie\00-starting-project" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\free_code_camp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\user_authentication\00-starting-project\views" />
       <recent name="E:\xampp\htdocs\html5.local\angie" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\views" />
       <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js" />
       <recent name="E:\xampp\htdocs\html5.local\angie\000_javascript_php\01_api" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\exam_19_09_2021" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -636,7 +638,50 @@
       <workItem from="1712561117940" duration="10356000" />
       <workItem from="1712675507876" duration="1481000" />
       <workItem from="1712742748884" duration="5570000" />
-      <workItem from="1712815513660" duration="19619000" />
+      <workItem from="1712815513660" duration="20776000" />
+      <workItem from="1712903591942" duration="3930000" />
+      <workItem from="1712987886416" duration="1569000" />
+      <workItem from="1713075561119" duration="2796000" />
+      <workItem from="1713160465585" duration="3938000" />
+      <workItem from="1713242924437" duration="3257000" />
+      <workItem from="1713336717768" duration="2335000" />
+      <workItem from="1713451273136" duration="636000" />
+      <workItem from="1713535508132" duration="1208000" />
+      <workItem from="1713772283542" duration="4813000" />
+      <workItem from="1713856341870" duration="1783000" />
+      <workItem from="1713895318756" duration="1906000" />
+      <workItem from="1714040387246" duration="8242000" />
+      <workItem from="1714199012431" duration="2148000" />
+      <workItem from="1714287066326" duration="2862000" />
+      <workItem from="1714385587233" duration="1536000" />
+      <workItem from="1714478877246" duration="8266000" />
+      <workItem from="1714544637032" duration="2635000" />
+      <workItem from="1714633650127" duration="6823000" />
+      <workItem from="1714729564376" duration="12476000" />
+      <workItem from="1714981289007" duration="659000" />
+      <workItem from="1715065488912" duration="1053000" />
+      <workItem from="1715235819861" duration="13308000" />
+      <workItem from="1715327549100" duration="5862000" />
+      <workItem from="1715615789167" duration="5440000" />
+      <workItem from="1715669038498" duration="11032000" />
+      <workItem from="1716189355518" duration="666000" />
+      <workItem from="1716797481757" duration="4498000" />
+      <workItem from="1716872918328" duration="5553000" />
+      <workItem from="1716965037195" duration="4384000" />
+      <workItem from="1717081654300" duration="3004000" />
+      <workItem from="1717138715032" duration="1560000" />
+      <workItem from="1717484273504" duration="4838000" />
+      <workItem from="1717656384564" duration="4262000" />
+      <workItem from="1717752362435" duration="6235000" />
+      <workItem from="1717828036445" duration="2556000" />
+      <workItem from="1718102727807" duration="2792000" />
+      <workItem from="1718192953055" duration="8754000" />
+      <workItem from="1718261415623" duration="13154000" />
+      <workItem from="1718346372645" duration="3187000" />
+      <workItem from="1718613090165" duration="14407000" />
+      <workItem from="1718703132657" duration="5481000" />
+      <workItem from="1718781677146" duration="6667000" />
+      <workItem from="1718807407064" duration="1911000" />
     </task>
     <servers />
   </component>
@@ -818,24 +863,6 @@
           <url>file://$PROJECT_DIR$/lesson40_shop/main.js</url>
           <line>7</line>
           <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/user_authentication/00-starting-project/routes/demo.js</url>
-          <line>71</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/user_authentication/00-starting-project/routes/demo.js</url>
-          <line>14</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="106" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/user_authentication/00-starting-project/routes/demo.js</url>
-          <line>12</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
