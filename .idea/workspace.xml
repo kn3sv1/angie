@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/routes/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/routes/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/views/includes/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/views/includes/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/views/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/views/login.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_authentication/00-starting-project/views/signup.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/user_authentication/00-starting-project/views/signup.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/controllers/post-controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/controllers/post-controllers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -681,7 +677,8 @@
       <workItem from="1718613090165" duration="14407000" />
       <workItem from="1718703132657" duration="5481000" />
       <workItem from="1718781677146" duration="6667000" />
-      <workItem from="1718807407064" duration="1911000" />
+      <workItem from="1718807407064" duration="2991000" />
+      <workItem from="1718868233498" duration="15844000" />
     </task>
     <servers />
   </component>
