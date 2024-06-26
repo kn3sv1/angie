@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/controllers/post-controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/controllers/post-controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/controllers/post-controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/controllers/post-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/views/includes/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/views/includes/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/views/includes/post-form.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/views/includes/post-form.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/views/includes/post-item.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/views/includes/post-item.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/views/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/views/login.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/views/signup.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/views/signup.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/routes/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/util/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/util/validation.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -688,7 +684,9 @@
       <workItem from="1718868233498" duration="16508000" />
       <workItem from="1718992788022" duration="1099000" />
       <workItem from="1719122218475" duration="6630000" />
-      <workItem from="1719217356806" duration="6214000" />
+      <workItem from="1719217356806" duration="8357000" />
+      <workItem from="1719298413760" duration="18429000" />
+      <workItem from="1719384533307" duration="6923000" />
     </task>
     <servers />
   </component>
