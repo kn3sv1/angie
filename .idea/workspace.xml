@@ -3,11 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/controllers/auth-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/controllers/auth-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/controllers/post-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/controllers/post-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/refactoring_and_the_mvc_pattern/00-starting-project/routes/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/public/scripts/responsive.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/public/scripts/responsive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/config/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/config/session.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/middlewares/error-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/middlewares/error-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/routes/base.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/routes/base.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/routes/products.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/routes/products.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/admin/products/all-products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/admin/products/all-products.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/admin/products/includes/product-item.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/products/all-products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/products/all-products.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -73,7 +79,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_authentication/00-starting-project/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/udemy_practice/online_shop/views/shared/includes" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -81,19 +87,19 @@
     <property name="ts.external.directory.path" value="E:\PhpStorm 2019.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\refactoring_and_the_mvc_pattern\00-starting-project" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\file_upload\00-starting-project\public" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\file_upload" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\Node_JS_MongoDB_project" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\00-starting-project" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\online_shop\views\shared\includes" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\online_shop\views\shared" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\online_shop\views\admin\products\includes" />
       <recent name="E:\xampp\htdocs\html5.local\angie\user_authentication\00-starting-project\views" />
       <recent name="E:\xampp\htdocs\html5.local\angie" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js\00-starting-project\views" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\node_js" />
-      <recent name="E:\xampp\htdocs\html5.local\angie\000_javascript_php\01_api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\online_shop\views\admin\products" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\online_shop\views\shared" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\online_shop\views\customer" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\udemy_practice\refactoring_and_the_mvc_pattern\00-starting-project" />
+      <recent name="E:\xampp\htdocs\html5.local\angie\file_upload\00-starting-project\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -691,7 +697,52 @@
       <workItem from="1719478141150" duration="1743000" />
       <workItem from="1719562142031" duration="1630000" />
       <workItem from="1719820811336" duration="2308000" />
-      <workItem from="1719906466426" duration="4763000" />
+      <workItem from="1719906466426" duration="6131000" />
+      <workItem from="1719989288705" duration="2494000" />
+      <workItem from="1720078204516" duration="10395000" />
+      <workItem from="1720166326945" duration="5532000" />
+      <workItem from="1720337248357" duration="4119000" />
+      <workItem from="1720427599047" duration="7952000" />
+      <workItem from="1720513394386" duration="3886000" />
+      <workItem from="1720684126946" duration="9557000" />
+      <workItem from="1720771016995" duration="8156000" />
+      <workItem from="1720803077556" duration="8609000" />
+      <workItem from="1720852798329" duration="2303000" />
+      <workItem from="1720944029823" duration="1083000" />
+      <workItem from="1721032775688" duration="3346000" />
+      <workItem from="1721119724830" duration="2679000" />
+      <workItem from="1721202374371" duration="12474000" />
+      <workItem from="1721286805777" duration="3235000" />
+      <workItem from="1721306531924" duration="6330000" />
+      <workItem from="1721372603608" duration="7327000" />
+      <workItem from="1721630459178" duration="27695000" />
+      <workItem from="1721717056487" duration="18151000" />
+      <workItem from="1721805925614" duration="15295000" />
+      <workItem from="1721891583342" duration="6114000" />
+      <workItem from="1721909647496" duration="6475000" />
+      <workItem from="1721994633863" duration="7063000" />
+      <workItem from="1722154083435" duration="3353000" />
+      <workItem from="1722237456521" duration="14247000" />
+      <workItem from="1722324634751" duration="3840000" />
+      <workItem from="1722333099952" duration="11653000" />
+      <workItem from="1722411341380" duration="14943000" />
+      <workItem from="1722495394876" duration="15670000" />
+      <workItem from="1722584841151" duration="13626000" />
+      <workItem from="1722843549449" duration="11431000" />
+      <workItem from="1722932637588" duration="17395000" />
+      <workItem from="1723018366474" duration="6638000" />
+      <workItem from="1723100920868" duration="13504000" />
+      <workItem from="1723191613691" duration="10805000" />
+      <workItem from="1723451212442" duration="18233000" />
+      <workItem from="1723536398463" duration="7035000" />
+      <workItem from="1723623262310" duration="14968000" />
+      <workItem from="1723713069387" duration="8563000" />
+      <workItem from="1723796348931" duration="12021000" />
+      <workItem from="1723885906404" duration="4939000" />
+      <workItem from="1724058684750" duration="12829000" />
+      <workItem from="1724153068704" duration="11081000" />
+      <workItem from="1724224601544" duration="17856000" />
+      <workItem from="1724315247497" duration="1255000" />
     </task>
     <servers />
   </component>
