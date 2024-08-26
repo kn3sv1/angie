@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson101_dynamic_cats/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson101_dynamic_cats/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/public/scripts/responsive.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/public/scripts/responsive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/config/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/config/session.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/middlewares/error-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/middlewares/error-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/products.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/products.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/routes/base.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/routes/base.routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/routes/products.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/routes/products.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/admin/products/all-products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/admin/products/all-products.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/admin/products/includes/product-item.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/products/all-products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/products/all-products.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -742,7 +734,11 @@
       <workItem from="1724058684750" duration="12829000" />
       <workItem from="1724153068704" duration="11081000" />
       <workItem from="1724224601544" duration="17856000" />
-      <workItem from="1724315247497" duration="1255000" />
+      <workItem from="1724315247497" duration="18801000" />
+      <workItem from="1724408104243" duration="8418000" />
+      <workItem from="1724498182532" duration="1763000" />
+      <workItem from="1724572960145" duration="3688000" />
+      <workItem from="1724658439844" duration="12090000" />
     </task>
     <servers />
   </component>
