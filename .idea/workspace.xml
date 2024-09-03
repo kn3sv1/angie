@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/products.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/products.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/routes/products.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/routes/products.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/products/product-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/products/product-detail.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/shared/includes/nav-items.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/shared/includes/nav-items.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -738,7 +740,15 @@
       <workItem from="1724408104243" duration="8418000" />
       <workItem from="1724498182532" duration="1763000" />
       <workItem from="1724572960145" duration="3688000" />
-      <workItem from="1724658439844" duration="12090000" />
+      <workItem from="1724658439844" duration="20565000" />
+      <workItem from="1724746980370" duration="10253000" />
+      <workItem from="1724822286529" duration="15532000" />
+      <workItem from="1724919670128" duration="15309000" />
+      <workItem from="1724995648074" duration="19152000" />
+      <workItem from="1725092825055" duration="6408000" />
+      <workItem from="1725178322468" duration="2058000" />
+      <workItem from="1725256459265" duration="18424000" />
+      <workItem from="1725340777536" duration="809000" />
     </task>
     <servers />
   </component>
@@ -920,6 +930,11 @@
           <url>file://$PROJECT_DIR$/lesson40_shop/main.js</url>
           <line>7</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/udemy_practice/online_shop/controllers/products.controller.js</url>
+          <line>4</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
