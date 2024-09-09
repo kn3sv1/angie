@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/products/product-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/products/product-detail.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/shared/includes/nav-items.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/shared/includes/nav-items.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/cart.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/cart.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/models/cart.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/models/cart.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/routes/cart.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/routes/cart.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/cart/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/cart/cart.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +41,8 @@
       <list>
         <option value="tsconfig.json" />
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -748,7 +747,13 @@
       <workItem from="1725092825055" duration="6408000" />
       <workItem from="1725178322468" duration="2058000" />
       <workItem from="1725256459265" duration="18424000" />
-      <workItem from="1725340777536" duration="809000" />
+      <workItem from="1725340777536" duration="12948000" />
+      <workItem from="1725442766587" duration="9143000" />
+      <workItem from="1725477365750" duration="2993000" />
+      <workItem from="1725514501578" duration="14060000" />
+      <workItem from="1725605406817" duration="8184000" />
+      <workItem from="1725690980309" duration="1040000" />
+      <workItem from="1725863009534" duration="3850000" />
     </task>
     <servers />
   </component>
