@@ -25,6 +25,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static('public'));
 app.use('/products/assets', express.static('product-data'));
 app.use(express.urlencoded({extended: false})); //Parse incoming request bodies
+//converts back from type string to javascript object.
 app.use(express.json());
 
 const sessionConfig = createSessionConfig();

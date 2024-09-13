@@ -18,6 +18,10 @@
         <input type="hidden" value="<%= nextOrder %>" name="order">
         <button class="btn">Change Order</button>
       </form>
+<!--        Instead of submitting a form with the method GET and a hidden input field we could add a link with-->
+<!--        a query parameter.-->
+
+<!--        <a class="btn" href="/restaurants?order=<%= nextOrder %>">Change Order</a>-->
       <ul id="restaurants-list">
         <% for ( const restaurant of restaurants) { %>
         <%-include('includes/restaurants/restaurant-item', {restaurant: restaurant})%>
