@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/util/restaurant-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/util/restaurant-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/views/restaurants.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/node_js/00-starting-project/views/restaurants.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/cart.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/cart.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/models/user.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/public/styles/cart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/cart/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/cart/cart.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/cart/includes/cart-item.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/cart/includes/cart-item.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -760,7 +758,10 @@
       <workItem from="1725954782163" duration="4761000" />
       <workItem from="1726035899955" duration="17434000" />
       <workItem from="1726120975427" duration="7115000" />
-      <workItem from="1726214971894" duration="11300000" />
+      <workItem from="1726214971894" duration="12567000" />
+      <workItem from="1726466946842" duration="15826000" />
+      <workItem from="1726554720734" duration="16487000" />
+      <workItem from="1726639121704" duration="4683000" />
     </task>
     <servers />
   </component>
