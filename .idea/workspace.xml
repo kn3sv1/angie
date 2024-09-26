@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/admin.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/admin.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/routes/admin.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/routes/admin.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/cart.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/cart.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/orders.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/orders.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/models/cart.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/models/cart.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/models/product.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/models/product.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/public/scripts/cart-management.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/public/scripts/cart-management.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +43,8 @@
       <list>
         <option value="tsconfig.json" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -762,7 +766,10 @@
       <workItem from="1726639121704" duration="10678000" />
       <workItem from="1726733723395" duration="17749000" />
       <workItem from="1726815775355" duration="11188000" />
-      <workItem from="1727072188142" duration="6652000" />
+      <workItem from="1727072188142" duration="11765000" />
+      <workItem from="1727158384190" duration="11482000" />
+      <workItem from="1727252003497" duration="13621000" />
+      <workItem from="1727334681878" duration="10656000" />
     </task>
     <servers />
   </component>
