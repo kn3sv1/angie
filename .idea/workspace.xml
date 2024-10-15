@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/cart.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/cart.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/orders.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/controllers/orders.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/models/cart.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/models/cart.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/models/product.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/models/product.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/public/scripts/cart-management.js" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/public/scripts/cart-management.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/cart/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/cart/cart.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +38,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -769,7 +765,13 @@
       <workItem from="1727072188142" duration="11765000" />
       <workItem from="1727158384190" duration="11482000" />
       <workItem from="1727252003497" duration="13621000" />
-      <workItem from="1727334681878" duration="10656000" />
+      <workItem from="1727334681878" duration="11725000" />
+      <workItem from="1727689450974" duration="1260000" />
+      <workItem from="1727767231218" duration="768000" />
+      <workItem from="1727865219717" duration="1834000" />
+      <workItem from="1728805371230" duration="1701000" />
+      <workItem from="1728807691193" duration="2263000" />
+      <workItem from="1728817588286" duration="946000" />
     </task>
     <servers />
   </component>
