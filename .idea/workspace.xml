@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a88ea6a-b805-4fe9-a4bd-2b401196648f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/cart/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/udemy_practice/online_shop/views/customer/cart/cart.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -772,6 +770,14 @@
       <workItem from="1728805371230" duration="1701000" />
       <workItem from="1728807691193" duration="2263000" />
       <workItem from="1728817588286" duration="946000" />
+      <workItem from="1729010352598" duration="2107000" />
+      <workItem from="1729166458076" duration="1183000" />
+      <workItem from="1729243758438" duration="2030000" />
+      <workItem from="1729841043608" duration="2787000" />
+      <workItem from="1731521712915" duration="3116000" />
+      <workItem from="1731739382613" duration="2750000" />
+      <workItem from="1731748467015" duration="110000" />
+      <workItem from="1731762091860" duration="428000" />
     </task>
     <servers />
   </component>
