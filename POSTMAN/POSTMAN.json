@@ -1,0 +1,201 @@
+{
+	"info": {
+		"_postman_id": "066e27e6-4f7b-4d77-9821-ea9b99896611",
+		"name": "POSTMAN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6834280"
+	},
+	"item": [
+		{
+			"name": "01_CALCULATOR",
+			"item": [
+				{
+					"name": "Test Case 6.1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"First possitive test case\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let calc = pm.response.json();\r",
+									"    console.log('ANGIE RESPONSE: ', calc);\r",
+									"    let totalExpected = calc.num1 + calc.num2;\r",
+									"    let totalReceived = calc.total;\r",
+									"    console.log(`totalExpected: ${totalExpected}, totalReceived: ${totalReceived}`, calc);\r",
+									"\r",
+									"    // TEST CASE\r",
+									"    pm.expect(totalExpected).eq(totalReceived);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/?num1=5&num2=20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "num1",
+									"value": "5"
+								},
+								{
+									"key": "num2",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test Case 6.2",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 6.2\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"\r",
+									"    let calc = pm.response.json();\r",
+									"    pm.expect(calc.error).eq(\"num1 or num2 not in valid range\");\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/?num1=-2000&num2=100",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "num1",
+									"value": "-2000"
+								},
+								{
+									"key": "num2",
+									"value": "100"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test Case 6.3",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 6.3\", function () {\r",
+									"    pm.response.to.have.status(422);\r",
+									"\r",
+									"    let calc = pm.response.json();\r",
+									"    pm.expect(calc.error).eq(\"num1 or num2 is not provided\");\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/?num2=100",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "num2",
+									"value": "100"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test Case 6.4",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 6.4\", function () {\r",
+									"    pm.response.to.have.status(422);\r",
+									"\r",
+									"    let calc = pm.response.json();\r",
+									"    pm.expect(calc.error).eq(\"num1 or num2 is not of type integer\");\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/?num1=ertyrtyrty&num2=20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							],
+							"query": [
+								{
+									"key": "num1",
+									"value": "ertyrtyrty"
+								},
+								{
+									"key": "num2",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

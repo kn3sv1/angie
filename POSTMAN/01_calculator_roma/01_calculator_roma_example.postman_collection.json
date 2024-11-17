@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "273f6b68-4561-4b64-8866-80c8d4260c6c",
+		"name": "01_calculator_roma_example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6834280"
+	},
+	"item": [
+		{
+			"name": "add two numbers",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"function getTotal() {\r",
+							"    let calc = pm.response.json();\r",
+							"    console.log('ANGIE RESPONSE: ', calc);\r",
+							"    let totalExpected = parseInt(calc.num1) + parseInt(calc.num2);\r",
+							"    let totalReceived = parseInt(calc.total);\r",
+							"    \r",
+							"    return {\r",
+							"        totalExpected: totalExpected,\r",
+							"        totalReceived: totalReceived,\r",
+							"    }\r",
+							"}\r",
+							"\r",
+							"// pm = postman\r",
+							"pm.test(\"Check add 2 numbers from Angie\", function () {\r",
+							"\r",
+							"    let calc = pm.response.json();\r",
+							"    console.log('ANGIE RESPONSE: ', calc);\r",
+							"    let totalExpected = parseInt(calc.num1) + parseInt(calc.num2);\r",
+							"    let totalReceived = parseInt(calc.total);\r",
+							"    console.log(`totalExpected: ${totalExpected}, totalReceived: ${totalReceived}`);\r",
+							"\r",
+							"    // TEST CASE\r",
+							"    pm.expect(totalExpected).eq(totalReceived);\r",
+							"\r",
+							"    pm.expect(totalExpected).gt(totalExpected - 10 );\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"pm.test(\"ROMAS way with function\", function () {\r",
+							"    let totalObj = getTotal();\r",
+							"    pm.expect(totalObj.totalExpected).eq(totalObj.totalReceived);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"ROMAS222\", function () {\r",
+							"    let totalObj = getTotal();\r",
+							"\r",
+							"    //test case\r",
+							"    pm.expect(totalObj.totalExpected).gt(totalObj.totalExpected - 100);\r",
+							"\r",
+							"    // pm.expect(10).eq(20);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"TEST CASE for .lt (lower than) for HUMAN readable sentance\", function () {\r",
+							"    pm.expect(10).lt(20);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"TEST CASE for .eq (EQUAL) for HUMAN readable sentance\", function () {\r",
+							"    pm.expect(10).eq(10);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/?num1=10&num2=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "10"
+						},
+						{
+							"key": "num2",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "angie add 2 numbers",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"TEST CASE for .lt (lower than) for HUMAN readable sentance\", function () {\r",
+							"    pm.expect(10).lt(20);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"TEST CASE for .lt (lower than) for HUMAN readable sentance\", function () {\r",
+							"    pm.expect(10).lt(20);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"TEST num1\\num2 request equal response\", function () {\r",
+							"    let num1 = parseInt(pm.request.url.query.get('num1'));\r",
+							"    let num2 = parseInt(pm.request.url.query.get('num2'));\r",
+							"\r",
+							"    let calc = pm.response.json();\r",
+							"    pm.expect(num1).eq(calc.num1);\r",
+							"    pm.expect(num2).eq(calc.num2);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/?num1=10&num2=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "num1",
+							"value": "10"
+						},
+						{
+							"key": "num2",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
