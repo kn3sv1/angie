@@ -199,6 +199,14 @@
 		},
 		{
 			"name": "02_calculator_post",
+			"item": []
+		},
+		{
+			"name": "03_calculator_json",
+			"item": []
+		},
+		{
+			"name": "04_weather",
 			"item": [
 				{
 					"name": "Test Case 1",
@@ -255,7 +263,70 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Test Case 1",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "Angie",
+											"type": "text"
+										},
+										{
+											"key": "surname",
+											"value": "Neophytou333",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/weather/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"weather",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 24 Nov 2024 17:33:28 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"ChUNKS are logged in console\",\n    \"dataObj\": {\n        \"name\": \"Angie\",\n        \"surname\": \"Neophytou333\"\n    },\n    \"result\": [\n        {\n            \"city\": \"Limassol\",\n            \"temperature\": 17,\n            \"humidity\": 86,\n            \"wind_speed\": 6,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Paphos\",\n            \"temperature\": 20,\n            \"humidity\": 80,\n            \"wind_speed\": 11,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun with clouds\"\n        },\n        {\n            \"city\": \"Larnaka\",\n            \"temperature\": 15,\n            \"humidity\": 84,\n            \"wind_speed\": 4,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Nicosia\",\n            \"temperature\": -14,\n            \"humidity\": 84,\n            \"wind_speed\": 12,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun with clouds\"\n        }\n    ]\n}"
+						}
+					]
 				},
 				{
 					"name": "Test Case 2",
@@ -323,17 +394,342 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Test Case 2",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "Angie",
+											"type": "text"
+										},
+										{
+											"key": "surname",
+											"value": "Neophytou333",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/weather/?city=Limassol",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"weather",
+										""
+									],
+									"query": [
+										{
+											"key": "city",
+											"value": "Limassol"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 24 Nov 2024 17:33:43 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"ChUNKS are logged in console\",\n    \"dataObj\": {\n        \"name\": \"Angie\",\n        \"surname\": \"Neophytou333\"\n    },\n    \"result\": {\n        \"city\": \"Limassol\",\n        \"temperature\": 17,\n        \"humidity\": 86,\n        \"wind_speed\": 6,\n        \"air_quality\": \"fair\",\n        \"icon\": \"sun\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Test Case 3",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 2\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"    console.log(pm.request.url.query.get('city').toLowerCase());\r",
+									"\r",
+									"    let expectedCity = pm.request.url.query.get('city').toLowerCase();\r",
+									"    let resultCity = obj.result.city.toLowerCase();\r",
+									"    \r",
+									"    pm.expect(expectedCity).eq(resultCity);\r",
+									"    \r",
+									"    pm.expect(obj.result)\r",
+									"        .to.be.an('object')\r",
+									"        .but.not.an('array');\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Angie",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Neophytou333",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/?city=Limassol",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							],
+							"query": [
+								{
+									"key": "city",
+									"value": "Limassol"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Test Case 2 Copy",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "Angie",
+											"type": "text"
+										},
+										{
+											"key": "surname",
+											"value": "Neophytou333",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/weather/?city=Limassol9",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"weather",
+										""
+									],
+									"query": [
+										{
+											"key": "city",
+											"value": "Limassol9"
+										}
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 24 Nov 2024 17:33:57 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"City is not found\",\n    \"success\": false\n}"
+						}
+					]
+				},
+				{
+					"name": "Test Case 4",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 4\", function () {\r",
+									" \r",
+									"    let obj = pm.response.json();\r",
+									"    for (let weather of obj.result) {\r",
+									"        pm.expect(weather.temperature).to.match(/^-?\\+?[0-9]+$/);\r",
+									"        //https://community.postman.com/t/verify-a-variable-value-is-numeric-the-variable-is-string/53946\r",
+									"        // Only for possitive digits. But we have negative aswell.\r",
+									"        //pm.expect(weather.temperature).to.match(/^\\d+$/);\r",
+									"\r",
+									"        //https://stackoverflow.com/questions/66396143/how-to-test-range-age-in-postman\r",
+									"        //pm.expect(weather.temperature).to.be.within(-20, 50);\r",
+									"\r",
+									"        pm.expect(weather.temperature).to.be.greaterThan(-20);\r",
+									"        pm.expect(weather.temperature).to.be.lessThan(50);\r",
+									"    }\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Angie",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Neophytou333",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Test Case 4 response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "Angie",
+											"type": "text"
+										},
+										{
+											"key": "surname",
+											"value": "Neophytou333",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/weather/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"weather",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 24 Nov 2024 17:29:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"ChUNKS are logged in console\",\n    \"dataObj\": {\n        \"name\": \"Angie\",\n        \"surname\": \"Neophytou333\"\n    },\n    \"result\": [\n        {\n            \"city\": \"Limassol\",\n            \"temperature\": 17,\n            \"humidity\": 86,\n            \"wind_speed\": 6,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Paphos\",\n            \"temperature\": 20,\n            \"humidity\": 80,\n            \"wind_speed\": 11,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun with clouds\"\n        },\n        {\n            \"city\": \"Larnaka\",\n            \"temperature\": 15,\n            \"humidity\": 84,\n            \"wind_speed\": 4,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Nicosia\",\n            \"temperature\": -140,\n            \"humidity\": 84,\n            \"wind_speed\": 12,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun with clouds\"\n        }\n    ]\n}"
+						}
+					]
 				}
 			]
-		},
-		{
-			"name": "03_calculator_json",
-			"item": []
-		},
-		{
-			"name": "04_weather",
-			"item": []
 		}
 	]
 }

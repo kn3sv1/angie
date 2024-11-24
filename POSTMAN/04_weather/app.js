@@ -70,7 +70,7 @@ let weatherCities = [
     },
     {
         city: "Larnaka",
-        temperature: 15,
+        temperature: +15,
         humidity: 84,
         wind_speed: 4,
         air_quality: "moderate",
@@ -78,7 +78,7 @@ let weatherCities = [
     },
     {
         city: "Nicosia",
-        temperature: 14,
+        temperature: -14,
         humidity: 84,
         wind_speed: 12,
         air_quality: "fair",
@@ -116,6 +116,16 @@ function startProcess(req, res, dataObj) {
         // callback function
         // https://www.w3schools.com/jsreF/jsref_find.asp
         result = weatherCities.find(function (weather) { return weather.city.toLowerCase() === q.city.toLowerCase(); });
+        console.log(result);
+        if (!result) {
+            res.writeHead(404, {'Content-Type': 'application/json'});
+            res.end(JSON.stringify(
+                {
+                    error: "City is not found",
+                    success: false
+                }));
+            return;
+        }
     }
 
     // My test case is all in this function
