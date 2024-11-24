@@ -6,17 +6,17 @@ var url = require('url');
 function convertChunksToObject(chunks) {
     // Buffer is used to handle the binary streams of data. Binary/hexadecimal array of chunks.
     const data = Buffer.concat(chunks);
-    console.log("Data: ", data);
+    //console.log("Data: ", data);
 
     // We can convert it to string to get a readable format.
     const stringData = data.toString();
-    console.log("stringData: ", stringData);
+    //console.log("stringData: ", stringData);
 
     // stringData:  name=Angie&surname=Neophytou we convert "URLSearchParams"
     // URLSearchParams - google what it is.
     const parsedData = new URLSearchParams(stringData);
 
-    console.log("parsedData: ", parsedData);
+    //console.log("parsedData: ", parsedData);
     // https://stackoverflow.com/questions/8648892/how-to-convert-url-parameters-to-a-javascript-object
     // Convert URLSearchParams object to our own plain object
     //Copy key and value from "URLSearchParams" to "dataObj"
@@ -25,7 +25,7 @@ function convertChunksToObject(chunks) {
         let key = pair[0];
         dataObj[key] = pair[1];
     }
-    console.log("DataObj: ", dataObj);
+    //console.log("DataObj: ", dataObj);
 
     // let f = { name: 'Angie', surname : 'Neophytou' };
     // for (var p of Object.entries(f)) {
@@ -45,7 +45,7 @@ http.createServer(function(req, res) {
         chunks.push(chunk);
     });
     req.on("end", () => {
-        console.log("all parts/chunks have arrived");
+        //console.log("all parts/chunks have arrived");
         let dataObj = convertChunksToObject(chunks);
         startProcess(req, res, dataObj)
     });
@@ -108,14 +108,14 @@ function startProcess(req, res, dataObj) {
     }
     let result = weatherCities;
     var q = url.parse(req.url, true).query;
-    console.log("q: ", q.city);
+    //console.log("q: ", q.city);
     if (q.city) {
         // https://www.w3schools.com/js/js_arrow_function.asp
         // result = weatherCities.find((weather) => weather.city === q.city);
 
         // callback function
         // https://www.w3schools.com/jsreF/jsref_find.asp
-        result = weatherCities.find(function (weather) { return weather.city === q.city; });
+        result = weatherCities.find(function (weather) { return weather.city.toLowerCase() === q.city.toLowerCase(); });
     }
 
     // My test case is all in this function
