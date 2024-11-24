@@ -196,6 +196,141 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "02_calculator_post",
+			"item": [
+				{
+					"name": "Test Case 1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 1\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"    // console.log(obj.result);\r",
+									"    \r",
+									"    pm.expect(obj.result)\r",
+									"        .to.be.an('array')\r",
+									"        .but.not.an('object');\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Angie",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Neophytou333",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test Case 2",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 2\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"    console.log(pm.request.url.query.get('city'));\r",
+									"\r",
+									"    pm.expect(pm.request.url.query.get('city')).eq(obj.result.city);\r",
+									"    \r",
+									"    pm.expect(obj.result)\r",
+									"        .to.be.an('object')\r",
+									"        .but.not.an('array');\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Angie",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Neophytou333",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/?city=Limassol",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							],
+							"query": [
+								{
+									"key": "city",
+									"value": "Limassol"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "03_calculator_json",
+			"item": []
+		},
+		{
+			"name": "04_weather",
+			"item": []
 		}
 	]
 }
