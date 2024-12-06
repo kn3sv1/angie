@@ -466,26 +466,21 @@
 					]
 				},
 				{
-					"name": "Test Case 3",
+					"name": "Test Case 3 - Negative",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Test Case 2\", function () {\r",
-									"    pm.response.to.have.status(200);\r",
+									"pm.test(\"Test Case 3\", function () {\r",
+									"    pm.response.to.have.status(404);\r",
 									"\r",
 									"    let obj = pm.response.json();\r",
-									"    console.log(pm.request.url.query.get('city').toLowerCase());\r",
 									"\r",
-									"    let expectedCity = pm.request.url.query.get('city').toLowerCase();\r",
-									"    let resultCity = obj.result.city.toLowerCase();\r",
-									"    \r",
-									"    pm.expect(expectedCity).eq(resultCity);\r",
-									"    \r",
-									"    pm.expect(obj.result)\r",
-									"        .to.be.an('object')\r",
-									"        .but.not.an('array');\r",
+									"    // pm.expect(false).eq(obj.success);\r",
+									"    pm.expect(obj.success).to.be.false;\r",
+									"\r",
+									"    pm.expect(\"City is not found\").eq(obj.error);\r",
 									"});"
 								],
 								"type": "text/javascript",
@@ -512,7 +507,7 @@
 							]
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/weather/?city=Limassol",
+							"raw": "http://localhost:5000/api/weather/?city=Limassol9",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -526,14 +521,14 @@
 							"query": [
 								{
 									"key": "city",
-									"value": "Limassol"
+									"value": "Limassol9"
 								}
 							]
 						}
 					},
 					"response": [
 						{
-							"name": "Test Case 2 Copy",
+							"name": "Test Case 3 - Negative",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -582,7 +577,7 @@
 								},
 								{
 									"key": "Date",
-									"value": "Sun, 24 Nov 2024 17:33:57 GMT"
+									"value": "Wed, 04 Dec 2024 21:48:28 GMT"
 								},
 								{
 									"key": "Connection",
@@ -726,6 +721,330 @@
 							],
 							"cookie": [],
 							"body": "{\n    \"message\": \"ChUNKS are logged in console\",\n    \"dataObj\": {\n        \"name\": \"Angie\",\n        \"surname\": \"Neophytou333\"\n    },\n    \"result\": [\n        {\n            \"city\": \"Limassol\",\n            \"temperature\": 17,\n            \"humidity\": 86,\n            \"wind_speed\": 6,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Paphos\",\n            \"temperature\": 20,\n            \"humidity\": 80,\n            \"wind_speed\": 11,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun with clouds\"\n        },\n        {\n            \"city\": \"Larnaka\",\n            \"temperature\": 15,\n            \"humidity\": 84,\n            \"wind_speed\": 4,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Nicosia\",\n            \"temperature\": -140,\n            \"humidity\": 84,\n            \"wind_speed\": 12,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun with clouds\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Test Case 5",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 5\", function () {\r",
+									" \r",
+									"    let obj = pm.response.json();\r",
+									"    for (let object of obj.result) {\r",
+									"        pm.expect(object.humidity).to.match(/^-?\\+?[0-9]+$/);\r",
+									"        //https://community.postman.com/t/verify-a-variable-value-is-numeric-the-variable-is-string/53946\r",
+									"        // Only for possitive digits. But we have negative aswell.\r",
+									"        //pm.expect(weather.temperature).to.match(/^\\d+$/);\r",
+									"\r",
+									"        //https://stackoverflow.com/questions/66396143/how-to-test-range-age-in-postman\r",
+									"        //pm.expect(weather.temperature).to.be.within(-20, 50);\r",
+									"\r",
+									"        pm.expect(object.humidity).to.be.within(1, 100);\r",
+									"    }\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Angie",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Neophytou333",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Test Case 5 response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "Angie",
+											"type": "text"
+										},
+										{
+											"key": "surname",
+											"value": "Neophytou333",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/weather/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"weather",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 04 Dec 2024 21:26:24 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"ChUNKS are logged in console\",\n    \"dataObj\": {\n        \"name\": \"Angie\",\n        \"surname\": \"Neophytou333\"\n    },\n    \"result\": [\n        {\n            \"city\": \"Limassol\",\n            \"temperature\": 17,\n            \"humidity\": 86,\n            \"wind_speed\": 6,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Paphos\",\n            \"temperature\": 20,\n            \"humidity\": 80,\n            \"wind_speed\": 11,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun with clouds\"\n        },\n        {\n            \"city\": \"Larnaka\",\n            \"temperature\": 15,\n            \"humidity\": 84,\n            \"wind_speed\": 4,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Nicosia\",\n            \"temperature\": -14,\n            \"humidity\": 84,\n            \"wind_speed\": 12,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun with clouds\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Test Case 6",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 6\", function () {\r",
+									" \r",
+									"    let obj = pm.response.json();\r",
+									"    for (let object of obj.result) {\r",
+									"        pm.expect(object.wind_speed).to.match(/^-?\\+?[0-9]+$/);\r",
+									"        //https://community.postman.com/t/verify-a-variable-value-is-numeric-the-variable-is-string/53946\r",
+									"        // Only for possitive digits. But we have negative aswell.\r",
+									"        //pm.expect(weather.temperature).to.match(/^\\d+$/);\r",
+									"\r",
+									"        //https://stackoverflow.com/questions/66396143/how-to-test-range-age-in-postman\r",
+									"        //pm.expect(weather.temperature).to.be.within(-20, 50);\r",
+									"\r",
+									"        pm.expect(object.wind_speed).to.be.within(5, 100);\r",
+									"    }\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Angie",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Neophytou333",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test Case 7",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 7\", function () {\r",
+									"\r",
+									" \tlet obj = pm.response.json();\r",
+									"\r",
+									"    \r",
+									"    const arrayValues = ['good', 'fair', 'moderate','poor', 'verry poor'];\r",
+									"    \r",
+									"    for (let object of obj.result) {\r",
+									"        pm.expect(typeof object.air_quality).to.be.oneOf(['string']);\r",
+									"\r",
+									"        pm.expect(object.air_quality).to.contain.oneOf(arrayValues);\r",
+									"    }\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Test Case 7.1\", function () {\r",
+									" \tlet obj = pm.response.json();\r",
+									"    const arrayValues = ['good', 'fair', 'moderate','poor', 'verry poor'];\r",
+									"    \r",
+									"    for (let object of obj.result) {\r",
+									"        let isFound = arrayValues.includes(object.air_quality);\r",
+									"        console.log(`${object.air_quality} = ${isFound}`);\r",
+									"        pm.expect(isFound).to.be.true;\r",
+									"    }\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Angie",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Neophytou333",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Test Case 5 response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "Angie",
+											"type": "text"
+										},
+										{
+											"key": "surname",
+											"value": "Neophytou333",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/weather/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"weather",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 04 Dec 2024 21:26:24 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"ChUNKS are logged in console\",\n    \"dataObj\": {\n        \"name\": \"Angie\",\n        \"surname\": \"Neophytou333\"\n    },\n    \"result\": [\n        {\n            \"city\": \"Limassol\",\n            \"temperature\": 17,\n            \"humidity\": 86,\n            \"wind_speed\": 6,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Paphos\",\n            \"temperature\": 20,\n            \"humidity\": 80,\n            \"wind_speed\": 11,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun with clouds\"\n        },\n        {\n            \"city\": \"Larnaka\",\n            \"temperature\": 15,\n            \"humidity\": 84,\n            \"wind_speed\": 4,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Nicosia\",\n            \"temperature\": -14,\n            \"humidity\": 84,\n            \"wind_speed\": 12,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun with clouds\"\n        }\n    ]\n}"
 						}
 					]
 				}
