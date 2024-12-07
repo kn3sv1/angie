@@ -1155,6 +1155,121 @@
 					"response": []
 				},
 				{
+					"name": "CREATE MANY CITIES",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// it is safe to unset HERE\r",
+									"pm.globals.unset(\"city\"); \r",
+									"\r",
+									"pm.test(\"Test Case CRUD 1\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"    console.log(`cityCreatedIndex = ${obj.cityCreatedIndex},  cityCreated = ${obj.cityCreated}`);\r",
+									"\r",
+									"    //pm.globals.set(\"cityCreated\", obj.cityCreated);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"let cities = ['Filusa', 'AgiaZoni', 'Peristerona'];\r",
+									"\r",
+									"let currentIndex = pm.globals.get(\"currentIndex\");\r",
+									"\r",
+									"console.log(`currentIndex BEFORE = ${currentIndex}`);\r",
+									"\r",
+									"if (typeof currentIndex === \"undefined\") {\r",
+									"    currentIndex = cities.length - 1;\r",
+									"}\r",
+									"console.log(`currentIndex AFTER = ${currentIndex}`);\r",
+									"\r",
+									"pm.globals.set(\"city\", cities[currentIndex]);\r",
+									"\r",
+									"currentIndex = currentIndex - 1;\r",
+									"pm.globals.set(\"currentIndex\", currentIndex);\r",
+									"// because we make extra call\r",
+									"if (currentIndex > -1 ){\r",
+									"    //pm.execution.setNextRequest(\"CREATE MANY CITIES\");\r",
+									"    pm.execution.setNextRequest(pm.info.requestName);\r",
+									"} else {\r",
+									"    pm.globals.unset(\"currentIndex\");\r",
+									"    // pm.globals.unset(\"city\"); // should UNSET AFTER REQUEST\r",
+									"    console.log(`currentIndex UNSET`);\r",
+									"    //pm.execution.setNextRequest(null); // WE DONT WANT TO STOP AT ALL\r",
+									"\r",
+									"    // this is default BEHAVIOUR - next by default\r",
+									"    //pm.execution.setNextRequest(\"Test 2 CRUD POST\"); //LET\"S NEXT CASES EXECUTE - OR PUT IN THE END this test case\r",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "city",
+									"value": "{{city}}",
+									"type": "text"
+								},
+								{
+									"key": "temperature",
+									"value": "-14",
+									"type": "text"
+								},
+								{
+									"key": "humidity",
+									"value": "84",
+									"type": "text"
+								},
+								{
+									"key": "wind_speed",
+									"value": "12",
+									"type": "text"
+								},
+								{
+									"key": "air_quality",
+									"value": "fair",
+									"type": "text"
+								},
+								{
+									"key": "icon",
+									"value": "sun with clouds",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Test 2 CRUD POST",
 					"event": [
 						{
@@ -1261,7 +1376,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"city\": \"Larnaka\",\r\n    \"temperature\": -14,\r\n    \"humidity\": 84,\r\n    \"wind_speed\": 12,\r\n    \"air_quality\": \"fair\",\r\n    \"icon\": \"sun with clouds\"\r\n}",
+							"raw": "{\r\n    \"city\": \"Nicosia\",\r\n    \"temperature\": -14,\r\n    \"humidity\": 84,\r\n    \"wind_speed\": 12,\r\n    \"air_quality\": \"fair\",\r\n    \"icon\": \"sun with clouds\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1295,7 +1410,7 @@
 									"    pm.response.to.have.status(200);\r",
 									"\r",
 									"    let obj = pm.response.json();\r",
-									"    // console.log(obj);\r",
+									"    console.log(\"City UPDATED\");\r",
 									"});"
 								],
 								"type": "text/javascript",
@@ -1338,6 +1453,228 @@
 									"key": "city",
 									"value": "{{cityCreated}}"
 								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "04_weather_crud MULTIPLE",
+			"item": [
+				{
+					"name": "CLEAN ALL CITIES",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/?clean=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							],
+							"query": [
+								{
+									"key": "clean",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE MANY CITIES",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// it is safe to unset HERE\r",
+									"pm.globals.unset(\"city\"); \r",
+									"\r",
+									"pm.test(\"Test Case CRUD 1\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"    console.log(`cityCreatedIndex = ${obj.cityCreatedIndex},  cityCreated = ${obj.cityCreated}`);\r",
+									"\r",
+									"    //pm.globals.set(\"cityCreated\", obj.cityCreated);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"let cities = ['Filusa', 'AgiaZoni', 'Peristerona'];\r",
+									"\r",
+									"let currentIndex = pm.globals.get(\"currentIndex\");\r",
+									"\r",
+									"console.log(`currentIndex BEFORE = ${currentIndex}`);\r",
+									"\r",
+									"if (typeof currentIndex === \"undefined\") {\r",
+									"    currentIndex = cities.length - 1;\r",
+									"}\r",
+									"console.log(`currentIndex = ${currentIndex} and city = ${cities[currentIndex]}`);\r",
+									"//Here we set global variable that we use in req.body pre-request script we should change this variable to some city e.g Filousa\r",
+									"pm.globals.set(\"city\", cities[currentIndex]);\r",
+									"\r",
+									"currentIndex = currentIndex - 1;\r",
+									"pm.globals.set(\"currentIndex\", currentIndex);\r",
+									"// because we make extra call\r",
+									"if (currentIndex > -1 ){\r",
+									"    //pm.execution.setNextRequest(\"CREATE MANY CITIES\");\r",
+									"    pm.execution.setNextRequest(pm.info.requestName); // Here we say: next script repeat the same but with new index.\r",
+									"} else {\r",
+									"    // here means it was the last city and the next script will be executed if it exists if we run folder. (GET ALL CITIES)\r",
+									"    pm.globals.unset(\"currentIndex\");\r",
+									"    // pm.globals.unset(\"city\"); // should UNSET AFTER REQUEST\r",
+									"    console.log(`currentIndex UNSET`);\r",
+									"    //pm.execution.setNextRequest(null); // WE DONT WANT TO STOP AT ALL\r",
+									"\r",
+									"    // this is default BEHAVIOUR - next by default\r",
+									"    //pm.execution.setNextRequest(\"Test 2 CRUD POST\"); //LET\"S NEXT CASES EXECUTE - OR PUT IN THE END this test case\r",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "city",
+									"value": "{{city}}",
+									"type": "text"
+								},
+								{
+									"key": "temperature",
+									"value": "-14",
+									"type": "text"
+								},
+								{
+									"key": "humidity",
+									"value": "84",
+									"type": "text"
+								},
+								{
+									"key": "wind_speed",
+									"value": "12",
+									"type": "text"
+								},
+								{
+									"key": "air_quality",
+									"value": "fair",
+									"type": "text"
+								},
+								{
+									"key": "icon",
+									"value": "sun with clouds",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL CITIES",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 1\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"    // console.log(obj.result);\r",
+									"    \r",
+									"    pm.expect(obj.result)\r",
+									"        .to.be.an('array')\r",
+									"        .but.not.an('object');\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Angie",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Neophytou333",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
 							]
 						}
 					},
