@@ -47,8 +47,26 @@ function sendErrorMessage(res, errorText) {
 
 function startProcess(req, res) {
     if (req.method === 'POST') {
+        let q = url.parse(req.url, true).query;
+        if (q.clean) {
+            weatherCities = [];
+            res.writeHead(200, {'Content-Type': 'application/json'});
+            res.end(JSON.stringify(
+                {
+                    message: "Cities are cleared",
+                }));
+            return;
+        }
         if (validCity(req.parsedBody)) {
             weatherCities.push(req.parsedBody);
+
+            res.writeHead(200, {'Content-Type': 'application/json'});
+            res.end(JSON.stringify(
+                {
+                    cityCreatedIndex: weatherCities.length - 1,
+                    cityCreated: req.parsedBody.city,
+                }));
+            return;
         } else {
             sendErrorMessage(res, "City already exists");
             return;
@@ -70,14 +88,16 @@ function startProcess(req, res) {
         }
         // here we always have city
         weatherCities[cityFoundIndex] = req.parsedBody;
+
+
     }
 
      // My test case is all in this function
     res.writeHead(200, {'Content-Type': 'application/json'});
     res.end(JSON.stringify(
         {
-            message: "ChUNKS are logged in console",
-            parsedBody: req.parsedBody,
+            // message: "ChUNKS are logged in console",
+            // parsedBody: req.parsedBody,
             weatherCities: weatherCities,
         }));
 }

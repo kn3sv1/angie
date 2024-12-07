@@ -7,7 +7,11 @@ function convertChunksToObject(req, chunks) {
 
     // We can convert it to string to get a readable format.
     const stringData = data.toString();
-    //console.log("stringData: ", stringData);
+    // console.log("stringData: ", stringData);
+    if (!stringData) {
+        return {};
+    }
+
     let contentType = req.headers['content-type'];
     if (contentType === 'application/json') {
         return  JSON.parse(stringData);

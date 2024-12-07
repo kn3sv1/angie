@@ -1112,6 +1112,49 @@
 					"response": []
 				},
 				{
+					"name": "CLEAN ALL CITIES",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/?clean=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							],
+							"query": [
+								{
+									"key": "clean",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Test 2 CRUD POST",
 					"event": [
 						{
@@ -1122,7 +1165,9 @@
 									"    pm.response.to.have.status(200);\r",
 									"\r",
 									"    let obj = pm.response.json();\r",
-									"    // console.log(obj);\r",
+									"    console.log(`cityCreatedIndex = ${obj.cityCreatedIndex},  cityCreated = ${obj.cityCreated}`);\r",
+									"\r",
+									"    pm.globals.set(\"cityCreated\", obj.cityCreated);\r",
 									"});"
 								],
 								"type": "text/javascript",
@@ -1132,13 +1177,7 @@
 					],
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"body": {
 							"mode": "urlencoded",
 							"urlencoded": [
@@ -1201,7 +1240,9 @@
 									"    pm.response.to.have.status(200);\r",
 									"\r",
 									"    let obj = pm.response.json();\r",
-									"    // console.log(obj);\r",
+									"    console.log(`cityCreatedIndex = ${obj.cityCreatedIndex},  cityCreated = ${obj.cityCreated}`);\r",
+									"\r",
+									"    pm.globals.set(\"cityCreated\", obj.cityCreated);\r",
 									"});"
 								],
 								"type": "text/javascript",
@@ -1220,7 +1261,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"city\": \"Nicosia\",\r\n    \"temperature\": -14,\r\n    \"humidity\": 84,\r\n    \"wind_speed\": 12,\r\n    \"air_quality\": \"fair\",\r\n    \"icon\": \"sun with clouds\"\r\n}",
+							"raw": "{\r\n    \"city\": \"Larnaka\",\r\n    \"temperature\": -14,\r\n    \"humidity\": 84,\r\n    \"wind_speed\": 12,\r\n    \"air_quality\": \"fair\",\r\n    \"icon\": \"sun with clouds\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1281,7 +1322,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/weather/?city=Nicosia",
+							"raw": "http://localhost:5000/api/weather/?city={{cityCreated}}",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1295,7 +1336,7 @@
 							"query": [
 								{
 									"key": "city",
-									"value": "Nicosia"
+									"value": "{{cityCreated}}"
 								}
 							]
 						}
@@ -1303,6 +1344,12 @@
 					"response": []
 				}
 			]
+		}
+	],
+	"variable": [
+		{
+			"key": "cityCreated",
+			"value": ""
 		}
 	]
 }
