@@ -1681,6 +1681,64 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "SIMPLE MULTIPLE",
+			"item": [
+				{
+					"name": "SIMPLE MULTIPLE",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"let counter = pm.globals.get(\"counter\");\r",
+									"\r",
+									"console.log(`counter = ${counter}`);\r",
+									"\r",
+									"if (typeof counter === \"undefined\") {\r",
+									"    counter = 1;\r",
+									"}\r",
+									"\r",
+									"if (counter >= 10 ) {\r",
+									"    pm.globals.unset(\"counter\");\r",
+									"    pm.execution.setNextRequest(null); // STOP ITERATION\r",
+									"} else {\r",
+									"    counter++;\r",
+									"    pm.globals.set(\"counter\", counter);\r",
+									"    pm.execution.setNextRequest(pm.info.requestName); // next script execute myself.\r",
+									"}\r",
+									"\r",
+									"//while (counter1 < 10) {\r",
+									"//     console.log(`counter1= ${counter1}`);\r",
+									"//     counter1++;\r",
+									"// }"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/weather/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	],
 	"variable": [
