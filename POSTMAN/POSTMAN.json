@@ -861,7 +861,7 @@
 									" \r",
 									"    let obj = pm.response.json();\r",
 									"    for (let object of obj.result) {\r",
-									"        pm.expect(object.wind_speed).to.match(/^-?\\+?[0-9]+$/);\r",
+									"        pm.expect(object.humidity).to.match(/^-?\\+?[0-9]+$/);\r",
 									"        //https://community.postman.com/t/verify-a-variable-value-is-numeric-the-variable-is-string/53946\r",
 									"        // Only for possitive digits. But we have negative aswell.\r",
 									"        //pm.expect(weather.temperature).to.match(/^\\d+$/);\r",
@@ -869,7 +869,7 @@
 									"        //https://stackoverflow.com/questions/66396143/how-to-test-range-age-in-postman\r",
 									"        //pm.expect(weather.temperature).to.be.within(-20, 50);\r",
 									"\r",
-									"        pm.expect(object.wind_speed).to.be.within(5, 100);\r",
+									"        pm.expect(object.humidity).to.be.within(1, 100);\r",
 									"    }\r",
 									"});\r",
 									""
@@ -1047,6 +1047,260 @@
 							"body": "{\n    \"message\": \"ChUNKS are logged in console\",\n    \"dataObj\": {\n        \"name\": \"Angie\",\n        \"surname\": \"Neophytou333\"\n    },\n    \"result\": [\n        {\n            \"city\": \"Limassol\",\n            \"temperature\": 17,\n            \"humidity\": 86,\n            \"wind_speed\": 6,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Paphos\",\n            \"temperature\": 20,\n            \"humidity\": 80,\n            \"wind_speed\": 11,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun with clouds\"\n        },\n        {\n            \"city\": \"Larnaka\",\n            \"temperature\": 15,\n            \"humidity\": 84,\n            \"wind_speed\": 4,\n            \"air_quality\": \"moderate\",\n            \"icon\": \"sun\"\n        },\n        {\n            \"city\": \"Nicosia\",\n            \"temperature\": -14,\n            \"humidity\": 84,\n            \"wind_speed\": 12,\n            \"air_quality\": \"fair\",\n            \"icon\": \"sun with clouds\"\n        }\n    ]\n}"
 						}
 					]
+				}
+			]
+		},
+		{
+			"name": "04_weather_crud",
+			"item": [
+				{
+					"name": "Test CRUD 1 GET ALL",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case 1\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"    // console.log(obj.result);\r",
+									"    \r",
+									"    pm.expect(obj.result)\r",
+									"        .to.be.an('array')\r",
+									"        .but.not.an('object');\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Angie",
+									"type": "text"
+								},
+								{
+									"key": "surname",
+									"value": "Neophytou333",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test 2 CRUD POST",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case CRUD 1\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"    // console.log(obj);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "city",
+									"value": "Larnaka",
+									"type": "text"
+								},
+								{
+									"key": "temperature",
+									"value": "-14",
+									"type": "text"
+								},
+								{
+									"key": "humidity",
+									"value": "84",
+									"type": "text"
+								},
+								{
+									"key": "wind_speed",
+									"value": "12",
+									"type": "text"
+								},
+								{
+									"key": "air_quality",
+									"value": "fair",
+									"type": "text"
+								},
+								{
+									"key": "icon",
+									"value": "sun with clouds",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test 2 CRUD POST JSON",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case CRUD 1\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"    // console.log(obj);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"city\": \"Nicosia\",\r\n    \"temperature\": -14,\r\n    \"humidity\": 84,\r\n    \"wind_speed\": 12,\r\n    \"air_quality\": \"fair\",\r\n    \"icon\": \"sun with clouds\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test 2 CRUD PATCH JSON",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test Case CRUD 1\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"    // console.log(obj);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"city\": \"Nicosia2\",\r\n    \"temperature\": -14,\r\n    \"humidity\": 84,\r\n    \"wind_speed\": 12,\r\n    \"air_quality\": \"fair\",\r\n    \"icon\": \"sun with clouds\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/weather/?city=Nicosia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"weather",
+								""
+							],
+							"query": [
+								{
+									"key": "city",
+									"value": "Nicosia"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}
