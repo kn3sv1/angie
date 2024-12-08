@@ -1709,7 +1709,10 @@
 									"    pm.execution.setNextRequest(pm.info.requestName); // next script execute myself.\r",
 									"}\r",
 									"\r",
-									"//while (counter1 < 10) {\r",
+									"// Code bellow wont work because this variable will allways be reset to 0 in every new request.\r",
+									"// That's why we use a global variable like above.\r",
+									"// var i = 0;\r",
+									"// while (counter1 < 10) {\r",
 									"//     console.log(`counter1= ${counter1}`);\r",
 									"//     counter1++;\r",
 									"// }"
@@ -1733,6 +1736,66 @@
 								"api",
 								"weather",
 								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "05_cookie",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "username",
+									"value": "angie",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "1234",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "homepage",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/homepage",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"homepage"
 							]
 						}
 					},
