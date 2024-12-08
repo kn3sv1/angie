@@ -22,3 +22,6 @@ yesterday we must to have 2 different TEST cases - one LOGIN - another VISIT HOM
 BUT NOW - we can send ONE TEST-CASE:  we check if no "sess_id" we send request to login.
 https://www.code4it.dev/blog/postman-prerequest-script-cookie-auth/
 
+https://toolsqa.com/postman/cookies-in-postman/
+
+
