@@ -1748,6 +1748,59 @@
 			"item": [
 				{
 					"name": "login",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"const jar = pm.cookies.jar();\r",
+									"jar.set(\"localhost\", \"session-id-ROMA\", \"abc123\", (error, cookie) => {\r",
+									"  if (error) {\r",
+									"    console.error(`An error occurred: ${error}`);\r",
+									"  } else {\r",
+									"    console.log(`Cookie saved: ${cookie}`);\r",
+									"  }\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"console.log(JSON.stringify(pm.cookies));\r",
+									"\r",
+									"console.log(JSON.stringify(pm.cookies.get('sess_id')));\r",
+									"\r",
+									"console.log(pm.cookies.has('sess_id'));\r",
+									"\r",
+									"\r",
+									"/*\r",
+									"const jar = pm.cookies.jar();\r",
+									"jar.set(\"localhost\", \"session-id-ROMA\", \"abc123\", (error, cookie) => {\r",
+									"  if (error) {\r",
+									"    console.error(`An error occurred: ${error}`);\r",
+									"  } else {\r",
+									"    console.log(`Cookie saved: ${cookie}`);\r",
+									"  }\r",
+									"});\r",
+									"*/\r",
+									"\r",
+									"pm.test(\"Cookies_Check\", function(){\r",
+									"    pm.expect(pm.cookies.has('sess_id')).to.be.true;\r",
+									"});\r",
+									"\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
 					"request": {
 						"method": "POST",
 						"header": [],
