@@ -20,7 +20,8 @@ http.createServer(parseDataMiddleware).listen(5000);
 // Supposing we already signed up and stored user.
 let users = [
     {
-        email: "test@test.com",
+        firstname: "Angelique",
+        lastname: "Neophytou",
         username: "angie",
         password: "1234",
     },
