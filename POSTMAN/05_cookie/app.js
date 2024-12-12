@@ -20,6 +20,7 @@ http.createServer(parseDataMiddleware).listen(5000);
 // Supposing we already signed up and stored user.
 let users = [
     {
+        email: "test@test.com",
         username: "angie",
         password: "1234",
     },
@@ -71,6 +72,14 @@ function notFound(req, res) {
         }));
 }
 
+function error(req, res, message, httpCode = 400) {
+    res.writeHead(httpCode, {'Content-Type': 'application/json'});
+    res.end(JSON.stringify(
+        {
+            message: message,
+        }));
+}
+
 function getSessionId(req, res) {
     //console.log(JSON.stringify(req.headers));
 
@@ -82,11 +91,38 @@ function getSessionId(req, res) {
     return cookies.sess_id;
 }
 
+function deleteSessionAndUser(user) {
+    //findIndex method is used to find index in an array.
+    let sessionIndex = sessions.findIndex( function (session) {
+        return session.username === user.username;
+    });
+
+    // delete sessions[sessionIndex];
+    sessions.splice(sessionIndex, 1);
+
+    let userIndex = users.find( function (currentUser) {
+        return currentUser.username === user.username;
+    });
+
+    // delete users[userIndex];
+    users.splice(userIndex, 1);
+}
 function getUser(req, res) {
     let sess_id = getSessionId(req, res);
+
+    //If session-cookie doesn't exist we don't have a user.
+    if (!sess_id) {
+        return null;
+    }
+    // console.log('sessions:', sessions);
     let session = sessions.find( function (session) {
         return session.sess_id === sess_id;
     });
+
+    //If session doesn't exist we cannot compare with username with session.
+    if (!session) {
+        return null;
+    }
 
     return users.find( function (user) {
         return user.username === session.username;
@@ -155,10 +191,68 @@ function logout(req, res) {
 }
 
 function createUser(req, res) {
+    let userData = req.parsedBody;
+
+    let existingUser = users.find(function (user) {
+        return user.username === userData.username;
+    });
+
+    if (existingUser) {
+        res.writeHead(400, {'Content-Type': 'application/json'});
+        res.end(JSON.stringify(
+            {
+                error: "User already exists!",
+                success: false
+            }));
+        return;
+    }
+
+    users.push(
+        {
+            email: userData.email,
+            username: userData.username,
+            password: userData.password
+
+        }
+    );
+
+    res.writeHead(200, {
+        'Content-Type': 'application/json',
+    });
+    res.end(JSON.stringify(
+        {
+            message: "You have successfully signed up",
+            success: true
+        }));
+
+    console.log(users);
 
 }
 
 function deleteUser(req, res) {
+    //We get current user because we can delete only our self
+    //and we should be logged in.
+    let user = getUser(req, res);
+
+    if (!user) {
+        error(req, res, "You should be logged in", 400);
+        return;
+    }
+
+    deleteSessionAndUser(user);
+
+    res.writeHead(200, {
+        'Content-Type': 'application/json',
+        'Set-Cookie': [
+            `sess_id=; Path=/; Secure; HttpOnly expires: ${new Date(1)}`,
+        ]
+    });
+    res.end(JSON.stringify(
+        {
+            message: "user has been successfully deleted.",
+            success: true
+        }));
+
 
 }
 
