@@ -1853,6 +1853,145 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "signup",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test sign up\", function() {\r",
+									"    pm.response.to.have.status(400);\r",
+									"    \r",
+									"    let obj = pm.response.json();\r",
+									"\r",
+									"    pm.expect(obj.error).eq(\"User already exists!\");\r",
+									"    pm.expect(obj.success).eq(false);\r",
+									"\r",
+									"\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "firstname",
+									"value": "Angelique",
+									"type": "text"
+								},
+								{
+									"key": "lastname",
+									"value": "Neophytou",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "angie",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "1234",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Test sign up\", function() {\r",
+									"    pm.response.to.have.status(400);\r",
+									"    \r",
+									"    let obj = pm.response.json();\r",
+									"\r",
+									"    pm.expect(obj.error).eq(\"User already exists!\");\r",
+									"    pm.expect(obj.success).eq(false);\r",
+									"\r",
+									"\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"logout"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}

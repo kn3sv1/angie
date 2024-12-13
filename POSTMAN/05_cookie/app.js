@@ -92,7 +92,7 @@ function getSessionId(req, res) {
     return cookies.sess_id;
 }
 
-function deleteSessionAndUser(user) {
+function deleteSession(user) {
     //findIndex method is used to find index in an array.
     let sessionIndex = sessions.findIndex( function (session) {
         return session.username === user.username;
@@ -100,6 +100,11 @@ function deleteSessionAndUser(user) {
 
     // delete sessions[sessionIndex];
     sessions.splice(sessionIndex, 1);
+}
+
+
+function deleteSessionAndUser(user) {
+    deleteSession(user);
 
     let userIndex = users.find( function (currentUser) {
         return currentUser.username === user.username;
@@ -108,6 +113,7 @@ function deleteSessionAndUser(user) {
     // delete users[userIndex];
     users.splice(userIndex, 1);
 }
+
 function getUser(req, res) {
     let sess_id = getSessionId(req, res);
 
@@ -132,6 +138,13 @@ function getUser(req, res) {
 
 // We install library
 // https://www.npmjs.com/package/cookie
+
+function hello(req, res) {
+    res.end(JSON.stringify(
+        {
+            message: "hello page" + req.method,
+        }));
+}
 
 function homepage(req, res) {
     if (!getSessionId(req, res)) {
@@ -188,8 +201,44 @@ function login(req, res) {
 }
 
 function logout(req, res) {
-
+    let user = getUser(req, res);
+    if (!user) {
+        error(req, res, "You should be logged in", 400);
+        return;
+    }
+    deleteSession(user);
+    deleteCookie(req, res, "You have successfully logged out.");
+    // we will use this code in another project
+    //deleteCookieAndRedirectToHello(req, res);
 }
+
+function deleteCookie(req, res, message) {
+    res.writeHead(200, {
+        'Content-Type': 'application/json',
+        'Set-Cookie': [
+            `sess_id=; Path=/; Secure; HttpOnly expires: ${new Date(1)}`,
+        ],
+    });
+    res.end(JSON.stringify(
+        {
+            message: message,
+            success: true
+        }));
+}
+
+function deleteCookieAndRedirectToHello(req, res) {
+    // 307 does not change HTTP HEADER to method - GET
+    // res.writeHead(307, {
+    res.writeHead(301, {
+        'Content-Type': 'application/json',
+        'Set-Cookie': [
+            `sess_id=; Path=/; Secure; HttpOnly expires: ${new Date(1)}`,
+        ],
+        'Location': '/hello',
+    });
+    res.end();
+}
+
 
 function createUser(req, res) {
     let userData = req.parsedBody;
@@ -234,31 +283,18 @@ function deleteUser(req, res) {
     //We get current user because we can delete only our self
     //and we should be logged in.
     let user = getUser(req, res);
-
     if (!user) {
         error(req, res, "You should be logged in", 400);
         return;
     }
-
     deleteSessionAndUser(user);
-
-    res.writeHead(200, {
-        'Content-Type': 'application/json',
-        'Set-Cookie': [
-            `sess_id=; Path=/; Secure; HttpOnly expires: ${new Date(1)}`,
-        ]
-    });
-    res.end(JSON.stringify(
-        {
-            message: "user has been successfully deleted.",
-            success: true
-        }));
-
-
+    deleteCookie(req, res, "user has been successfully deleted.");
 }
 
 function startProcess(req, res) {
-    if (getURL(req).startsWith('/api/homepage/')) {
+    if (getURL(req).startsWith('/hello')) {
+        hello(req, res);
+    } else if (getURL(req).startsWith('/api/homepage/')) {
         homepage(req, res);
     } else if (getURL(req).startsWith('/api/login/')) {
         login(req, res);
