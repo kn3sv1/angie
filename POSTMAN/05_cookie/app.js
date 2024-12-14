@@ -48,15 +48,6 @@ let sessions = [
     // },
 ];
 
-
-function sendErrorMessage(res, errorText) {
-    res.writeHead(400, {'Content-Type': 'application/json'});
-    res.end(JSON.stringify(
-        {
-            message: errorText,
-        }));
-}
-
 function notAuthenticated(req, res) {
     res.writeHead(401, {'Content-Type': 'application/json'});
     res.end(JSON.stringify(
@@ -106,7 +97,7 @@ function deleteSession(user) {
 function deleteSessionAndUser(user) {
     deleteSession(user);
 
-    let userIndex = users.find( function (currentUser) {
+    let userIndex = users.findIndex( function (currentUser) {
         return currentUser.username === user.username;
     });
 
