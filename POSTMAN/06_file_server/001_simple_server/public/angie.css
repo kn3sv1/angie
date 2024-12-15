@@ -1,0 +1,22 @@
+
+.ginger {
+    border: 5px solid green;
+    height: 200px;
+}
+
+.mavro {
+    border: 10px solid red;
+    height: 200px;
+}
+
+#weather-limassol {
+    background-color: lightblue;
+    display: inline-block;
+    padding: 5px 40px;
+}
+
+.weather-temperature {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}

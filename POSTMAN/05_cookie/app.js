@@ -1,3 +1,5 @@
+
+//Core packages of node.js
 var http = require('http');
 var url = require('url');
 
@@ -49,19 +51,11 @@ let sessions = [
 ];
 
 function notAuthenticated(req, res) {
-    res.writeHead(401, {'Content-Type': 'application/json'});
-    res.end(JSON.stringify(
-        {
-            message: "Not authenticated",
-        }));
+    return error(req, res, "Not authenticated", 401);
 }
 
 function notFound(req, res) {
-    res.writeHead(404, {'Content-Type': 'application/json'});
-    res.end(JSON.stringify(
-        {
-            message: "Route not found",
-        }));
+    return error(req, res, "Route not found", 404);
 }
 
 function error(req, res, message, httpCode = 400) {
@@ -69,6 +63,7 @@ function error(req, res, message, httpCode = 400) {
     res.end(JSON.stringify(
         {
             message: message,
+            success: false
         }));
 }
 
@@ -112,16 +107,19 @@ function getUser(req, res) {
     if (!sess_id) {
         return null;
     }
+
+    //Return the value of the sess_id that was stored when a user logged in that's equal to the value of the
+    //sess
     // console.log('sessions:', sessions);
     let session = sessions.find( function (session) {
         return session.sess_id === sess_id;
     });
 
-    //If session doesn't exist we cannot compare with username with session.
+    //If session doesn't exist we cannot compare username with session.
     if (!session) {
         return null;
     }
-
+    //Return the value of the username that was created that's equal to the value of the username that logged in.
     return users.find( function (user) {
         return user.username === session.username;
     });
@@ -131,10 +129,22 @@ function getUser(req, res) {
 // https://www.npmjs.com/package/cookie
 
 function hello(req, res) {
-    res.end(JSON.stringify(
+
+
+    res.writeHead(200, {
+        'Content-Type': 'text/html; charset=UTF-8',
+    });
+    res.end("Hello from Angie");
+    return;
+
+
+ /*   res.end(JSON.stringify(
         {
-            message: "hello page" + req.method,
+           message: "hello page" + req.method,
         }));
+
+ */
+
 }
 
 function homepage(req, res) {
@@ -163,13 +173,7 @@ function login(req, res) {
     });
 
     if (!user) {
-        res.writeHead(401, {'Content-Type': 'application/json'});
-        res.end(JSON.stringify(
-            {
-                error: "You are not authenticated.",
-                success: false
-            }));
-        return;
+        return error(req, res, "You are not authenticated.", 401);
     }
     let sess_id = `${user.username}_${user.password}`;
     sessions.push(
@@ -239,13 +243,7 @@ function createUser(req, res) {
     });
 
     if (existingUser) {
-        res.writeHead(400, {'Content-Type': 'application/json'});
-        res.end(JSON.stringify(
-            {
-                error: "User already exists!",
-                success: false
-            }));
-        return;
+        return error(req, res, "User already exists!", 400);
     }
 
     users.push(
@@ -275,8 +273,7 @@ function deleteUser(req, res) {
     //and we should be logged in.
     let user = getUser(req, res);
     if (!user) {
-        error(req, res, "You should be logged in", 400);
-        return;
+        return error(req, res, "You should be logged in", 400);
     }
     deleteSessionAndUser(user);
     deleteCookie(req, res, "user has been successfully deleted.");

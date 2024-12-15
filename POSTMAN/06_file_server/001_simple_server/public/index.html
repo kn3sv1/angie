@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello from Angie</title>
+    <link rel="stylesheet" href="angie.css">
+</head>
+<body>
+Hello world
+<img class="ginger" src="ginger.png" alt="no photo found" />
+
+<img class="mavro" src="mavro.jpg" alt="mavro photo" />
+
+
+<img height="100"  src="sun.jpeg" alt="sun" />
+<div id="weather-limassol"></div>
+<script>
+    fetch('/api/weather/limassol', {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        }
+    })
+        .then(response => response.json())
+        .then((weather) => {
+                //console.log(weather)
+            document.getElementById('weather-limassol').innerHTML = `
+                <p style="color: red; font-size: 20px; font-weight: bold">city: ${weather.city}</p>
+                 <p>temperature: <span class="weather-temperature">${weather.temperature}</span></p>
+                 <img height="200" src="${weather.photo}"  />
+                 <div>Wind Speed: ${weather.wind_speed}</div>
+            `;
+        });
+
+</script>
+</body>
+</html>
