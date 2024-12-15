@@ -20,13 +20,18 @@ http.createServer(function(req, res) {
             icon: "sun",
         }));
     } else if(req.url.match("\.css$")){
+        // E:\xampp\htdocs\html5.local\angie\POSTMAN\06_file_server\001_simple_server public /angie.css
+        console.log(__dirname, 'public', req.url);
         var cssPath = path.join(__dirname, 'public', req.url);
+        //  "UTF-8" - this argument only provided for text files.
         var fileStream = fs.createReadStream(cssPath, "UTF-8");
         res.writeHead(200, {"Content-Type": "text/css"});
+        //write to response object our stram file that we read from disc.
         fileStream.pipe(res);
 
     } else if(req.url.match("\.png$")){
         var imagePath = path.join(__dirname, 'public', req.url);
+        // here we don't have this argument "UTF-8". We read as binary.
         var fileStream = fs.createReadStream(imagePath);
         res.writeHead(200, {"Content-Type": "image/png"});
         fileStream.pipe(res);
