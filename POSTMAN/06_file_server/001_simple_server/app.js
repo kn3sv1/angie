@@ -29,6 +29,11 @@ http.createServer(function(req, res) {
         //write to response object our stram file that we read from disc.
         fileStream.pipe(res);
 
+    } else if(req.url.match("\.js$")){
+        var jsPath = path.join(__dirname, 'public', req.url);
+        var fileStream = fs.createReadStream(jsPath, "UTF-8");
+        res.writeHead(200, {"Content-Type": "application/javascript"});
+        fileStream.pipe(res);
     } else if(req.url.match("\.png$")){
         var imagePath = path.join(__dirname, 'public', req.url);
         // here we don't have this argument "UTF-8". We read as binary.
