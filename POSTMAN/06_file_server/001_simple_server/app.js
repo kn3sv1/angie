@@ -38,7 +38,15 @@ http.createServer(function(req, res) {
         var jsPath = path.join(__dirname, 'public', req.url);
         var fileStream = fs.createReadStream(jsPath, "UTF-8");
         res.writeHead(200, {"Content-Type": "application/javascript"});
+        // https://www.geeksforgeeks.org/what-is-piping-in-node-js/
         fileStream.pipe(res);
+
+        // https://medium.com/@ketanpradhan/reading-a-large-files-in-nodejs-39284ef797f4
+        // https://www.boardinfinity.com/blog/how-to-read-a-file-in-node-js/
+        // https://www.geeksforgeeks.org/what-is-chunk-in-node-js/
+        // https://m-mdy-m.medium.com/buffers-in-node-js-c285f5416fdb
+        // https://www.geeksforgeeks.org/node-js-response-write-method/
+        // https://webcluesinfo.medium.com/buffer-objects-handling-binary-data-in-node-js-1e742475b96f
 
         // var fileStream = fs.createReadStream(jsPath); //  "UTF-8" - PROBLEM will be
         // res.writeHead(200, {"Content-Type": "application/javascript"});
