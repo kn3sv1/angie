@@ -52,6 +52,7 @@ http.createServer(function(req, res) {
         res.writeHead(200, {"Content-Type": "application/javascript"});
         const chunks = [];
         fileStream.on("data", (chunk) => {
+            // https://stackoverflow.com/questions/70921128/how-to-get-the-size-of-data-in-a-node-js-stream
             // Received 65536 bytes of data.
             // 65536/1024 = 64kb (kilobytes)
             console.log(`Received ${chunk.length} bytes of data.`);
