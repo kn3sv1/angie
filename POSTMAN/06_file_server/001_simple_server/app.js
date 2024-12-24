@@ -36,10 +36,10 @@ http.createServer(function(req, res) {
 
     } else if(req.url.match("\.js$")){
         var jsPath = path.join(__dirname, 'public', req.url);
-        var fileStream = fs.createReadStream(jsPath, "UTF-8");
-        res.writeHead(200, {"Content-Type": "application/javascript"});
-        // https://www.geeksforgeeks.org/what-is-piping-in-node-js/
-        fileStream.pipe(res);
+        // var fileStream = fs.createReadStream(jsPath, "UTF-8");
+        // res.writeHead(200, {"Content-Type": "application/javascript"});
+        // // https://www.geeksforgeeks.org/what-is-piping-in-node-js/
+        // fileStream.pipe(res);
 
         // https://medium.com/@ketanpradhan/reading-a-large-files-in-nodejs-39284ef797f4
         // https://www.boardinfinity.com/blog/how-to-read-a-file-in-node-js/
@@ -48,18 +48,25 @@ http.createServer(function(req, res) {
         // https://www.geeksforgeeks.org/node-js-response-write-method/
         // https://webcluesinfo.medium.com/buffer-objects-handling-binary-data-in-node-js-1e742475b96f
 
-        // var fileStream = fs.createReadStream(jsPath); //  "UTF-8" - PROBLEM will be
-        // res.writeHead(200, {"Content-Type": "application/javascript"});
-        // const chunks = [];
-        // fileStream.on("data", (chunk) => {
-        //     chunks.push(chunk);
-        // });
-        // fileStream.on("end", () => {
-        //     console.log('FINISHED to read FILE');
-        //     const buff = Buffer.concat(chunks);
-        //     res.write(buff);
-        //     res.end();
-        // });
+        var fileStream = fs.createReadStream(jsPath); //  "UTF-8" - PROBLEM will be
+        res.writeHead(200, {"Content-Type": "application/javascript"});
+        const chunks = [];
+        fileStream.on("data", (chunk) => {
+            chunks.push(chunk);
+        });
+        fileStream.on("end", () => {
+            console.log('FINISHED to read FILE:' + new Date());
+            // // version 1
+            // chunks.forEach((chunk) => {
+            //     console.log('CHUNK is:', chunk);
+            //     res.write(chunk);
+            // });
+
+            // version 2
+            const buff = Buffer.concat(chunks);
+            res.write(buff);
+            res.end();
+        });
 
     } else if(req.url.match("\.png$")){
         var imagePath = path.join(__dirname, 'public', req.url);
@@ -79,7 +86,10 @@ http.createServer(function(req, res) {
         fileStream.pipe(res);
     } else {
         res.writeHead(404, {"Content-Type": "text/html"});
-        res.end("No Page Found");
+        //res.end("No Page Found");
+
+        res.write("No Page Found");
+        res.end();
     }
 
 }).listen(3000);
