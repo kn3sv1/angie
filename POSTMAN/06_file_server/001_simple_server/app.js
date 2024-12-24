@@ -19,14 +19,19 @@ http.createServer(function(req, res) {
             air_quality: "fair",
             icon: "sun",
         }));
+    // Benefits of using regex is to check any name of file with extension .css
+    // In that way any css file that is requested and we might have in our public folder will be included.
     } else if(req.url.match("\.css$")){
+    // Bellow we check for specific file name or names in the req.url.
+    //} else if(req.url === "/angie.css"){
+    //} else if(["/angie.css", "/angie5.css"].includes(req.url)) {
         // E:\xampp\htdocs\html5.local\angie\POSTMAN\06_file_server\001_simple_server public /angie.css
         console.log(__dirname, 'public', req.url);
         var cssPath = path.join(__dirname, 'public', req.url);
         //  "UTF-8" - this argument only provided for text files.
         var fileStream = fs.createReadStream(cssPath, "UTF-8");
         res.writeHead(200, {"Content-Type": "text/css"});
-        //write to response object our stram file that we read from disc.
+        //write to response object our stream file that we read from disc.
         fileStream.pipe(res);
 
     } else if(req.url.match("\.js$")){
@@ -34,6 +39,22 @@ http.createServer(function(req, res) {
         var fileStream = fs.createReadStream(jsPath, "UTF-8");
         res.writeHead(200, {"Content-Type": "application/javascript"});
         fileStream.pipe(res);
+
+
+        // return;
+        // var fileStream = fs.createReadStream(jsPath); //  "UTF-8" - PROBLEM will be
+        // res.writeHead(200, {"Content-Type": "application/javascript"});
+        // const chunks = [];
+        // fileStream.on("data", (chunk) => {
+        //     chunks.push(chunk);
+        // });
+        // fileStream.on("end", () => {
+        //     console.log('FINISHED to read FILE');
+        //     const buff = Buffer.concat(chunks);
+        //     res.write(buff);
+        //     res.end();
+        // });
+
     } else if(req.url.match("\.png$")){
         var imagePath = path.join(__dirname, 'public', req.url);
         // here we don't have this argument "UTF-8". We read as binary.

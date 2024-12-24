@@ -1747,51 +1747,441 @@
 			"name": "05_cookie",
 			"item": [
 				{
-					"name": "login",
-					"event": [
+					"name": "signup",
+					"item": [
 						{
-							"listen": "prerequest",
-							"script": {
-								"exec": [
-									"const jar = pm.cookies.jar();\r",
-									"jar.set(\"localhost\", \"session-id-ROMA\", \"abc123\", (error, cookie) => {\r",
-									"  if (error) {\r",
-									"    console.error(`An error occurred: ${error}`);\r",
-									"  } else {\r",
-									"    console.log(`Cookie saved: ${cookie}`);\r",
-									"  }\r",
-									"});"
-								],
-								"type": "text/javascript",
-								"packages": {}
-							}
+							"name": "signup - Negative test case",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Test sign up\", function() {\r",
+											"    pm.response.to.have.status(400);\r",
+											"    \r",
+											"    let obj = pm.response.json();\r",
+											"\r",
+											"    pm.expect(obj.message).eq(\"User already exists!\");\r",
+											"    pm.expect(obj.success).eq(false);\r",
+											"\r",
+											"\r",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "firstname",
+											"value": "Elena",
+											"type": "text"
+										},
+										{
+											"key": "lastname",
+											"value": "Paparizou",
+											"type": "text"
+										},
+										{
+											"key": "username",
+											"value": "Elena",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "5547",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/signup",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"signup"
+									]
+								}
+							},
+							"response": []
 						},
+						{
+							"name": "signup",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Test signup\", function () {\r",
+											"    pm.response.to.have.header(\"Content-Type\",\"application/json\");\r",
+											"    pm.response.to.have.status(200);\r",
+											"\r",
+											"        let obj = pm.response.json();\r",
+											"\r",
+											"    pm.expect(obj.message).eq(\"You have successfully signed up\");\r",
+											"    pm.expect(obj.success).eq(true);\r",
+											"})"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "firstname",
+											"value": "Angelique",
+											"type": "text"
+										},
+										{
+											"key": "lastname",
+											"value": "Neophytou",
+											"type": "text"
+										},
+										{
+											"key": "username",
+											"value": "angie",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "1234",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/signup",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"signup"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "login",
+					"item": [
+						{
+							"name": "login",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"const jar = pm.cookies.jar();\r",
+											"jar.set(\"localhost\", \"session-id-ROMA\", \"abc123\", (error, cookie) => {\r",
+											"  if (error) {\r",
+											"    console.error(`An error occurred: ${error}`);\r",
+											"  } else {\r",
+											"    console.log(`Cookie saved: ${cookie}`);\r",
+											"  }\r",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"console.log(JSON.stringify(pm.cookies));\r",
+											"\r",
+											"console.log(JSON.stringify(pm.cookies.get('sess_id')));\r",
+											"\r",
+											"console.log(pm.cookies.has('sess_id'));\r",
+											"\r",
+											"\r",
+											"/*\r",
+											"const jar = pm.cookies.jar();\r",
+											"jar.set(\"localhost\", \"session-id-ROMA\", \"abc123\", (error, cookie) => {\r",
+											"  if (error) {\r",
+											"    console.error(`An error occurred: ${error}`);\r",
+											"  } else {\r",
+											"    console.log(`Cookie saved: ${cookie}`);\r",
+											"  }\r",
+											"});\r",
+											"*/\r",
+											"\r",
+											"pm.test(\"Cookies_Check has\", function(){\r",
+											"    pm.expect(pm.cookies.has('sess_id')).to.be.true;\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Cookies_Check not empty\", function(){\r",
+											"    console.log(pm.cookies.get('sess_id'));\r",
+											"    pm.expect(pm.cookies.get('sess_id')).to.not.eq(undefined);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"\r",
+											"\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "username",
+											"value": "angie",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "1234",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "login - Negative test case",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"const jar = pm.cookies.jar();\r",
+											"jar.set(\"localhost\", \"session-id-ROMA\", \"abc123\", (error, cookie) => {\r",
+											"  if (error) {\r",
+											"    console.error(`An error occurred: ${error}`);\r",
+											"  } else {\r",
+											"    console.log(`Cookie saved: ${cookie}`);\r",
+											"  }\r",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"console.log(JSON.stringify(pm.cookies));\r",
+											"\r",
+											"console.log(JSON.stringify(pm.cookies.get('sess_id')));\r",
+											"\r",
+											"console.log(pm.cookies.has('sess_id'));\r",
+											"\r",
+											"\r",
+											"/*\r",
+											"const jar = pm.cookies.jar();\r",
+											"jar.set(\"localhost\", \"session-id-ROMA\", \"abc123\", (error, cookie) => {\r",
+											"  if (error) {\r",
+											"    console.error(`An error occurred: ${error}`);\r",
+											"  } else {\r",
+											"    console.log(`Cookie saved: ${cookie}`);\r",
+											"  }\r",
+											"});\r",
+											"*/\r",
+											"\r",
+											"pm.test(\"Cookies_Check\", function(){\r",
+											"    pm.expect(pm.cookies.has('sess_id')).to.be.false;\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Cookies_Check empty\", function(){\r",
+											"    console.log(pm.cookies.get('sess_id'));\r",
+											"    pm.expect(pm.cookies.get('sess_id')).eq(undefined);\r",
+											"});\r",
+											"\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "username",
+											"value": "Maria",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "1145",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/api/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "logout - Negative test case",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Cookies_Check is empty\", function(){\r",
+											"    console.log(pm.cookies.get('sess_id'));\r",
+											"    pm.expect(pm.cookies.get('sess_id')).to.eq('undefined');\r",
+											"\r",
+											"    pm.response.to.have.status(400);\r",
+											"    \r",
+											"    let obj = pm.response.json();\r",
+											"\r",
+											"    pm.expect(obj.message).eq(\"You should be logged in\");\r",
+											"    pm.expect(obj.success).eq(false);\r",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:5000/api/logout",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"logout"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "logout",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Cookies_Check is not empty\", function(){\r",
+											"    console.log(pm.cookies.get('sess_id'));\r",
+											"     pm.expect(pm.cookies.has('sess_id')).to.be.true;\r",
+											"\r",
+											"    pm.response.to.have.status(200);\r",
+											"    \r",
+											"    let obj = pm.response.json();\r",
+											"\r",
+											"    pm.expect(obj.message).eq(\"You have successfully logged out.\");\r",
+											"    pm.expect(obj.success).eq(true);\r",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:5000/api/logout",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"api",
+										"logout"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "hello",
+					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									"console.log(JSON.stringify(pm.cookies));\r",
+									"//  pm.test(\"Hello\", function(){\r",
+									"//     pm.expect(123).to.eq(123);\r",
+									"// });\r",
 									"\r",
-									"console.log(JSON.stringify(pm.cookies.get('sess_id')));\r",
+									"//  pm.test(\"Hello2\", function(){\r",
+									"//     pm.expect(\"angie\").to.eq(\"angie\");\r",
+									"// });\r",
 									"\r",
-									"console.log(pm.cookies.has('sess_id'));\r",
+									"// pm.test([\"Text is present\"], function(){\r",
+									"// \tpm.expect(['Java', 'Postman']).to.include('Postman')\r",
+									"// });\r",
 									"\r",
-									"\r",
-									"/*\r",
-									"const jar = pm.cookies.jar();\r",
-									"jar.set(\"localhost\", \"session-id-ROMA\", \"abc123\", (error, cookie) => {\r",
-									"  if (error) {\r",
-									"    console.error(`An error occurred: ${error}`);\r",
-									"  } else {\r",
-									"    console.log(`Cookie saved: ${cookie}`);\r",
-									"  }\r",
-									"});\r",
-									"*/\r",
-									"\r",
-									"pm.test(\"Cookies_Check\", function(){\r",
-									"    pm.expect(pm.cookies.has('sess_id')).to.be.true;\r",
-									"});\r",
-									"\r",
+									"pm.test(\"Response Text\", function () {\r",
+									"    console.log(pm.response.text());\r",
+									"    pm.response.to.have.header(\"Content-Type\",\"text/html; charset=UTF-8\");\r",
+									"\tpm.expect(pm.response.text()).to.include(\"Angie\")\r",
+									"})\r",
 									"\r",
 									"\r",
 									""
@@ -1802,33 +2192,17 @@
 						}
 					],
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "urlencoded",
-							"urlencoded": [
-								{
-									"key": "username",
-									"value": "angie",
-									"type": "text"
-								},
-								{
-									"key": "password",
-									"value": "1234",
-									"type": "text"
-								}
-							]
-						},
 						"url": {
-							"raw": "http://localhost:5000/api/login",
+							"raw": "http://localhost:5000/hello",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "5000",
 							"path": [
-								"api",
-								"login"
+								"hello"
 							]
 						}
 					},
@@ -1836,6 +2210,35 @@
 				},
 				{
 					"name": "homepage",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Cookies_Check\", function(){\r",
+									"    console.log(pm.cookies.get('sess_id'));\r",
+									"    pm.expect(pm.cookies.has('sess_id')).to.be.true;\r",
+									"    //pm.expect(pm.cookies.has('sess_id')).to.be.true;\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Test homepage\", function(){\r",
+									"    \r",
+									"    pm.response.to.have.header(\"Content-Type\",\"application/json\");\r",
+									"    pm.response.to.have.status(200);\r",
+									"\r",
+									"    let obj = pm.response.json();\r",
+									"\r",
+									"    pm.expect(obj.message).eq(\"Home page\");\r",
+									"    pm.expect(obj.user).to.be.an('object');\r",
+									"\r",
+									"   \r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -1855,18 +2258,24 @@
 					"response": []
 				},
 				{
-					"name": "signup",
+					"name": "homepage - Negative test case",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Test sign up\", function() {\r",
-									"    pm.response.to.have.status(400);\r",
+									"pm.test(\"Cookies_Check\", function(){\r",
+									"    console.log(pm.cookies.get('sess_id'));\r",
+									"    pm.expect(pm.cookies.get('sess_id')).to.be.eq('undefined');\r",
+									"    //pm.expect(pm.cookies.has('sess_id')).to.be.true;\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Test homepage\", function() {\r",
+									"    pm.response.to.have.status(401);\r",
 									"    \r",
 									"    let obj = pm.response.json();\r",
 									"\r",
-									"    pm.expect(obj.error).eq(\"User already exists!\");\r",
+									"    pm.expect(obj.message).eq(\"Not authenticated\");\r",
 									"    pm.expect(obj.success).eq(false);\r",
 									"\r",
 									"\r",
@@ -1878,35 +2287,10 @@
 						}
 					],
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "urlencoded",
-							"urlencoded": [
-								{
-									"key": "firstname",
-									"value": "Angelique",
-									"type": "text"
-								},
-								{
-									"key": "lastname",
-									"value": "Neophytou",
-									"type": "text"
-								},
-								{
-									"key": "username",
-									"value": "angie",
-									"type": "text"
-								},
-								{
-									"key": "password",
-									"value": "1234",
-									"type": "text"
-								}
-							]
-						},
 						"url": {
-							"raw": "http://localhost:5000/api/signup",
+							"raw": "http://localhost:5000/api/homepage",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1914,27 +2298,29 @@
 							"port": "5000",
 							"path": [
 								"api",
-								"signup"
+								"homepage"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "delete",
+					"name": "delete - Negative test case",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Test sign up\", function() {\r",
+									"pm.test(\"Cookies_Check is empty\", function(){\r",
+									"    console.log(pm.cookies.get('sess_id'));\r",
+									"    pm.expect(pm.cookies.get('sess_id')).to.eq(undefined);\r",
+									"\r",
 									"    pm.response.to.have.status(400);\r",
 									"    \r",
 									"    let obj = pm.response.json();\r",
 									"\r",
-									"    pm.expect(obj.error).eq(\"User already exists!\");\r",
+									"    pm.expect(obj.message).eq(\"You should be logged in\");\r",
 									"    pm.expect(obj.success).eq(false);\r",
-									"\r",
 									"\r",
 									"});"
 								],
@@ -1962,13 +2348,24 @@
 					"response": []
 				},
 				{
-					"name": "logout",
+					"name": "delete",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
-									""
+									"pm.test(\"Cookies_Check is empty\", function(){\r",
+									"    console.log(pm.cookies.get('sess_id'));\r",
+									"    pm.expect(pm.cookies.get('sess_id')).to.eq('undefined');\r",
+									"\r",
+									"    pm.response.to.have.status(200);\r",
+									"    \r",
+									"    let obj = pm.response.json();\r",
+									"\r",
+									"    pm.expect(obj.message).eq(\"user has been successfully deleted.\");\r",
+									"    pm.expect(obj.success).eq(true);\r",
+									"\r",
+									"});"
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -1979,7 +2376,7 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/logout",
+							"raw": "http://localhost:5000/api/delete",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1987,11 +2384,62 @@
 							"port": "5000",
 							"path": [
 								"api",
-								"logout"
+								"delete"
 							]
 						}
 					},
 					"response": []
+				}
+			]
+		},
+		{
+			"name": "06_file_server",
+			"item": [
+				{
+					"name": "001_simple_server",
+					"item": [
+						{
+							"name": "API_weather_LIMASSOL",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"API weather Limassol\", function() {\r",
+											"    pm.response.to.have.status(200);\r",
+											"    pm.response.to.have.header(\"Content-Type\",\"application/json\");\r",
+											"\r",
+											"    let obj = pm.response.json();\r",
+											"\r",
+											"    pm.expect(obj).to.be.an('object');\r",
+											"\r",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/weather/limassol",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"weather",
+										"limassol"
+									]
+								}
+							},
+							"response": []
+						}
+					]
 				}
 			]
 		}
