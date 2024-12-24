@@ -40,8 +40,6 @@ http.createServer(function(req, res) {
         res.writeHead(200, {"Content-Type": "application/javascript"});
         fileStream.pipe(res);
 
-
-        // return;
         // var fileStream = fs.createReadStream(jsPath); //  "UTF-8" - PROBLEM will be
         // res.writeHead(200, {"Content-Type": "application/javascript"});
         // const chunks = [];
