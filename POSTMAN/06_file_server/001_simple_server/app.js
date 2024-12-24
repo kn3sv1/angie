@@ -52,6 +52,9 @@ http.createServer(function(req, res) {
         res.writeHead(200, {"Content-Type": "application/javascript"});
         const chunks = [];
         fileStream.on("data", (chunk) => {
+            // Received 65536 bytes of data.
+            // 65536/1024 = 64kb (kilobytes)
+            console.log(`Received ${chunk.length} bytes of data.`);
             chunks.push(chunk);
         });
         fileStream.on("end", () => {
