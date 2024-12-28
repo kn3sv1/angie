@@ -40,6 +40,8 @@ http.createServer(async function(req, res) {
     // pipe inside when he finish end event he call end on stream.
     // fileStream.pipe(res);
     // //TEST WITHOUT - END
+    // https://stackoverflow.com/questions/35651834/res-end-is-never-sent-after-streaming-a-file-to-client+?fbclid=IwAR2GMbhl6-MkqQ7E-Z2n7QXxyZ3eEitZ-GThPxtOF1Rga5WvOM5-jURKPSI
+    // https://stackoverflow.com/questions/27509711/node-http-res-end
     // fileStream.on("end", () => {
     //     console.log('FINISHED to read FILE:' + new Date());
     //     res.end();
