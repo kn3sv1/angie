@@ -53,7 +53,10 @@ http.createServer(async function(req, res) {
     // res.end();
 
     // https://stackoverflow.com/questions/46867517/how-to-read-file-with-async-await-properly
-    const dataFromFile = await fs.promises.readFile('./utf-8-example.txt', 'utf8');
+    //const dataFromFile = await fs.promises.readFile('./utf-8-example.txt', 'utf8');
+    const dataFromFile = await fs.promises.readFile('./utf-8-example.txt');
+    // console.log(dataFromFile);
+    console.dir(dataFromFile);
     res.write(dataFromFile);
 
     // 4) ASYNC WRAPPER
