@@ -1,0 +1,1 @@
+<p style="color:deeppink; font-weight:bold">Сатановский in windows-1251</p>
