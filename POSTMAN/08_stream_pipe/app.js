@@ -10,8 +10,39 @@ http.createServer(async function(req, res) {
         res.end('no icon');
         return;
     }
-    res.writeHead(200, {"Content-Type": "text/html; charset=utf8"});
 
-    res.end();
+    var fileStream = fs.createReadStream('./utf-8-example.txt'); //  "UTF-8" - PROBLEM will be
+    res.writeHead(200, {"Content-Type": "text/html"});
+
+
+    const chunks = [];
+    fileStream.on("data", (chunk) => {
+        // https://stackoverflow.com/questions/70921128/how-to-get-the-size-of-data-in-a-node-js-stream
+        // Received 65536 bytes of data.
+        // 65536/1024 = 64kb (kilobytes)
+        console.log(`Received ${chunk.length} bytes of data.`);
+        chunks.push(chunk);
+    });
+    fileStream.on("end", () => {
+        console.log('FINISHED to read FILE:' + new Date());
+        // // version 1
+        // chunks.forEach((chunk) => {
+        //     console.log('CHUNK is:', chunk);
+        //     res.write(chunk);
+        // });
+
+        // version 2
+        const buff = Buffer.concat(chunks);
+        res.write(buff);
+        res.end();
+    });
+
+    // pipe inside when he finish end event he call end on stream.
+    // fileStream.pipe(res);
+    // //TEST WITHOUT - END
+    // fileStream.on("end", () => {
+    //     console.log('FINISHED to read FILE:' + new Date());
+    //     res.end();
+    // });
 
 }).listen(3000);
