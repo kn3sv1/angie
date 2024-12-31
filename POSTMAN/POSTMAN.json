@@ -2438,6 +2438,162 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "not found",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"API weather Limassol\", function() {\r",
+											"    pm.response.to.have.status(200);\r",
+											"    pm.response.to.have.header(\"Content-Type\",\"application/json\");\r",
+											"\r",
+											"    let obj = pm.response.json();\r",
+											"\r",
+											"    pm.expect(obj).to.be.an('object');\r",
+											"\r",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/hygyugyuy",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"hygyugyuy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "file js",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"API weather Limassol\", function() {\r",
+											"    pm.response.to.have.status(200);\r",
+											"    pm.response.to.have.header(\"Content-Type\",\"application/json\");\r",
+											"\r",
+											"    let obj = pm.response.json();\r",
+											"\r",
+											"    pm.expect(obj).to.be.an('object');\r",
+											"\r",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/application.js",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"application.js"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "file photo",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"API weather Limassol\", function() {\r",
+											"    pm.response.to.have.status(200);\r",
+											"    pm.response.to.have.header(\"Content-Type\",\"application/json\");\r",
+											"\r",
+											"    let obj = pm.response.json();\r",
+											"\r",
+											"    pm.expect(obj).to.be.an('object');\r",
+											"\r",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/ginger.png",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"ginger.png"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "09_file_upload",
+			"item": [
+				{
+					"name": "01_simple_upload",
+					"item": [
+						{
+							"name": "upload file",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "filetoupload",
+											"type": "file",
+											"src": "angie3.jpg"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8080/fileupload",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"fileupload"
+									]
+								}
+							},
+							"response": []
 						}
 					]
 				}
