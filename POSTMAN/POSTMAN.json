@@ -2596,6 +2596,45 @@
 							"response": []
 						}
 					]
+				},
+				{
+					"name": "02_multi_upload",
+					"item": [
+						{
+							"name": "upload files",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "filetoupload",
+											"type": "file",
+											"src": "3.jpg"
+										},
+										{
+											"key": "filetoupload",
+											"type": "file",
+											"src": "9.jpg"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8080/fileupload",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"fileupload"
+									]
+								}
+							},
+							"response": []
+						}
+					]
 				}
 			]
 		}

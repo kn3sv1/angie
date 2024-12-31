@@ -20,7 +20,8 @@ http.createServer(function (req, res) {
                 var newpath = __dirname + '\\uploaded\\' + 'upload_' + file.originalFilename;
                 try {
                     fs.copyFileSync(oldpath, newpath);
-                    res.write('File uploaded:', );
+                    res.write('File uploaded:' + 'upload_' + file.originalFilename);
+                    res.write("\n");
                 } catch(err) {
                     throw err;
                 }
