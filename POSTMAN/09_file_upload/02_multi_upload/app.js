@@ -11,7 +11,9 @@ http.createServer(function (req, res) {
             // I added - [0] when I saw that array exists inside property.
 
             // we go through array of files
-            //we use fs.copyFileSync because we want to send multiple files
+            //we use fs.copyFileSync because we want to send multiple files. If two or more files
+            // its big problem with callback - callbacks execute randomly in order and we need to handle res.end()
+            // res.end() should be called after all uploads.
             for (const file of files.filetoupload) {
                 console.log("filepath:", file.filepath);
 
