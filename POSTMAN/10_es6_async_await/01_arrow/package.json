@@ -1,0 +1,17 @@
+{
+  "name": "01_arrow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "example2": "nodemon ./example2.js",
+    "example3": "nodemon ./example3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^3.5.2"
+  }
+}
