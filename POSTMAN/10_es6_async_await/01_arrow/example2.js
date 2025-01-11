@@ -60,5 +60,5 @@ console.log('SHORT:', c2());
 
 let printC2 = () => {
     console.log(c2());
-}
+};
 setInterval(printC2, 2000);
