@@ -1,9 +1,3 @@
-// // Possitive test case
-// describe('ES6 style 2026', () => {
-//   it('Roma is malaka!', () => {
-//     expect(true).to.equal(true)
-//   })
-// });
 
 describe('My First Test', () => {
   it('Visits the Kitchen Sink', () => {
