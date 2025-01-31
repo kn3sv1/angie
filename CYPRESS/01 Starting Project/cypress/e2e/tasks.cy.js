@@ -70,5 +70,5 @@ describe('tasks management', () => {
         //of the list items are correct.
         cy.get('.task').eq(0).contains('First task'); // first()
         cy.get('.task').eq(1).contains('Second task'); // last()
-    })
+    });
 });
